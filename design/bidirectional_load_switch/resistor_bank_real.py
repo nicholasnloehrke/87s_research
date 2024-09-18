@@ -1,43 +1,67 @@
 import math
 import matplotlib.pyplot as plt
 
-RESISTORS = [1.0, 3.72759372031494, 13.894954943731374, 51.7947467923121, 193.06977288832496, 719.6856730011514, 2682.6957952797247, 10000.0]
-THRESHOLD = 10
+# parameters
+RESISTANCE_MIN = 1     # minimum resistance in Ω
+RESISTANCE_MAX = 10000 # maximum resistance in Ω
+SUPPLY_VOLTAGE = 12    # maximum voltage in Volts
+SUPPLY_RESISTANCE = 10.2 # ESR of supply
+
+
+# RESISTORS = [1.0, 3.72759372031494, 13.894954943731374, 51.7947467923121, 193.06977288832496, 719.6856730011514, 2682.6957952797247, 10000.0]
+RESISTORS = [1, 4, 14, 50, 200, 715, 2700, 10000]
 
 COMBINATIONS = [i for i in range(2**len(RESISTORS))]
+
+import math
+import matplotlib.pyplot as plt
+import numpy as np
 
 def parallel(resistors: list):
     summ = sum([1 / r for r in resistors])
     return 1 / summ if summ > 0 else math.inf
 
-def is_significantly_different(new_value, last_value, threshold):
-    return abs(new_value - last_value) > threshold
+# define the range of resistor values
+COMBINATIONS = [i for i in range(2**len(RESISTORS))]
 
-# Create a dictionary to store combination to resistance mapping
+# create a dictionary to store combination to resistance mapping
 combo_to_resistance = {}
+all_resistors_used = set()
 
 for combination in COMBINATIONS:
     included_resistors = [RESISTORS[i] for i in range(len(RESISTORS)) if combination & (1 << i)]
     resistance = parallel(included_resistors)
-    combo_to_resistance[combination] = resistance
+    if resistance != math.inf and 1 <= resistance <= RESISTORS[-1]:
+        combo_to_resistance[combination] = (resistance, included_resistors)
+        all_resistors_used.update(included_resistors)
 
-# Sort the dictionary by resistance value
-sorted_combos = sorted(combo_to_resistance.items(), key=lambda item: item[1])
+# sort the dictionary by resistance value
+sorted_combos = sorted(combo_to_resistance.items(), key=lambda item: item[1][0])
 
-# Print the sorted combinations and resistances
-for combo, resistance in sorted_combos:
-    print(f'{combo:0{len(RESISTORS)}b} : {resistance:.2f}')
+# print the sorted combinations, resistances, and resistors used
+for combo, (resistance, resistors) in sorted_combos:
+    resistor_str = ', '.join(f'{r:.2f}' for r in resistors)
+    print(f'{combo:0{len(RESISTORS)}b} : Resistance = {resistance:.2f}Ω, Resistors used = [{resistor_str}]')
 
-print(f'total combos: {len(sorted_combos)}')
+# print all resistors used across all combinations and their max power dissipation
+print(f'\nMax electrical load per resistor. Vs: {SUPPLY_VOLTAGE:.2f}V, Rs: {SUPPLY_RESISTANCE:.2f}Ω:')
+for resistor in sorted(all_resistors_used):
+    current = SUPPLY_VOLTAGE / (resistor + SUPPLY_RESISTANCE)
+    voltage = (SUPPLY_VOLTAGE * resistor) / (resistor + SUPPLY_RESISTANCE)
+    power = current * voltage
+    print(f'{resistor:.2f}Ω : {power:.2f}W {current:.2f}A {voltage:.2f}V')
+    
+print("\nResistor list:")
+print(sorted(all_resistors_used))
 
-# Prepare data for plotting
-resistances = [resistance for _, resistance in sorted_combos]
+# prepare data for plotting
+resistances = [resistance for _, (resistance, _) in sorted_combos]
 
 plt.figure(figsize=(10, 6))
 plt.plot(resistances, marker='o', linestyle='-', color='b')
 plt.title('Parallel Resistances for Different Combinations')
 plt.xlabel('Combination Index')
-plt.ylabel('Resistance (Ohms)')
-plt.yscale('log')  # Set y-axis to logarithmic scale
+plt.ylabel('Resistance (Ω)')
+plt.yscale('log')
 plt.grid(True, which="both", ls="--")
 plt.show()

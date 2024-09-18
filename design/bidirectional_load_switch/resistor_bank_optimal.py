@@ -3,12 +3,11 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 # parameters
-NUM_RESISTORS = 8      # number of resistors to use
-RESISTANCE_MIN = 1     # minimum resistance in Ω
-RESISTANCE_MAX = 10000 # maximum resistance in Ω
-SUPPLY_VOLTAGE = 12    # maximum voltage in Volts
+NUM_RESISTORS = 8        # number of resistors to use
+RESISTANCE_MIN = 1       # minimum resistance in Ω
+RESISTANCE_MAX = 10000   # maximum resistance in Ω
+SUPPLY_VOLTAGE = 12      # maximum voltage in Volts
 SUPPLY_RESISTANCE = 10.2 # ESR of supply
-
 
 # generate resistor values within the specified range
 resistor_values = np.logspace(np.log10(RESISTANCE_MIN), np.log10(RESISTANCE_MAX), num=NUM_RESISTORS, base=10)
@@ -16,9 +15,6 @@ resistor_values = np.logspace(np.log10(RESISTANCE_MIN), np.log10(RESISTANCE_MAX)
 def parallel(resistors: list):
     summ = sum([1 / r for r in resistors])
     return 1 / summ if summ > 0 else math.inf
-
-def is_significantly_different(new_value, last_value, threshold):
-    return abs(new_value - last_value) > threshold
 
 # define the range of resistor values
 RESISTORS = resistor_values.tolist()
