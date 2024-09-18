@@ -586,6 +586,14 @@
     [
       "a4768a02-c961-4971-939f-bbf2bfa51fa3",
       "Root"
+    ],
+    [
+      "06372500-caf3-4250-bfb9-ddec4018ea78",
+      "Switching Channel 0"
+    ],
+    [
+      "94121983-4d2a-4547-b3e2-ee2fb8bb2ad3",
+      "Switching Channel 1"
     ]
   ],
   "text_variables": {}
