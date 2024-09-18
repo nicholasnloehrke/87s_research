@@ -2250,7 +2250,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b93176c6-79a1-49d1-af16-b931dc083718")
-		(property "Reference" "U1"
+		(property "Reference" "U23"
 			(at 103.505 90.17 0)
 			(effects
 				(font
@@ -2312,6 +2312,10 @@
 		)
 		(instances
 			(project "bidirectional_load_switch"
+				(path "/a4768a02-c961-4971-939f-bbf2bfa51fa3/06372500-caf3-4250-bfb9-ddec4018ea78"
+					(reference "U?")
+					(unit 1)
+				)
 				(path "/a4768a02-c961-4971-939f-bbf2bfa51fa3/2c84e58d-6144-4329-9588-9692af6c916f"
 					(reference "U23")
 					(unit 1)
@@ -2471,7 +2475,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c2193756-6601-4e0f-8168-f5b1372f5c3e")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR036"
 			(at 175.26 116.84 0)
 			(effects
 				(font
@@ -2520,6 +2524,10 @@
 		)
 		(instances
 			(project "bidirectional_load_switch"
+				(path "/a4768a02-c961-4971-939f-bbf2bfa51fa3/06372500-caf3-4250-bfb9-ddec4018ea78"
+					(reference "#PWR?")
+					(unit 1)
+				)
 				(path "/a4768a02-c961-4971-939f-bbf2bfa51fa3/2c84e58d-6144-4329-9588-9692af6c916f"
 					(reference "#PWR036")
 					(unit 1)
@@ -2561,7 +2569,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d20c33da-2b59-43bf-b492-1c6318d9ed77")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR034"
 			(at 118.11 118.11 0)
 			(effects
 				(font
@@ -2610,6 +2618,10 @@
 		)
 		(instances
 			(project "bidirectional_load_switch"
+				(path "/a4768a02-c961-4971-939f-bbf2bfa51fa3/06372500-caf3-4250-bfb9-ddec4018ea78"
+					(reference "#PWR?")
+					(unit 1)
+				)
 				(path "/a4768a02-c961-4971-939f-bbf2bfa51fa3/2c84e58d-6144-4329-9588-9692af6c916f"
 					(reference "#PWR034")
 					(unit 1)
