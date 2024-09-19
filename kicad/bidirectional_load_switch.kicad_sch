@@ -522,17 +522,7 @@
 				(hide yes)
 			)
 		)
-		(pin "IN" input
-			(at 85.09 45.72 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "15105da0-66bd-45fe-9a10-d2e16a214cf9")
-		)
-		(pin "EN" input
+		(pin "PWM" input
 			(at 85.09 55.88 180)
 			(effects
 				(font
@@ -540,7 +530,17 @@
 				)
 				(justify left)
 			)
-			(uuid "1633e2ee-fab2-4f99-8744-33da3afbc8c8")
+			(uuid "0d4b53b7-b36d-4624-ac50-5f63c034332f")
+		)
+		(pin "RIN" input
+			(at 85.09 45.72 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a70e2dc2-8708-4ff0-8200-792d31c95eed")
 		)
 		(instances
 			(project "bidirectional_load_switch"
