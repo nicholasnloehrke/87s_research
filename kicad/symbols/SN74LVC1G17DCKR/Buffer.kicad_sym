@@ -36,7 +36,7 @@
 			)
 		)
 		(property "Datasheet" "SN74LVC1G17DCKR"
-			(at 0 0 0)
+			(at -0.762 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -129,7 +129,7 @@
 					(type none)
 				)
 			)
-			(pin unspecified line
+			(pin no_connect line
 				(at 0 0 0)
 				(length 7.62)
 				(name "NC"

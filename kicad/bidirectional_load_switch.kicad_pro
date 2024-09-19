@@ -589,35 +589,11 @@
     ],
     [
       "06372500-caf3-4250-bfb9-ddec4018ea78",
-      "Channel 0"
-    ],
-    [
-      "bafa0184-c8c2-4700-b93f-3c84a615c659",
       "Channel 1"
     ],
     [
-      "1bb7812e-eff1-4a4d-8ebc-c0e6a3454c62",
-      "Channel 2"
-    ],
-    [
-      "21184951-5c01-4ecd-9816-812ffa76a0c4",
-      "Channel 3"
-    ],
-    [
-      "5cd6325a-3e3e-458c-b4ef-d0cdbe77420d",
-      "Channel 4"
-    ],
-    [
-      "5440a8fb-3648-4235-bcbd-167ea9a1edc3",
-      "Channel 5"
-    ],
-    [
-      "f31c6c6f-7a6f-4f45-95b5-6315f3bb3436",
-      "Channel 6"
-    ],
-    [
-      "5c48fdb3-992e-4d6b-b9e0-2852955e66b0",
-      "Channel 7"
+      "64dc0b5a-21d5-4edc-b6c2-a4fad2cceb53",
+      "Isolated DC-DC"
     ]
   ],
   "text_variables": {}
