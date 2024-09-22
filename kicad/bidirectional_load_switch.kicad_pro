@@ -594,6 +594,34 @@
     [
       "64dc0b5a-21d5-4edc-b6c2-a4fad2cceb53",
       "Isolated DC-DC"
+    ],
+    [
+      "b2ad4368-a1f6-4a6e-8c4c-a41a5e5c29a9",
+      "Channel 2"
+    ],
+    [
+      "f3db34f2-1d17-4746-bdd3-c5d9e0e4df83",
+      "Channel 3"
+    ],
+    [
+      "2f3d7204-6eb2-44b0-8d0d-380840e76182",
+      "Channel 4"
+    ],
+    [
+      "ad67955e-d467-4180-b426-0f206374cfc6",
+      "Channel 5"
+    ],
+    [
+      "357de7e7-7039-4290-a14f-d1afaaac6151",
+      "Channel 6"
+    ],
+    [
+      "d19d7020-5dfb-4fb5-b916-f151ec53c140",
+      "Channel 7"
+    ],
+    [
+      "3fc3794b-3a2f-4aa0-8481-1df925df46ba",
+      "Channel 8"
     ]
   ],
   "text_variables": {}

@@ -286,6 +286,26 @@
 	)
 	(wire
 		(pts
+			(xy 125.73 45.72) (xy 125.73 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f4a6052-2cc4-44ac-bf4a-2da4f8330392")
+	)
+	(wire
+		(pts
+			(xy 212.09 45.72) (xy 212.09 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15159efa-e849-4967-8494-dd5eb121797d")
+	)
+	(wire
+		(pts
 			(xy 82.55 55.88) (xy 85.09 55.88)
 		)
 		(stroke
@@ -296,33 +316,223 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 68.58) (xy 82.55 55.88)
+			(xy 190.5 55.88) (xy 193.04 55.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5db9eb03-be99-4d85-a3c4-059ad8297f4f")
+		(uuid "36b71fb4-e244-4e5a-95f0-ed9a58d2c3f6")
 	)
 	(wire
 		(pts
-			(xy 135.89 73.66) (xy 135.89 68.58)
+			(xy 147.32 45.72) (xy 147.32 39.37)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "67789a53-6b4b-477e-befe-d09c0ca5f65c")
+		(uuid "38a4a574-c1ce-40ec-9b2a-c9ef78b01e8b")
 	)
 	(wire
 		(pts
-			(xy 135.89 68.58) (xy 82.55 68.58)
+			(xy 104.14 55.88) (xy 104.14 59.69)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b525c232-0afd-4f0e-a5ed-cefbb90cde3a")
+		(uuid "3c3be8c5-92e3-4342-bc13-1529006cb0d8")
+	)
+	(wire
+		(pts
+			(xy 101.6 62.23) (xy 101.6 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d2fd8a1-8f15-4c9f-a4c5-6800234ebcfd")
+	)
+	(wire
+		(pts
+			(xy 125.73 29.21) (xy 125.73 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "439ca832-1ee1-4759-96e8-383b5414d30b")
+	)
+	(wire
+		(pts
+			(xy 190.5 29.21) (xy 190.5 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a02aebb-f145-4a61-8873-36bf510634ef")
+	)
+	(wire
+		(pts
+			(xy 147.32 62.23) (xy 101.6 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ddf57bd-9f0a-4ead-973d-fb18b640ba6b")
+	)
+	(wire
+		(pts
+			(xy 88.9 59.69) (xy 88.9 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5966d745-d8a9-41bc-84e2-4e1992ceb7b8")
+	)
+	(wire
+		(pts
+			(xy 193.04 45.72) (xy 190.5 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a41b664-a3bc-4ec6-831e-2a70379133c3")
+	)
+	(wire
+		(pts
+			(xy 212.09 55.88) (xy 214.63 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fff168e-61ea-4afe-ba74-e0ec250647c2")
+	)
+	(wire
+		(pts
+			(xy 233.68 55.88) (xy 236.22 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6137542c-1cfe-44d3-b230-5fc2804f4064")
+	)
+	(wire
+		(pts
+			(xy 82.55 55.88) (xy 82.55 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "705e938e-0580-4dd1-b048-1b36183236cc")
+	)
+	(wire
+		(pts
+			(xy 168.91 45.72) (xy 168.91 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73d250ce-2be0-497d-a98f-26e560ebd7b7")
+	)
+	(wire
+		(pts
+			(xy 95.25 60.96) (xy 95.25 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87968670-4092-48b1-a615-6437c7bb1251")
+	)
+	(wire
+		(pts
+			(xy 168.91 55.88) (xy 171.45 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e04877e-67a1-4b11-a4cd-1c3ae6537d8f")
+	)
+	(wire
+		(pts
+			(xy 171.45 45.72) (xy 168.91 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94bdf25f-3fb3-42cb-a23b-e77c159c8416")
+	)
+	(wire
+		(pts
+			(xy 233.68 45.72) (xy 233.68 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a486777d-844a-4479-a202-2f4439a6e697")
+	)
+	(wire
+		(pts
+			(xy 149.86 45.72) (xy 147.32 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5b5a0aa-3f30-4b4d-abd7-41ddd617b6b0")
+	)
+	(wire
+		(pts
+			(xy 125.73 60.96) (xy 95.25 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aefa81fc-a730-4246-84bc-4f3bfadb67f5")
+	)
+	(wire
+		(pts
+			(xy 233.68 29.21) (xy 233.68 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b587f3d6-1eb8-4029-b175-ed058046eb7c")
+	)
+	(wire
+		(pts
+			(xy 106.68 45.72) (xy 104.14 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b643f233-72cc-48b3-8519-0d36dcc9b7a2")
+	)
+	(wire
+		(pts
+			(xy 190.5 45.72) (xy 190.5 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8993029-e962-4512-80db-c772ce11fff5")
 	)
 	(wire
 		(pts
@@ -336,6 +546,36 @@
 	)
 	(wire
 		(pts
+			(xy 104.14 59.69) (xy 88.9 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bcc1ac03-4ae1-4bc6-915d-b8c71119b943")
+	)
+	(wire
+		(pts
+			(xy 125.73 55.88) (xy 128.27 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be4db14f-f043-4e1b-b8d1-83add3320622")
+	)
+	(wire
+		(pts
+			(xy 214.63 45.72) (xy 212.09 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c08e1e7d-482f-4cbc-a7ab-410dfe8fba47")
+	)
+	(wire
+		(pts
 			(xy 82.55 45.72) (xy 82.55 39.37)
 		)
 		(stroke
@@ -343,6 +583,36 @@
 			(type default)
 		)
 		(uuid "c2c15649-7e6d-45e9-a62d-54c1c2c1a89e")
+	)
+	(wire
+		(pts
+			(xy 168.91 29.21) (xy 168.91 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4319ad0-09b7-41ab-ab2a-71a37eabd088")
+	)
+	(wire
+		(pts
+			(xy 147.32 55.88) (xy 149.86 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7f9fdad-8d8f-40ac-b1ae-3b06eee43a35")
+	)
+	(wire
+		(pts
+			(xy 147.32 29.21) (xy 147.32 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9245998-99f1-4a0b-92b6-49fc7e459672")
 	)
 	(wire
 		(pts
@@ -354,17 +624,97 @@
 		)
 		(uuid "ca30bced-b0fb-4f1d-8668-0f212c3322c2")
 	)
+	(wire
+		(pts
+			(xy 212.09 29.21) (xy 212.09 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2687c1f-1597-41ba-b9d1-c7959cb3906b")
+	)
+	(wire
+		(pts
+			(xy 104.14 55.88) (xy 106.68 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5613920-7d16-4671-83cc-6a9f9d8bfce7")
+	)
+	(wire
+		(pts
+			(xy 125.73 55.88) (xy 125.73 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db7692b2-fc93-48bb-b35c-aec8201f1fcf")
+	)
+	(wire
+		(pts
+			(xy 104.14 45.72) (xy 104.14 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "edef8ca5-afd6-4362-b458-2e931215eb69")
+	)
+	(wire
+		(pts
+			(xy 147.32 55.88) (xy 147.32 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efea7408-eadc-4835-a310-e4e7e7615673")
+	)
+	(wire
+		(pts
+			(xy 104.14 29.21) (xy 104.14 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f062c4cd-cf49-48b7-b117-b8e7225a1064")
+	)
+	(wire
+		(pts
+			(xy 128.27 45.72) (xy 125.73 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f542afb4-a2f9-4030-b056-7a382ab33900")
+	)
+	(wire
+		(pts
+			(xy 236.22 45.72) (xy 233.68 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc31829a-8614-4cfb-a627-1dc02d87aed9")
+	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 135.89 73.66 180)
+		(at 88.9 72.39 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "98ff841b-decb-4266-a8bd-7c0a93257126")
-		(property "Reference" "EN0"
-			(at 134.112 79.756 0)
+		(uuid "15c49f25-b46b-4d53-83e4-14c3578937d4")
+		(property "Reference" "PWM2"
+			(at 86.36 78.486 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -373,7 +723,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 138.43 78.2319 0)
+			(at 91.44 76.9619 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -383,7 +733,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
-			(at 130.81 73.66 0)
+			(at 83.82 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -392,7 +742,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 130.81 73.66 0)
+			(at 83.82 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -401,7 +751,555 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 135.89 73.66 0)
+			(at 88.9 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1f67299d-84c2-4989-8ad2-c080a62dd869")
+		)
+		(instances
+			(project "bidirectional_load_switch"
+				(path "/a4768a02-c961-4971-939f-bbf2bfa51fa3"
+					(reference "PWM2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 120.65 72.39 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1f17024e-5fe9-40fb-9f46-fe1a38f998a8")
+		(property "Reference" "PWM7"
+			(at 118.11 78.486 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 123.19 76.9619 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
+			(at 115.57 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 115.57 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 120.65 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b7d37c85-51e6-44d7-a2f5-e4423b85a68f")
+		)
+		(instances
+			(project "bidirectional_load_switch"
+				(path "/a4768a02-c961-4971-939f-bbf2bfa51fa3"
+					(reference "PWM7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 125.73 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2f5b2a6c-340f-4c24-a6c0-31522e4f5648")
+		(property "Reference" "RS3"
+			(at 128.27 34.2899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R_US"
+			(at 128.27 36.8299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 126.746 35.814 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 125.73 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 125.73 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8a8143f8-49f2-45f5-99f2-95c3c944bc36")
+		)
+		(pin "1"
+			(uuid "d0ebea66-5d70-406b-b27b-bcda4ad8c98f")
+		)
+		(instances
+			(project "bidirectional_load_switch"
+				(path "/a4768a02-c961-4971-939f-bbf2bfa51fa3"
+					(reference "RS3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 95.25 72.39 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "36b151d0-fb5f-435f-8a2e-6ab401d55c7b")
+		(property "Reference" "PWM3"
+			(at 92.71 78.486 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 97.79 76.9619 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
+			(at 90.17 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 90.17 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 95.25 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "513a48f0-bb9e-4a50-954f-bbbafde05f17")
+		)
+		(instances
+			(project "bidirectional_load_switch"
+				(path "/a4768a02-c961-4971-939f-bbf2bfa51fa3"
+					(reference "PWM3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 233.68 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "382f7141-5ffa-4774-afaf-cf9f0343b68b")
+		(property "Reference" "RS8"
+			(at 236.22 34.2899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R_US"
+			(at 236.22 36.8299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 234.696 35.814 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 233.68 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 233.68 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d3a953c2-d6bf-4e03-b872-72c7f9617ff5")
+		)
+		(pin "1"
+			(uuid "eaf68498-1e14-4d1b-9d8e-974874d2cf0c")
+		)
+		(instances
+			(project "bidirectional_load_switch"
+				(path "/a4768a02-c961-4971-939f-bbf2bfa51fa3"
+					(reference "RS8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 107.95 72.39 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "47242fbd-47c9-46e8-a4e3-66f175fe732c")
+		(property "Reference" "PWM5"
+			(at 105.41 78.486 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 110.49 76.9619 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
+			(at 102.87 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 102.87 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 107.95 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "268195bf-662f-4297-82ff-55f636fb400f")
+		)
+		(instances
+			(project "bidirectional_load_switch"
+				(path "/a4768a02-c961-4971-939f-bbf2bfa51fa3"
+					(reference "PWM5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 104.14 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8ac45705-2bbc-48fc-9e65-dc811dafad7f")
+		(property "Reference" "RS2"
+			(at 106.68 34.2899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R_US"
+			(at 106.68 36.8299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 105.156 35.814 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 104.14 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 104.14 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b4ceb28e-a250-460f-8402-f9b06cbc274a")
+		)
+		(pin "1"
+			(uuid "6d06ab6d-6ad9-43d2-af09-4a382d6489f6")
+		)
+		(instances
+			(project "bidirectional_load_switch"
+				(path "/a4768a02-c961-4971-939f-bbf2bfa51fa3"
+					(reference "RS2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 168.91 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8bd0e42e-2822-4db0-989a-c4c1c4fd223d")
+		(property "Reference" "RS5"
+			(at 171.45 34.2899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R_US"
+			(at 171.45 36.8299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 169.926 35.814 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 168.91 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 168.91 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "96cb7d26-de2c-4d9c-9094-0ce66db8cb06")
+		)
+		(pin "1"
+			(uuid "88103056-e750-4df6-805a-a47e7e5c99e6")
+		)
+		(instances
+			(project "bidirectional_load_switch"
+				(path "/a4768a02-c961-4971-939f-bbf2bfa51fa3"
+					(reference "RS5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 82.55 72.39 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "98ff841b-decb-4266-a8bd-7c0a93257126")
+		(property "Reference" "PWM1"
+			(at 80.01 78.486 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 85.09 76.9619 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
+			(at 77.47 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 77.47 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 82.55 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -415,7 +1313,351 @@
 		(instances
 			(project ""
 				(path "/a4768a02-c961-4971-939f-bbf2bfa51fa3"
-					(reference "EN0")
+					(reference "PWM1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 190.5 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9939acad-8e9f-4c58-91d5-2898c9b640ec")
+		(property "Reference" "RS6"
+			(at 193.04 34.2899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R_US"
+			(at 193.04 36.8299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 191.516 35.814 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 190.5 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 190.5 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "88873401-330e-49b7-ac12-327d2399a79f")
+		)
+		(pin "1"
+			(uuid "d783db43-b941-45ae-95c9-de7a00b8469e")
+		)
+		(instances
+			(project "bidirectional_load_switch"
+				(path "/a4768a02-c961-4971-939f-bbf2bfa51fa3"
+					(reference "RS6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 212.09 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aa98db50-dd92-4459-9c0a-202e8fd33255")
+		(property "Reference" "RS7"
+			(at 214.63 34.2899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R_US"
+			(at 214.63 36.8299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 213.106 35.814 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 212.09 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 212.09 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9ef75625-57e2-408d-86ad-4c7f6bfc8357")
+		)
+		(pin "1"
+			(uuid "b0baeee2-923d-4937-8803-612237fae212")
+		)
+		(instances
+			(project "bidirectional_load_switch"
+				(path "/a4768a02-c961-4971-939f-bbf2bfa51fa3"
+					(reference "RS7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 114.3 72.39 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b60e7303-f943-4157-b6e1-0e22d6b95e0a")
+		(property "Reference" "PWM6"
+			(at 111.76 78.486 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 116.84 76.9619 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
+			(at 109.22 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 109.22 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 114.3 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5c6647ee-85ec-447f-b956-ed1210f30e86")
+		)
+		(instances
+			(project "bidirectional_load_switch"
+				(path "/a4768a02-c961-4971-939f-bbf2bfa51fa3"
+					(reference "PWM6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 127 72.39 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c9d3fe5f-9558-4898-a29d-33a5fc331f36")
+		(property "Reference" "PWM8"
+			(at 124.46 78.486 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 129.54 76.9619 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
+			(at 121.92 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 121.92 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 127 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d0142879-d2de-4c6c-9ec4-78a2c3c1549f")
+		)
+		(instances
+			(project "bidirectional_load_switch"
+				(path "/a4768a02-c961-4971-939f-bbf2bfa51fa3"
+					(reference "PWM8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 147.32 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d10f2c9b-24e0-4156-9965-da79290fcb7c")
+		(property "Reference" "RS4"
+			(at 149.86 34.2899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R_US"
+			(at 149.86 36.8299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 148.336 35.814 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 147.32 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 147.32 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "29d96efd-eaea-453e-a724-4934d95819d3")
+		)
+		(pin "1"
+			(uuid "e0657aa4-e081-43f5-a249-ed41258e4faa")
+		)
+		(instances
+			(project "bidirectional_load_switch"
+				(path "/a4768a02-c961-4971-939f-bbf2bfa51fa3"
+					(reference "RS4")
 					(unit 1)
 				)
 			)
@@ -491,6 +1733,73 @@
 			)
 		)
 	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 101.6 72.39 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f3fb6b36-709c-4255-a6b3-7655d37441a0")
+		(property "Reference" "PWM4"
+			(at 99.06 78.486 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 104.14 76.9619 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
+			(at 96.52 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 96.52 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 101.6 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "26067510-ffbf-46c9-bdf2-37ddd4732a84")
+		)
+		(instances
+			(project "bidirectional_load_switch"
+				(path "/a4768a02-c961-4971-939f-bbf2bfa51fa3"
+					(reference "PWM4")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(sheet
 		(at 85.09 41.91)
 		(size 13.97 16.51)
@@ -551,6 +1860,183 @@
 		)
 	)
 	(sheet
+		(at 149.86 41.91)
+		(size 13.97 16.51)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "2f3d7204-6eb2-44b0-8d0d-380840e76182")
+		(property "Sheetname" "Channel 4"
+			(at 149.86 41.1984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "switching_channel.kicad_sch"
+			(at 149.86 59.0046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "PWM" input
+			(at 149.86 55.88 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b8b6cdb0-e3c1-4861-a890-9b0df2f47cd2")
+		)
+		(pin "RIN" input
+			(at 149.86 45.72 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "d01df7ad-b4d6-49d2-babd-1197f9a09750")
+		)
+		(instances
+			(project "bidirectional_load_switch"
+				(path "/a4768a02-c961-4971-939f-bbf2bfa51fa3"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 193.04 41.91)
+		(size 13.97 16.51)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "357de7e7-7039-4290-a14f-d1afaaac6151")
+		(property "Sheetname" "Channel 6"
+			(at 193.04 41.1984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "switching_channel.kicad_sch"
+			(at 193.04 59.0046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "PWM" input
+			(at 193.04 55.88 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "645572ff-e147-41d6-8779-3495469bbaea")
+		)
+		(pin "RIN" input
+			(at 193.04 45.72 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "79648bc3-d712-4212-9374-dc08f1d74474")
+		)
+		(instances
+			(project "bidirectional_load_switch"
+				(path "/a4768a02-c961-4971-939f-bbf2bfa51fa3"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 236.22 41.91)
+		(size 13.97 16.51)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3fc3794b-3a2f-4aa0-8481-1df925df46ba")
+		(property "Sheetname" "Channel 8"
+			(at 236.22 41.1984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "switching_channel.kicad_sch"
+			(at 236.22 59.0046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "PWM" input
+			(at 236.22 55.88 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "3676e363-1506-4020-831c-3c2961f999fa")
+		)
+		(pin "RIN" input
+			(at 236.22 45.72 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "73ac6e7b-b032-423e-b510-8eeaa4038dd9")
+		)
+		(instances
+			(project "bidirectional_load_switch"
+				(path "/a4768a02-c961-4971-939f-bbf2bfa51fa3"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 33.02 43.18)
 		(size 19.05 21.59)
 		(fields_autoplaced yes)
@@ -584,6 +2070,242 @@
 			(project "bidirectional_load_switch"
 				(path "/a4768a02-c961-4971-939f-bbf2bfa51fa3"
 					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 171.45 41.91)
+		(size 13.97 16.51)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ad67955e-d467-4180-b426-0f206374cfc6")
+		(property "Sheetname" "Channel 5"
+			(at 171.45 41.1984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "switching_channel.kicad_sch"
+			(at 171.45 59.0046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "PWM" input
+			(at 171.45 55.88 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "5ba53624-2a15-431b-b672-bfcab68b1394")
+		)
+		(pin "RIN" input
+			(at 171.45 45.72 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c4e51e92-1daf-4581-902b-82d60ebcf9ce")
+		)
+		(instances
+			(project "bidirectional_load_switch"
+				(path "/a4768a02-c961-4971-939f-bbf2bfa51fa3"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 106.68 41.91)
+		(size 13.97 16.51)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b2ad4368-a1f6-4a6e-8c4c-a41a5e5c29a9")
+		(property "Sheetname" "Channel 2"
+			(at 106.68 41.1984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "switching_channel.kicad_sch"
+			(at 106.68 59.0046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "PWM" input
+			(at 106.68 55.88 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "990e72f0-d1c9-4d60-b199-d6c0ccad7988")
+		)
+		(pin "RIN" input
+			(at 106.68 45.72 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "426b02b7-20a7-46a6-89d4-1d53fa267183")
+		)
+		(instances
+			(project "bidirectional_load_switch"
+				(path "/a4768a02-c961-4971-939f-bbf2bfa51fa3"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 214.63 41.91)
+		(size 13.97 16.51)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d19d7020-5dfb-4fb5-b916-f151ec53c140")
+		(property "Sheetname" "Channel 7"
+			(at 214.63 41.1984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "switching_channel.kicad_sch"
+			(at 214.63 59.0046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "PWM" input
+			(at 214.63 55.88 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ecabadc6-0960-4f7f-9f30-16bbe3a8752f")
+		)
+		(pin "RIN" input
+			(at 214.63 45.72 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f4132897-e43d-4e8f-b0ea-1b87b6c7df5b")
+		)
+		(instances
+			(project "bidirectional_load_switch"
+				(path "/a4768a02-c961-4971-939f-bbf2bfa51fa3"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 128.27 41.91)
+		(size 13.97 16.51)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f3db34f2-1d17-4746-bdd3-c5d9e0e4df83")
+		(property "Sheetname" "Channel 3"
+			(at 128.27 41.1984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "switching_channel.kicad_sch"
+			(at 128.27 59.0046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "PWM" input
+			(at 128.27 55.88 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "0c714aab-e1b9-4c38-98f3-a5a578fffece")
+		)
+		(pin "RIN" input
+			(at 128.27 45.72 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "4cde3d54-b27e-4098-8a6d-924a01fa507c")
+		)
+		(instances
+			(project "bidirectional_load_switch"
+				(path "/a4768a02-c961-4971-939f-bbf2bfa51fa3"
+					(page "5")
 				)
 			)
 		)
