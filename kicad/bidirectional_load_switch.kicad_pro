@@ -416,7 +416,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
       "simulation_model_issue": "ignore",
@@ -592,36 +592,36 @@
       "Channel 1"
     ],
     [
-      "64dc0b5a-21d5-4edc-b6c2-a4fad2cceb53",
-      "Isolated DC-DC"
-    ],
-    [
-      "b2ad4368-a1f6-4a6e-8c4c-a41a5e5c29a9",
+      "cdb835e8-a498-4040-887f-d9d2c6416664",
       "Channel 2"
     ],
     [
-      "f3db34f2-1d17-4746-bdd3-c5d9e0e4df83",
+      "b60b5826-f29a-4ca7-be93-04d6c4df1964",
       "Channel 3"
     ],
     [
-      "2f3d7204-6eb2-44b0-8d0d-380840e76182",
+      "8fa9d97f-9b46-4e8b-b00a-19633d0e8547",
       "Channel 4"
     ],
     [
-      "ad67955e-d467-4180-b426-0f206374cfc6",
+      "97b5d0b4-59ae-4f34-81ee-bcdb39661144",
       "Channel 5"
     ],
     [
-      "357de7e7-7039-4290-a14f-d1afaaac6151",
+      "a299923b-3490-44fc-a7a4-6048ad31fb27",
       "Channel 6"
     ],
     [
-      "d19d7020-5dfb-4fb5-b916-f151ec53c140",
+      "23fa05e1-0920-4ee0-8b44-80353b07adf9",
       "Channel 7"
     ],
     [
-      "3fc3794b-3a2f-4aa0-8481-1df925df46ba",
+      "3c285671-94d7-4639-be11-53582b8842b3",
       "Channel 8"
+    ],
+    [
+      "64dc0b5a-21d5-4edc-b6c2-a4fad2cceb53",
+      "Isolated DC-DC"
     ]
   ],
   "text_variables": {}
