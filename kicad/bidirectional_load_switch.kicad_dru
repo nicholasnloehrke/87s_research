@@ -1,0 +1,6 @@
+(version 1)
+
+(rule "Allow clearance errors for MOSFET"
+  (condition "A.Type == 'mosfet_SISS94DN-T1-GE3:SISS94DN-T1-GE3'")
+  (constraint clearance (min 0mm))
+)
