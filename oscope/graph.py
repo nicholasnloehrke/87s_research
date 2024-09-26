@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 
-data = pd.read_csv("RigolDS3.csv")
+data = pd.read_csv("nick0.csv")
 
 x = data["Time(s)"]
 y = data["CH1V"]
