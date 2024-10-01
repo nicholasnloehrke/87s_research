@@ -3339,7 +3339,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "DIO_PDZVTFT_ROM"
+		(property "Footprint" "zener_PDZVTR9.1B:DIO_PDZVTFT_ROM"
 			(at 236.5339 36.0795 0)
 			(effects
 				(font
@@ -3960,7 +3960,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "SMADO-214AC_LEAD-FRAME_MCC"
+		(property "Footprint" "schottky_SK510A-LTP:SMADO-214AC_LEAD-FRAME_MCC"
 			(at 198.12 39.37 0)
 			(effects
 				(font
@@ -4441,7 +4441,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "SMADO-214AC_LEAD-FRAME_MCC"
+		(property "Footprint" "schottky_SK510A-LTP:SMADO-214AC_LEAD-FRAME_MCC"
 			(at 163.83 63.5 0)
 			(effects
 				(font
@@ -4713,7 +4713,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "DIO_PDZVTFT_ROM"
+		(property "Footprint" "zener_PDZVTR9.1B:DIO_PDZVTFT_ROM"
 			(at 154.686 62.23 0)
 			(effects
 				(font
@@ -4853,7 +4853,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOIC_13445_WRE"
+		(property "Footprint" "transformer_750313445:SOIC_13445_WRE"
 			(at 161.798 31.496 0)
 			(effects
 				(font
@@ -5076,7 +5076,7 @@
 				)
 			)
 		)
-		(property "Footprint" "NGU0008C-IPC_A"
+		(property "Footprint" "dc_to_dc_LM25184NGUR:NGU0008C-IPC_A"
 			(at 120.142 57.404 0)
 			(effects
 				(font

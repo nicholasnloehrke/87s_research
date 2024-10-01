@@ -4,10 +4,10 @@ import numpy as np
 
 # parameters
 NUM_RESISTORS = 8        # number of resistors to use
-RESISTANCE_MIN = 1       # minimum resistance in Ω
+RESISTANCE_MIN = 1e-3       # minimum resistance in Ω
 RESISTANCE_MAX = 10000   # maximum resistance in Ω
-SUPPLY_VOLTAGE = 12      # maximum voltage in Volts
-SUPPLY_RESISTANCE = 10.2 # ESR of supply
+SUPPLY_VOLTAGE = 120     # maximum voltage in Volts
+SUPPLY_RESISTANCE = 900  # ESR of supply
 
 # generate resistor values within the specified range
 resistor_values = np.logspace(np.log10(RESISTANCE_MIN), np.log10(RESISTANCE_MAX), num=NUM_RESISTORS, base=10)
@@ -27,7 +27,7 @@ all_resistors_used = set()
 for combination in COMBINATIONS:
     included_resistors = [RESISTORS[i] for i in range(len(RESISTORS)) if combination & (1 << i)]
     resistance = parallel(included_resistors)
-    if resistance != math.inf and 1 <= resistance <= RESISTANCE_MAX:
+    if resistance != math.inf and RESISTANCE_MIN <= resistance <= RESISTANCE_MAX:
         combo_to_resistance[combination] = (resistance, included_resistors)
         all_resistors_used.update(included_resistors)
 
