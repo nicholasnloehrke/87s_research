@@ -45,7 +45,6 @@ for resistor in sorted(all_resistors_used):
     current = SUPPLY_VOLTAGE / (resistor + SUPPLY_RESISTANCE)
     voltage = (SUPPLY_VOLTAGE * resistor) / (resistor + SUPPLY_RESISTANCE)
     power = current * voltage
-    print(f'{resistor:.2f}Ω : {power:.2f}W {current:.2f}A {voltage:.2f}V')
     
 print("\nResistor list:")
 print(sorted(all_resistors_used))
