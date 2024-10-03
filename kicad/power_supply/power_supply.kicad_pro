@@ -604,6 +604,10 @@
     [
       "64dc0b5a-21d5-4edc-b6c2-a4fad2cceb53",
       "Isolated DC-DC"
+    ],
+    [
+      "ddbdefe5-bf32-4636-87af-c8b1cd1d170c",
+      "5 Volt DC-DC"
     ]
   ],
   "text_variables": {}
