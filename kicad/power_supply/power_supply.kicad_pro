@@ -445,7 +445,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "bidirectional_load_switch.kicad_pro",
+    "filename": "power_supply.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -600,38 +600,6 @@
     [
       "a4768a02-c961-4971-939f-bbf2bfa51fa3",
       "Root"
-    ],
-    [
-      "06372500-caf3-4250-bfb9-ddec4018ea78",
-      "Channel 1"
-    ],
-    [
-      "cdb835e8-a498-4040-887f-d9d2c6416664",
-      "Channel 2"
-    ],
-    [
-      "b60b5826-f29a-4ca7-be93-04d6c4df1964",
-      "Channel 3"
-    ],
-    [
-      "8fa9d97f-9b46-4e8b-b00a-19633d0e8547",
-      "Channel 4"
-    ],
-    [
-      "97b5d0b4-59ae-4f34-81ee-bcdb39661144",
-      "Channel 5"
-    ],
-    [
-      "a299923b-3490-44fc-a7a4-6048ad31fb27",
-      "Channel 6"
-    ],
-    [
-      "23fa05e1-0920-4ee0-8b44-80353b07adf9",
-      "Channel 7"
-    ],
-    [
-      "3c285671-94d7-4639-be11-53582b8842b3",
-      "Channel 8"
     ],
     [
       "64dc0b5a-21d5-4edc-b6c2-a4fad2cceb53",

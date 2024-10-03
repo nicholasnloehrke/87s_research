@@ -1,0 +1,57 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "a4768a02-c961-4971-939f-bbf2bfa51fa3")
+	(paper "A4")
+	(title_block
+		(title "Bidirectional Load Switch")
+		(date "2024-09-17")
+		(rev "0")
+		(company "University of Wisconsin-Platteville")
+	)
+	(lib_symbols)
+	(sheet
+		(at 85.09 53.34)
+		(size 19.05 21.59)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "64dc0b5a-21d5-4edc-b6c2-a4fad2cceb53")
+		(property "Sheetname" "Isolated DC-DC"
+			(at 85.09 52.6284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "isolated_dc_to_dc.kicad_sch"
+			(at 85.09 75.5146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "power_supply"
+				(path "/a4768a02-c961-4971-939f-bbf2bfa51fa3"
+					(page "1")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
