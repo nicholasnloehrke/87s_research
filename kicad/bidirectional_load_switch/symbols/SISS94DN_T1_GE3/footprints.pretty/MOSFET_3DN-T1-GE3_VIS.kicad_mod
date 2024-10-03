@@ -414,4 +414,15 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "48794278-8e4f-4ca0-958f-5b9462ec62ff")
 	)
+	(model "C:/Users/nicholas/repos/87s_research/freecad/mosfet.step"
+		(offset
+			(xyz -1.65 -1.65 0.75)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 180 90)
+		)
+	)
 )
