@@ -5,4 +5,5 @@
   (lib (name "buffer_SN74LVC1G17DCKR")(type "KiCad")(uri "${KIPRJMOD}/symbols/SN74LVC1G17DCKR/footprints.pretty")(options "")(descr ""))
   (lib (name "led_B1911PG--20D000514U1930")(type "KiCad")(uri "${KIPRJMOD}/symbols/B1911PG__20D000514U1930/KiCADv6/footprints.pretty")(options "")(descr ""))
   (lib (name "screw_terminal_282838-2")(type "KiCad")(uri "${KIPRJMOD}/symbols/282838_2/KiCADv6/footprints.pretty")(options "")(descr ""))
+  (lib (name "ldo_LDL212PV33R")(type "KiCad")(uri "${KIPRJMOD}/symbols/LDL212PV33R/KiCADv6/footprints.pretty")(options "")(descr ""))
 )
