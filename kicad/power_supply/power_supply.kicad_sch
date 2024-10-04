@@ -13,7 +13,7 @@
 	(lib_symbols)
 	(sheet
 		(at 59.69 48.26)
-		(size 19.05 21.59)
+		(size 24.13 21.59)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -23,7 +23,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "64dc0b5a-21d5-4edc-b6c2-a4fad2cceb53")
-		(property "Sheetname" "Isolated DC-DC"
+		(property "Sheetname" "15 Volt Isolated DC-DC"
 			(at 59.69 47.5484 0)
 			(effects
 				(font
@@ -39,6 +39,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
 			)
 		)
 		(instances
@@ -50,8 +51,8 @@
 		)
 	)
 	(sheet
-		(at 142.24 60.96)
-		(size 25.4 21.59)
+		(at 109.22 48.26)
+		(size 24.13 21.59)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -62,7 +63,7 @@
 		)
 		(uuid "ddbdefe5-bf32-4636-87af-c8b1cd1d170c")
 		(property "Sheetname" "5 Volt DC-DC"
-			(at 142.24 60.2484 0)
+			(at 109.22 47.5484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -71,12 +72,13 @@
 			)
 		)
 		(property "Sheetfile" "5_volt_dc_to_dc.kicad_sch"
-			(at 142.24 83.1346 0)
+			(at 109.22 70.4346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
 			)
 		)
 		(instances

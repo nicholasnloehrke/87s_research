@@ -414,15 +414,15 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "48794278-8e4f-4ca0-958f-5b9462ec62ff")
 	)
-	(model "C:/Users/nicholas/repos/87s_research/freecad/mosfet.step"
+	(model "${KIPRJMOD}/symbols/SISS94DN_T1_GE3/model/mosfet.wrl"
 		(offset
 			(xyz -1.65 -1.65 0.75)
 		)
 		(scale
-			(xyz 1 1 1)
+			(xyz 0.3937 0.3937 0.3937)
 		)
 		(rotate
-			(xyz 0 180 90)
+			(xyz 180 0 -90)
 		)
 	)
 )
