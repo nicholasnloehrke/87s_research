@@ -3,11 +3,11 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 # parameters
-NUM_RESISTORS = 8        # number of resistors to use
-RESISTANCE_MIN = 1e-3       # minimum resistance in Ω
-RESISTANCE_MAX = 10000   # maximum resistance in Ω
-SUPPLY_VOLTAGE = 120     # maximum voltage in Volts
-SUPPLY_RESISTANCE = 900  # ESR of supply
+NUM_RESISTORS = 8      # number of resistors to use
+RESISTANCE_MIN = 1     # minimum resistance in Ω
+RESISTANCE_MAX = 10000 # maximum resistance in Ω
+SUPPLY_VOLTAGE = 12    # maximum voltage in Volts
+SUPPLY_RESISTANCE = 9  # ESR of supply
 
 # generate resistor values within the specified range
 resistor_values = np.logspace(np.log10(RESISTANCE_MIN), np.log10(RESISTANCE_MAX), num=NUM_RESISTORS, base=10)
@@ -45,6 +45,8 @@ for resistor in sorted(all_resistors_used):
     current = SUPPLY_VOLTAGE / (resistor + SUPPLY_RESISTANCE)
     voltage = (SUPPLY_VOLTAGE * resistor) / (resistor + SUPPLY_RESISTANCE)
     power = current * voltage
+    print(f'{resistor:.2f}Ω : {power:.2f}W {current:.2f}A {voltage:.2f}V')
+
     
 print("\nResistor list:")
 print(sorted(all_resistors_used))

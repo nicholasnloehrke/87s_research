@@ -105,6 +105,17 @@
 		(layer "F.SilkS")
 		(uuid "949b9915-1e19-4707-b030-eeb2e423a627")
 	)
+	(fp_circle
+		(center -5.4 -2.25)
+		(end -5.2984 -2.25)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "ae36c379-c9e3-4223-84a1-482ad50480f0")
+	)
 	(fp_line
 		(start -6.4897 -1.8034)
 		(end -4.0513 -1.8034)
@@ -515,29 +526,6 @@
 		)
 		(layer "F.Fab")
 		(uuid "686b53bf-f3c8-40e0-a61c-45341fb8d34b")
-	)
-	(fp_text user "*"
-		(at -5.6388 -2.9718 0)
-		(unlocked yes)
-		(layer "F.SilkS")
-		(uuid "3e68e9fa-d81a-4ddd-bc42-836e106d6be9")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(fp_text user "*"
-		(at -5.6388 -2.9718 0)
-		(layer "F.SilkS")
-		(uuid "996893b7-9b1f-4cdf-8038-c238713f455c")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
 	)
 	(fp_text user "*"
 		(at -3.4163 -2.3114 0)

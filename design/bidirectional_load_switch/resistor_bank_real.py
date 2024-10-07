@@ -1,21 +1,16 @@
 import math
 import matplotlib.pyplot as plt
 
+
+RESISTORS = [1, 3.9, 15, 47, 200, 680, 2700, 10000]
+
 # parameters
-RESISTANCE_MIN = 1     # minimum resistance in Ω
-RESISTANCE_MAX = 10000 # maximum resistance in Ω
-SUPPLY_VOLTAGE = 12    # maximum voltage in Volts
+RESISTANCE_MIN = 1       # minimum resistance in Ω
+RESISTANCE_MAX = 10000   # maximum resistance in Ω
+SUPPLY_VOLTAGE = 12      # maximum voltage in Volts
 SUPPLY_RESISTANCE = 10.2 # ESR of supply
 
-
-# RESISTORS = [1.0, 3.72759372031494, 13.894954943731374, 51.7947467923121, 193.06977288832496, 719.6856730011514, 2682.6957952797247, 10000.0]
-RESISTORS = [1, 4, 14, 50, 200, 715, 2700, 10000]
-
 COMBINATIONS = [i for i in range(2**len(RESISTORS))]
-
-import math
-import matplotlib.pyplot as plt
-import numpy as np
 
 def parallel(resistors: list):
     summ = sum([1 / r for r in resistors])
