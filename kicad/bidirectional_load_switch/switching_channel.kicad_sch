@@ -3149,6 +3149,33 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" "NMOS"
+			(at 196.85 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "VDMOS"
+			(at 196.85 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=D 2=G 3=S 4=<TJ> 5=<TCASE>"
+			(at 196.85 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "3182f715-34fb-4e14-bf32-0a3835407b89")
 		)
@@ -4512,6 +4539,24 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" "D"
+			(at 83.82 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=A 2=K"
+			(at 83.82 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c8fe4b06-d932-4c49-a908-e92a6784d154")
 		)
@@ -4605,6 +4650,33 @@
 			)
 		)
 		(property "Description" ""
+			(at 196.85 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "NMOS"
+			(at 196.85 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "VDMOS"
+			(at 196.85 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=D 2=G 3=S 4=<TJ> 5=<TCASE>"
 			(at 196.85 97.79 0)
 			(effects
 				(font
