@@ -4894,7 +4894,7 @@
 		)
 		(uuid "d2f5ff93-53b2-484b-be28-5aa9403c7d9b")
 	)
-	(label "fault_set"
+	(label "fault"
 		(at 222.25 43.18 0)
 		(fields_autoplaced yes)
 		(effects
