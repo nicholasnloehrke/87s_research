@@ -4,7 +4,7 @@
   (lib (name "gate_driver_UCC23313DWYR")(type "KiCad")(uri "${KIPRJMOD}/symbols/UCC23313DWYR/2024-09-15_21-59-21.kicad_sym")(options "")(descr ""))
   (lib (name "buffer_SN74LVC1G17DCKR")(type "KiCad")(uri "${KIPRJMOD}/symbols/SN74LVC1G17DCKR/Buffer.kicad_sym")(options "")(descr ""))
   (lib (name "led_B1911PG--20D000514U1930")(type "KiCad")(uri "${KIPRJMOD}/symbols/B1911PG__20D000514U1930/KiCADv6/2024-10-03_20-36-50.kicad_sym")(options "")(descr ""))
-  (lib (name "ldo_LDL212PV33R")(type "KiCad")(uri "${KIPRJMOD}/symbols/LDL212PV33R/KiCADv6/2024-10-04_04-36-34.kicad_sym")(options "")(descr ""))
+  (lib (name "ldo_TLV75733PDBVR")(type "KiCad")(uri "${KIPRJMOD}/symbols/TLV75733PDBVR/KiCADv6/2024-10-11_08-52-48.kicad_sym")(options "")(descr ""))
   (lib (name "spring_terminal_1017503")(type "KiCad")(uri "${KIPRJMOD}/symbols/1017503/1017503.kicad_sym")(options "")(descr ""))
   (lib (name "current_sensor_TMCS1101A3BQDR")(type "KiCad")(uri "${KIPRJMOD}/symbols/TMCS1101A3BQDR/2024-10-06_22-08-13.kicad_sym")(options "")(descr ""))
   (lib (name "mcu_ATTINY85-20SU")(type "KiCad")(uri "${KIPRJMOD}/symbols/ATTINY85_20SU/KiCADv6/2024-10-11_03-27-08.kicad_sym")(options "")(descr ""))
