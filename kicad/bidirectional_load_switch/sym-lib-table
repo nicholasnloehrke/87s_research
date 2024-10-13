@@ -11,4 +11,6 @@
   (lib (name "isp")(type "KiCad")(uri "${KIPRJMOD}/symbols/ISP/isp.kicad_sym")(options "")(descr ""))
   (lib (name "switch_PTS526_SK15_SMTR2_LFS")(type "KiCad")(uri "${KIPRJMOD}/symbols/PTS526_SK15_SMTR2_LFS/KiCADv6/2024-10-11_04-00-16.kicad_sym")(options "")(descr ""))
   (lib (name "and_gate_SN74LVC1G08DCKR")(type "KiCad")(uri "${KIPRJMOD}/symbols/SN74LVC1G08DCKR/KiCADv6/2024-10-11_07-00-24.kicad_sym")(options "")(descr ""))
+  (lib (name "mosfet_STD16N60M6")(type "KiCad")(uri "${KIPRJMOD}/symbols/STD16N60M6/KiCADv6/2024-10-12_19-09-09.kicad_sym")(options "")(descr ""))
+  (lib (name "diode_CUS10S30_H3F")(type "KiCad")(uri "${KIPRJMOD}/symbols/CUS10S30_H3F/KiCADv6/2024-10-12_20-45-25.kicad_sym")(options "")(descr ""))
 )
