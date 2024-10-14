@@ -57,11 +57,10 @@
 			(copper_finish "HAL SnPb")
 			(dielectric_constraints no)
 		)
-		(pad_to_mask_clearance 0.038)
-		(solder_mask_min_width 0.1)
+		(pad_to_mask_clearance 0)
 		(allow_soldermask_bridges_in_footprints no)
 		(pcbplotparams
-			(layerselection 0x00010fc_ffffffff)
+			(layerselection 0x00010f8_ffffffff)
 			(plot_on_all_layers_selection 0x0000000_00000000)
 			(disableapertmacros no)
 			(usegerberextensions no)
@@ -37187,7 +37186,7 @@
 		)
 		(fp_arc
 			(start 0.723714 -1.445998)
-			(mid 0.776937 -1.423889)
+			(mid 0.77694 -1.423891)
 			(end 0.799455 -1.37084)
 			(stroke
 				(width 0.127)
@@ -37209,7 +37208,7 @@
 		)
 		(fp_arc
 			(start 0.799455 1.399868)
-			(mid 0.776925 1.452897)
+			(mid 0.776922 1.452894)
 			(end 0.723713 1.475)
 			(stroke
 				(width 0.127)
