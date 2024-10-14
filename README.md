@@ -4,4 +4,4 @@
 
 ![schematic](kicad/bidirectional_load_switch/schematic/schematic.pdf)
 
-![schematic](kicad/bidirectional_load_switch/schematic/schematic.svg)
+![schematic](kicad/bidirectional_load_switch/schematic/bidirectional_load_switch.svg)
