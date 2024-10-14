@@ -6422,7 +6422,7 @@
 				)
 			)
 		)
-		(property "Value" "CUS10S30_H3F"
+		(property "Value" "~"
 			(at 217.932 32.258 0)
 			(effects
 				(font
@@ -6458,6 +6458,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "MPN" "CUS10S30_H3F"
+			(at 218.186 34.036 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -7175,12 +7183,13 @@
 				)
 			)
 		)
-		(property "Value" "TLV75733PDBVR"
+		(property "Value" "~"
 			(at 76.708 100.076 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "ldo_TLV75733PDBVR:DBV0005A_L"
@@ -7210,6 +7219,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "MPN" "TLV75733PDBVR"
+			(at 76.708 99.822 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -8346,12 +8363,13 @@
 				)
 			)
 		)
-		(property "Value" "CUS10S30_H3F"
+		(property "Value" "~"
 			(at 75.819 79.248 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "diode_CUS10S30_H3F:USC_TOS"
@@ -8381,6 +8399,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "MPN" "CUS10S30_H3F"
+			(at 80.01 78.994 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -8486,7 +8512,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "PTS526 SK15 SMTR2 LFS"
+		(property "Value" "~"
 			(at 233.172 55.372 0)
 			(effects
 				(font
@@ -8517,6 +8543,15 @@
 		)
 		(property "Description" ""
 			(at 248.92 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "PTS526 SK15 SMTR2 LFS"
+			(at 255.27 54.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9118,19 +9153,20 @@
 		(dnp no)
 		(uuid "cff09fd6-e500-44a3-8721-5d3e8a165e41")
 		(property "Reference" "U101"
-			(at 66.675 29.21 0)
+			(at 66.548 30.226 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 			)
 		)
-		(property "Value" "TMCS1101A3BQDRQ1"
+		(property "Value" "~"
 			(at 66.675 31.75 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "current_sensor_TMCS1101A3BQDR:SOIC8_D_TEX"
@@ -9160,6 +9196,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "MPN" "TMCS1101A3BQDRQ1"
+			(at 66.548 32.766 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "6"
@@ -9745,7 +9789,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e18c2a4d-3578-4556-a61b-9f744eb93f0e")
 		(property "Reference" "U103"
 			(at 111.76 29.21 0)
@@ -9755,12 +9798,13 @@
 				)
 			)
 		)
-		(property "Value" "ATTINY85-20SU"
+		(property "Value" "~"
 			(at 111.76 31.75 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "mcu_ATTINY85_20SU:8S2_ATM"
@@ -9790,6 +9834,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "MPN" "ATTINY85-20SU"
+			(at 111.76 32.258 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "7"
@@ -9842,12 +9894,13 @@
 				)
 			)
 		)
-		(property "Value" "1017503"
+		(property "Value" "~"
 			(at 22.352 31.242 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "spring_terminal_1017503:PHOENIX_1017503"
@@ -9860,7 +9913,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/896/1017503_Ds.pdf"
 			(at 21.59 40.64 0)
 			(effects
 				(font
@@ -9916,6 +9969,14 @@
 				)
 				(justify bottom)
 				(hide yes)
+			)
+		)
+		(property "MPN" "1017503"
+			(at 22.352 31.242 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1_2"

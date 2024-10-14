@@ -442,7 +442,7 @@
 				)
 			)
 		)
-		(property "Value" "STD16N60M6"
+		(property "Value" "~"
 			(at 0.1 -14.2 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -487,6 +487,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "STD16N60M6"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c1327664-d98d-42f3-bbb8-278d97435457")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -652,7 +665,7 @@
 				)
 			)
 		)
-		(property "Value" "UCC23313DWYR"
+		(property "Value" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -696,6 +709,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "UCC23313DWYR"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6519ffc3-aab0-4774-a2cc-5f59be183ffe")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -1286,7 +1312,7 @@
 				)
 			)
 		)
-		(property "Value" "B1911PG--20D000514U1930"
+		(property "Value" "~"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1353,6 +1379,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "2454afe3-d1a0-41da-ac93-89268bcdd1e7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "B1911PG--20D000514U1930"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2c7fb6e6-b855-439e-8ba2-237e4b572665")
 			(effects
 				(font
 					(size 1 1)
@@ -2243,7 +2282,7 @@
 				)
 			)
 		)
-		(property "Value" "SN74LVC1G17DCKR"
+		(property "Value" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2287,6 +2326,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "SN74LVC1G17DCKR"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8f827f31-2892-45ac-ba69-5c2096718d45")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -3477,7 +3529,7 @@
 				)
 			)
 		)
-		(property "Value" "STD16N60M6"
+		(property "Value" "~"
 			(at 0.1 -14.2 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3522,6 +3574,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "STD16N60M6"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9533822f-7fa9-4a43-ac3a-64a723b38b7e")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -3687,7 +3752,7 @@
 				)
 			)
 		)
-		(property "Value" "SN74LVC1G17DCKR"
+		(property "Value" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3731,6 +3796,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "SN74LVC1G17DCKR"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "41c32d22-bb72-4f42-a17e-4c248a584c7e")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -4417,7 +4495,7 @@
 				)
 			)
 		)
-		(property "Value" "STD16N60M6"
+		(property "Value" "~"
 			(at 0.1 -14.2 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4462,6 +4540,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "STD16N60M6"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e344e035-255c-45f4-8afe-963aae0c4a64")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -4627,7 +4718,7 @@
 				)
 			)
 		)
-		(property "Value" "SN74LVC1G17DCKR"
+		(property "Value" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4671,6 +4762,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "SN74LVC1G17DCKR"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "93bf934d-9b45-4e2c-8156-80b09945436c")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -5570,7 +5674,7 @@
 				)
 			)
 		)
-		(property "Value" "ATTINY85-20SU"
+		(property "Value" "~"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5614,6 +5718,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "ATTINY85-20SU"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d9a93598-1ef0-4234-8532-f9ce79f53a29")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -6557,7 +6674,7 @@
 				)
 			)
 		)
-		(property "Value" "SN74LVC1G17DCKR"
+		(property "Value" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6601,6 +6718,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "SN74LVC1G17DCKR"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "61e69da2-168d-415b-8f77-93f25d3da156")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -8139,7 +8269,7 @@
 				)
 			)
 		)
-		(property "Value" "SN74LVC1G17DCKR"
+		(property "Value" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8183,6 +8313,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "SN74LVC1G17DCKR"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "27bcb673-6540-4024-a083-ee7b32379bcb")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -9721,7 +9864,7 @@
 				)
 			)
 		)
-		(property "Value" "150"
+		(property "Value" "220"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "6ce4406f-a479-4c5e-a24e-67c728d98d06")
@@ -11079,7 +11222,7 @@
 				)
 			)
 		)
-		(property "Value" "STD16N60M6"
+		(property "Value" "~"
 			(at 0.1 -14.2 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11092,7 +11235,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DPAKTO-252_STM"
+		(property "Footprint" "mosfet_STD16N60M6:DPAKTO-252_STM"
 			(at 0 -12.55 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -11124,6 +11267,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "STD16N60M6"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "24001035-f172-4ecb-b401-1a6fff114f90")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -11289,7 +11445,7 @@
 				)
 			)
 		)
-		(property "Value" "STD16N60M6"
+		(property "Value" "~"
 			(at 0.1 -14.2 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11302,7 +11458,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DPAKTO-252_STM"
+		(property "Footprint" "mosfet_STD16N60M6:DPAKTO-252_STM"
 			(at 0 -12.55 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -11334,6 +11490,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "STD16N60M6"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5f54d3e2-add8-4e94-bcaf-c2ce269cef46")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -12804,7 +12973,7 @@
 				)
 			)
 		)
-		(property "Value" "UCC23313DWYR"
+		(property "Value" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12848,6 +13017,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "UCC23313DWYR"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8b001b92-225e-4608-a886-356a7cbce6fa")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -13651,7 +13833,7 @@
 				)
 			)
 		)
-		(property "Value" "SN74LVC1G08DCKR"
+		(property "Value" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13663,7 +13845,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DCK5"
+		(property "Footprint" "and_gate_SN74LVC1G08DCKR:DCK5"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -13695,6 +13877,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "SN74LVC1G08DCKR"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9dc347f3-288e-4178-90d3-38fa5ef62825")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -14548,7 +14743,7 @@
 				)
 			)
 		)
-		(property "Value" "UCC23313DWYR"
+		(property "Value" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14592,6 +14787,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "UCC23313DWYR"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "547800d8-7047-45c6-9c45-aadebb654c62")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -15182,7 +15390,7 @@
 				)
 			)
 		)
-		(property "Value" "150"
+		(property "Value" "220"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "4fb00f4a-919b-49a2-b874-f02a13118343")
@@ -15899,7 +16107,7 @@
 				)
 			)
 		)
-		(property "Value" "UCC23313DWYR"
+		(property "Value" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15943,6 +16151,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "UCC23313DWYR"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6955444d-e8a5-4e9d-9f31-ce87e41b8d4c")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -16533,7 +16754,7 @@
 				)
 			)
 		)
-		(property "Value" "B1911PG--20D000514U1930"
+		(property "Value" "~"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16600,6 +16821,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "9190d496-acee-423e-bae2-88d6c7c0a1e7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "B1911PG--20D000514U1930"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3c974bd3-ec53-4f9e-bce4-715da03d72ac")
 			(effects
 				(font
 					(size 1 1)
@@ -17491,7 +17725,7 @@
 				)
 			)
 		)
-		(property "Value" "PTS526 SK15 SMTR2 LFS"
+		(property "Value" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17535,6 +17769,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "PTS526 SK15 SMTR2 LFS"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a6ec7c80-99f3-4534-b23f-cb61fddcb485")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -18264,7 +18511,7 @@
 				)
 			)
 		)
-		(property "Value" "STD16N60M6"
+		(property "Value" "~"
 			(at 0.1 -14.2 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18277,7 +18524,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DPAKTO-252_STM"
+		(property "Footprint" "mosfet_STD16N60M6:DPAKTO-252_STM"
 			(at 0 -12.55 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -18309,6 +18556,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "STD16N60M6"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "40333014-b884-4cae-8319-5142da3cebe5")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -19539,7 +19799,7 @@
 				)
 			)
 		)
-		(property "Value" "150"
+		(property "Value" "220"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "f71dd4aa-b904-4785-9da0-88831fc7eb8b")
@@ -19752,7 +20012,7 @@
 				)
 			)
 		)
-		(property "Value" "STD16N60M6"
+		(property "Value" "~"
 			(at 0.1 -14.2 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19797,6 +20057,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "STD16N60M6"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "47cd1c6e-3fb1-48e9-8462-277e3212e34c")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -20388,7 +20661,7 @@
 				)
 			)
 		)
-		(property "Value" "CUS10S30_H3F"
+		(property "Value" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20432,6 +20705,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "CUS10S30_H3F"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8d765453-599c-4d61-a1e3-2ac2bc521137")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -20864,7 +21150,7 @@
 				)
 			)
 		)
-		(property "Value" "SN74LVC1G08DCKR"
+		(property "Value" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20876,7 +21162,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DCK5"
+		(property "Footprint" "and_gate_SN74LVC1G08DCKR:DCK5"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -20908,6 +21194,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "SN74LVC1G08DCKR"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "729ce5e6-cba2-4a43-a29c-1e509c22121d")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -21548,7 +21847,7 @@
 				)
 			)
 		)
-		(property "Value" "UCC23313DWYR"
+		(property "Value" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -21592,6 +21891,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "UCC23313DWYR"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3bfb70ea-bba7-4a8b-8914-c55624b21aae")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -22686,7 +22998,7 @@
 				)
 			)
 		)
-		(property "Value" "B1911PG--20D000514U1930"
+		(property "Value" "~"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -22753,6 +23065,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "4112f4f7-243d-49b9-bf7e-614a310edc72")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "B1911PG--20D000514U1930"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c82e3c57-7cc5-418c-998b-07c934118944")
 			(effects
 				(font
 					(size 1 1)
@@ -23004,7 +23329,7 @@
 				)
 			)
 		)
-		(property "Value" "STD16N60M6"
+		(property "Value" "~"
 			(at 0.1 -14.2 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -23049,6 +23374,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "STD16N60M6"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "14d0cff4-47d6-4dcc-8fd7-8b9848baeca7")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -23214,7 +23552,7 @@
 				)
 			)
 		)
-		(property "Value" "SN74LVC1G17DCKR"
+		(property "Value" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -23258,6 +23596,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "SN74LVC1G17DCKR"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f075560a-6d6e-464a-9b3e-c5d2d80309f3")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -23944,7 +24295,7 @@
 				)
 			)
 		)
-		(property "Value" "B1911PG--20D000514U1930"
+		(property "Value" "~"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -24011,6 +24362,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d8fa9fb4-02f7-429d-a1af-a31829cb6739")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "B1911PG--20D000514U1930"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c043a8c2-f6f8-406f-81e8-74cb3c2bc7c1")
 			(effects
 				(font
 					(size 1 1)
@@ -24262,7 +24626,7 @@
 				)
 			)
 		)
-		(property "Value" "STD16N60M6"
+		(property "Value" "~"
 			(at 0.1 -14.2 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -24275,7 +24639,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DPAKTO-252_STM"
+		(property "Footprint" "mosfet_STD16N60M6:DPAKTO-252_STM"
 			(at 0 -12.55 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -24307,6 +24671,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "STD16N60M6"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6dab5da2-f2af-4e8f-9592-3888000e916d")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -24472,7 +24849,7 @@
 				)
 			)
 		)
-		(property "Value" "SN74LVC1G08DCKR"
+		(property "Value" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -24484,7 +24861,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DCK5"
+		(property "Footprint" "and_gate_SN74LVC1G08DCKR:DCK5"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -24516,6 +24893,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "SN74LVC1G08DCKR"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5a68fcd0-bdc2-4f47-bd53-41ba4abae495")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -24943,7 +25333,7 @@
 				)
 			)
 		)
-		(property "Value" "TMCS1101A3BQDRQ1"
+		(property "Value" "~"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -24987,6 +25377,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "TMCS1101A3BQDRQ1"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9527b21d-957a-45d5-abe0-06a0fd074dc5")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -25881,7 +26284,7 @@
 				)
 			)
 		)
-		(property "Value" "150"
+		(property "Value" "220"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "e329278d-8e68-4a39-89f8-ba95af71e4b1")
@@ -26308,7 +26711,7 @@
 				)
 			)
 		)
-		(property "Value" "SN74LVC1G08DCKR"
+		(property "Value" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -26320,7 +26723,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DCK5"
+		(property "Footprint" "and_gate_SN74LVC1G08DCKR:DCK5"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -26352,6 +26755,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "SN74LVC1G08DCKR"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "292b938c-5fdf-494f-a110-c8c1c4cf968e")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -27418,7 +27834,7 @@
 				)
 			)
 		)
-		(property "Value" "SN74LVC1G17DCKR"
+		(property "Value" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -27462,6 +27878,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "SN74LVC1G17DCKR"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e7d377a6-488b-43b0-898a-fe61db453cef")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -27935,7 +28364,7 @@
 				)
 			)
 		)
-		(property "Value" "SN74LVC1G08DCKR"
+		(property "Value" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -27947,7 +28376,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DCK5"
+		(property "Footprint" "and_gate_SN74LVC1G08DCKR:DCK5"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -27979,6 +28408,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "SN74LVC1G08DCKR"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "903cef80-bbd7-4df2-9413-d5db651dc56a")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -28406,7 +28848,7 @@
 				)
 			)
 		)
-		(property "Value" "STD16N60M6"
+		(property "Value" "~"
 			(at 0.1 -14.2 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -28419,7 +28861,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DPAKTO-252_STM"
+		(property "Footprint" "mosfet_STD16N60M6:DPAKTO-252_STM"
 			(at 0 -12.55 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -28451,6 +28893,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "STD16N60M6"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "218828d0-fea1-4849-bcf1-79604e35b881")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -29255,7 +29710,7 @@
 				)
 			)
 		)
-		(property "Value" "STD16N60M6"
+		(property "Value" "~"
 			(at 0.1 -14.2 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -29300,6 +29755,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "STD16N60M6"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c4c7c877-1e25-49c8-90ba-208b08f8ef51")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -29465,7 +29933,7 @@
 				)
 			)
 		)
-		(property "Value" "150"
+		(property "Value" "220"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "0f8a7b5f-a41d-4cfb-97eb-a8f442d9e4a0")
@@ -29891,7 +30359,7 @@
 				)
 			)
 		)
-		(property "Value" "UCC23313DWYR"
+		(property "Value" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -29935,6 +30403,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "UCC23313DWYR"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e4a67857-3fc5-4c24-8827-ee3143f3148e")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -30525,7 +31006,7 @@
 				)
 			)
 		)
-		(property "Value" "STD16N60M6"
+		(property "Value" "~"
 			(at 0.1 -14.2 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -30538,7 +31019,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DPAKTO-252_STM"
+		(property "Footprint" "mosfet_STD16N60M6:DPAKTO-252_STM"
 			(at 0 -12.55 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -30570,6 +31051,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "STD16N60M6"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "12a90bcc-18cf-4c50-8496-b986de2d3942")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -30948,7 +31442,7 @@
 				)
 			)
 		)
-		(property "Value" "UCC23313DWYR"
+		(property "Value" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -30992,6 +31486,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "UCC23313DWYR"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5d44a44e-5f09-44bc-90ab-3b98e4681c7a")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -32164,7 +32671,7 @@
 				)
 			)
 		)
-		(property "Value" "B1911PG--20D000514U1930"
+		(property "Value" "~"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -32231,6 +32738,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "e9de5b30-7993-40ec-9d61-e4f46c263be4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "B1911PG--20D000514U1930"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e285fe80-8400-4bf7-b5aa-67ec78bdf71a")
 			(effects
 				(font
 					(size 1 1)
@@ -32482,7 +33002,7 @@
 				)
 			)
 		)
-		(property "Value" "STD16N60M6"
+		(property "Value" "~"
 			(at 0.1 -14.2 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -32495,7 +33015,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DPAKTO-252_STM"
+		(property "Footprint" "mosfet_STD16N60M6:DPAKTO-252_STM"
 			(at 0 -12.55 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -32527,6 +33047,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "STD16N60M6"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1b76a302-d9ab-4d56-a733-7d8275ac9e07")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -33331,7 +33864,7 @@
 				)
 			)
 		)
-		(property "Value" "SN74LVC1G08DCKR"
+		(property "Value" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -33343,7 +33876,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DCK5"
+		(property "Footprint" "and_gate_SN74LVC1G08DCKR:DCK5"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -33375,6 +33908,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "SN74LVC1G08DCKR"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3788c4c5-4ffb-4782-b931-c526a16be258")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -33802,7 +34348,7 @@
 				)
 			)
 		)
-		(property "Value" "150"
+		(property "Value" "220"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "e452affe-b7f9-4a23-928f-d1d86a019981")
@@ -34015,7 +34561,7 @@
 				)
 			)
 		)
-		(property "Value" "UCC23313DWYR"
+		(property "Value" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -34059,6 +34605,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "UCC23313DWYR"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b7035bdb-a0ec-4794-94e9-c7dde01ef5d5")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -34862,7 +35421,7 @@
 				)
 			)
 		)
-		(property "Value" "150"
+		(property "Value" "220"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "3d328275-102c-48df-90ac-9e6b20377109")
@@ -35287,7 +35846,7 @@
 				)
 			)
 		)
-		(property "Value" "1017503"
+		(property "Value" "~"
 			(at 9.325 -19.665 0)
 			(layer "F.Fab")
 			(uuid "0ab5e6c2-0d74-4d19-9c02-a00bf04e5f2d")
@@ -35310,7 +35869,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/896/1017503_Ds.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -35379,6 +35938,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "b3f3bf2b-49f6-4532-bfd9-97a5f68436af")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "1017503"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1502acde-6262-4318-b302-7de67a7ea444")
 			(effects
 				(font
 					(size 1 1)
@@ -36248,7 +36820,7 @@
 				)
 			)
 		)
-		(property "Value" "STD16N60M6"
+		(property "Value" "~"
 			(at 0.1 -14.2 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -36293,6 +36865,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "STD16N60M6"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1bd157b8-c7d7-4984-9952-5308160978cf")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -36884,7 +37469,7 @@
 				)
 			)
 		)
-		(property "Value" "TLV75733PDBVR"
+		(property "Value" "~"
 			(at 0.05 -5.5 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -36929,6 +37514,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "TLV75733PDBVR"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4f876502-0acd-4c58-b913-b8dbc1b62d91")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -37671,7 +38269,7 @@
 		)
 		(fp_arc
 			(start 0.723714 -1.445998)
-			(mid 0.776937 -1.423889)
+			(mid 0.77694 -1.423891)
 			(end 0.799455 -1.37084)
 			(stroke
 				(width 0.127)
@@ -38012,7 +38610,7 @@
 				)
 			)
 		)
-		(property "Value" "150"
+		(property "Value" "220"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "8d0f1f24-3a7b-4aa3-84b9-e4421c950c11")
@@ -39503,7 +40101,7 @@
 				)
 			)
 		)
-		(property "Value" "SN74LVC1G08DCKR"
+		(property "Value" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -39515,7 +40113,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DCK5"
+		(property "Footprint" "and_gate_SN74LVC1G08DCKR:DCK5"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -39547,6 +40145,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "SN74LVC1G08DCKR"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "61dd7b09-0536-4f68-8220-49d853934c1d")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -40400,7 +41011,7 @@
 				)
 			)
 		)
-		(property "Value" "CUS10S30_H3F"
+		(property "Value" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -40444,6 +41055,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "CUS10S30_H3F"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5f7e9d3f-444a-4ab1-ac79-b2b9ee1d22fc")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -41089,7 +41713,7 @@
 				)
 			)
 		)
-		(property "Value" "SN74LVC1G08DCKR"
+		(property "Value" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -41101,7 +41725,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DCK5"
+		(property "Footprint" "and_gate_SN74LVC1G08DCKR:DCK5"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -41133,6 +41757,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "SN74LVC1G08DCKR"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d9e2a898-e806-4d2d-b74a-f42681ffeacd")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -42199,7 +42836,7 @@
 				)
 			)
 		)
-		(property "Value" "STD16N60M6"
+		(property "Value" "~"
 			(at 0.1 -14.2 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -42244,6 +42881,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "STD16N60M6"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a2a869d6-dd33-4399-9dfb-531727b8c912")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -43049,7 +43699,7 @@
 				)
 			)
 		)
-		(property "Value" "SN74LVC1G17DCKR"
+		(property "Value" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -43093,6 +43743,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "SN74LVC1G17DCKR"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ebb9e6c8-1642-42f1-809c-ff56ba67168b")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -44844,7 +45507,7 @@
 				)
 			)
 		)
-		(property "Value" "STD16N60M6"
+		(property "Value" "~"
 			(at 0.1 -14.2 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -44857,7 +45520,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DPAKTO-252_STM"
+		(property "Footprint" "mosfet_STD16N60M6:DPAKTO-252_STM"
 			(at 0 -12.55 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -44889,6 +45552,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "STD16N60M6"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2b595661-291a-415f-ac8a-4bdef19b71e5")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -45267,7 +45943,7 @@
 				)
 			)
 		)
-		(property "Value" "B1911PG--20D000514U1930"
+		(property "Value" "~"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -45334,6 +46010,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "f85a9f88-23ec-43ed-bd43-b841dd61bcf1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "B1911PG--20D000514U1930"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ad53856a-67cb-4632-b326-a381aa9ae4ed")
 			(effects
 				(font
 					(size 1 1)
@@ -46011,7 +46700,7 @@
 				)
 			)
 		)
-		(property "Value" "B1911PG--20D000514U1930"
+		(property "Value" "~"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -46078,6 +46767,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "fdb24135-1eef-4e7c-9bf7-5a2e13e84802")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "B1911PG--20D000514U1930"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d830dfde-00bc-46b5-b331-639018c95c1b")
 			(effects
 				(font
 					(size 1 1)
@@ -46755,7 +47457,7 @@
 				)
 			)
 		)
-		(property "Value" "B1911PG--20D000514U1930"
+		(property "Value" "~"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -46822,6 +47524,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "dfda54b3-9252-4e3e-ad67-06253f4b0d41")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "B1911PG--20D000514U1930"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a38e9a93-e34f-4eb9-b06d-924a81d9fcc2")
 			(effects
 				(font
 					(size 1 1)

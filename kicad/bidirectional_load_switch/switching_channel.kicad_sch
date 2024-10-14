@@ -5714,7 +5714,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "772b0608-eb8f-499f-a19a-18e3204b7079")
 		(property "Reference" "U204"
 			(at 234.95 78.2319 0)
@@ -5725,16 +5724,17 @@
 				(justify left)
 			)
 		)
-		(property "Value" "STD16N60M6"
+		(property "Value" "~"
 			(at 234.95 80.7719 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Footprint" "DPAKTO-252_STM"
+		(property "Footprint" "mosfet_STD16N60M6:DPAKTO-252_STM"
 			(at 209.804 61.468 0)
 			(effects
 				(font
@@ -5744,7 +5744,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "STD16N60M6"
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/std16n60m6.pdf"
 			(at 209.296 58.166 0)
 			(effects
 				(font
@@ -5761,6 +5761,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "MPN" "STD16N60M6"
+			(at 241.3 81.026 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "3"
@@ -5819,7 +5827,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "7740d2a8-13a4-42a0-9ed5-d6fd98ef9752")
 		(property "Reference" "U205"
 			(at 234.95 109.7278 0)
@@ -5830,13 +5837,14 @@
 				(justify left)
 			)
 		)
-		(property "Value" "STD16N60M6"
+		(property "Value" "~"
 			(at 234.95 112.2678 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "mosfet_STD16N60M6:DPAKTO-252_STM"
@@ -5849,7 +5857,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "STD16N60M6"
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/std16n60m6.pdf"
 			(at 209.296 132.334 0)
 			(effects
 				(font
@@ -5866,6 +5874,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "MPN" "STD16N60M6"
+			(at 241.3 112.014 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -5922,7 +5938,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "7c0b98dd-1094-46dd-af73-8cdd949852be")
 		(property "Reference" "U203"
 			(at 167.005 69.85 0)
@@ -5932,12 +5947,13 @@
 				)
 			)
 		)
-		(property "Value" "UCC23313DWYR"
+		(property "Value" "~"
 			(at 167.005 72.39 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "gate_driver_UCC23313DWYR:SOIC6_DWY_TEX"
@@ -5967,6 +5983,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "MPN" "UCC23313DWYR"
+			(at 166.878 72.644 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "5"
@@ -6230,7 +6254,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "B1911PG--20D000514U1930"
+		(property "Value" "~"
 			(at 49.022 88.9 90)
 			(effects
 				(font
@@ -6250,7 +6274,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "B1911PG--20D000514U1930"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/3777/B1911PG--20D000514U1930.pdf"
 			(at 86.36 81.28 0)
 			(effects
 				(font
@@ -6285,6 +6309,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "MPN" "B1911PG--20D000514U1930"
+			(at 94.742 94.996 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -6340,14 +6372,14 @@
 		(dnp no)
 		(uuid "c141d620-759b-43bf-a0c7-d9a08ce80a91")
 		(property "Reference" "U201"
-			(at 67.056 73.914 0)
+			(at 59.436 64.516 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 			)
 		)
-		(property "Value" "SN74LVC1G08DCKR"
+		(property "Value" "~"
 			(at 77.47 76.2314 0)
 			(effects
 				(font
@@ -6356,7 +6388,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "DCK5"
+		(property "Footprint" "and_gate_SN74LVC1G08DCKR:DCK5"
 			(at 39.37 62.738 0)
 			(effects
 				(font
@@ -6366,7 +6398,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "SN74LVC1G08DCKR"
+		(property "Datasheet" "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fsn74lvc1g08"
 			(at 40.132 65.786 0)
 			(effects
 				(font
@@ -6383,6 +6415,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "MPN" "SN74LVC1G08DCKR"
+			(at 59.182 66.802 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -6633,7 +6673,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e038b7e9-b17a-43b2-9e23-5ff94fd7445f")
 		(property "Reference" "U202"
 			(at 112.395 69.85 0)
@@ -6643,12 +6682,13 @@
 				)
 			)
 		)
-		(property "Value" "SN74LVC1G17DCKR"
+		(property "Value" "~"
 			(at 112.395 72.39 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "buffer_SN74LVC1G17DCKR:DCK5"
@@ -6678,6 +6718,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "MPN" "SN74LVC1G17DCKR"
+			(at 112.268 72.644 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
