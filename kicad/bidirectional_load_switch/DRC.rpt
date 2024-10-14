@@ -1,0 +1,484 @@
+** Drc report for bidirectional_load_switch.kicad_pcb **
+** Created on 2024-10-14T00:35:28-0500 **
+
+** Found 123 DRC violations **
+[silk_edge_clearance]: Silkscreen clipped by board edge (board setup constraints silk clearance 0.1500 mm; actual 0.0000 mm)
+    Rule: board setup constraints silk; warning
+    @(204.6000 mm, 102.2000 mm): Segment on Edge.Cuts
+    @(204.7854 mm, 99.8757 mm): Segment on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge (board setup constraints silk clearance 0.1500 mm; actual 0.0000 mm)
+    Rule: board setup constraints silk; warning
+    @(204.6000 mm, 102.2000 mm): Segment on Edge.Cuts
+    @(209.8146 mm, 107.7243 mm): Segment on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge (board setup constraints silk clearance 0.1500 mm; actual 0.0000 mm)
+    Rule: board setup constraints silk; warning
+    @(99.0000 mm, 105.2000 mm): Segment on Edge.Cuts
+    @(93.7854 mm, 99.8757 mm): Segment on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge (board setup constraints silk clearance 0.1500 mm; actual 0.0000 mm)
+    Rule: board setup constraints silk; warning
+    @(99.0000 mm, 105.2000 mm): Segment on Edge.Cuts
+    @(98.8146 mm, 107.7243 mm): Segment on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge (board setup constraints silk clearance 0.1500 mm; actual 0.0000 mm)
+    Rule: board setup constraints silk; warning
+    @(112.1000 mm, 102.2000 mm): Segment on Edge.Cuts
+    @(112.2854 mm, 99.8757 mm): Segment on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge (board setup constraints silk clearance 0.1500 mm; actual 0.0000 mm)
+    Rule: board setup constraints silk; warning
+    @(112.1000 mm, 102.2000 mm): Segment on Edge.Cuts
+    @(117.3146 mm, 107.7243 mm): Segment on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge (board setup constraints silk clearance 0.1500 mm; actual 0.0000 mm)
+    Rule: board setup constraints silk; warning
+    @(167.6000 mm, 102.2000 mm): Segment on Edge.Cuts
+    @(167.7854 mm, 99.8757 mm): Segment on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge (board setup constraints silk clearance 0.1500 mm; actual 0.0000 mm)
+    Rule: board setup constraints silk; warning
+    @(167.6000 mm, 102.2000 mm): Segment on Edge.Cuts
+    @(172.8146 mm, 107.7243 mm): Segment on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge (board setup constraints silk clearance 0.1500 mm; actual 0.0000 mm)
+    Rule: board setup constraints silk; warning
+    @(149.1000 mm, 102.2000 mm): Segment on Edge.Cuts
+    @(149.2854 mm, 99.8757 mm): Segment on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge (board setup constraints silk clearance 0.1500 mm; actual 0.1092 mm)
+    Rule: board setup constraints silk; warning
+    @(154.5000 mm, 103.7000 mm): Arc on Edge.Cuts
+    @(154.3146 mm, 107.7243 mm): Segment on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge (board setup constraints silk clearance 0.1500 mm; actual 0.0000 mm)
+    Rule: board setup constraints silk; warning
+    @(136.0000 mm, 105.2000 mm): Segment on Edge.Cuts
+    @(130.7854 mm, 99.8757 mm): Segment on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge (board setup constraints silk clearance 0.1500 mm; actual 0.0000 mm)
+    Rule: board setup constraints silk; warning
+    @(136.0000 mm, 105.2000 mm): Segment on Edge.Cuts
+    @(135.8146 mm, 107.7243 mm): Segment on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge (board setup constraints silk clearance 0.1500 mm; actual 0.0000 mm)
+    Rule: board setup constraints silk; warning
+    @(186.1000 mm, 102.2000 mm): Segment on Edge.Cuts
+    @(186.2854 mm, 99.8757 mm): Segment on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge (board setup constraints silk clearance 0.1500 mm; actual 0.0000 mm)
+    Rule: board setup constraints silk; warning
+    @(186.1000 mm, 102.2000 mm): Segment on Edge.Cuts
+    @(191.3146 mm, 107.7243 mm): Segment on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge (board setup constraints silk clearance 0.1500 mm; actual 0.1092 mm)
+    Rule: board setup constraints silk; warning
+    @(223.1000 mm, 103.7000 mm): Arc on Edge.Cuts
+    @(223.2854 mm, 99.8757 mm): Segment on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge (board setup constraints silk clearance 0.1500 mm; actual 0.1092 mm)
+    Rule: board setup constraints silk; warning
+    @(228.5000 mm, 103.7000 mm): Arc on Edge.Cuts
+    @(228.3146 mm, 107.7243 mm): Segment on F.Silkscreen
+[lib_footprint_mismatch]: Footprint 'IDC-Header_2x03_P2.54mm_Vertical' does not match copy in library 'Connector_IDC'.
+    Local override; warning
+    @(68.8025 mm, 95.0950 mm): Footprint J107
+[lib_footprint_mismatch]: Footprint 'PinHeader_1x02_P2.54mm_Vertical' does not match copy in library 'Connector_PinHeader_2.54mm'.
+    Local override; warning
+    @(67.3000 mm, 106.8000 mm): Footprint J105
+[lib_footprint_mismatch]: Footprint 'PinHeader_1x02_P2.54mm_Vertical' does not match copy in library 'Connector_PinHeader_2.54mm'.
+    Local override; warning
+    @(84.5500 mm, 116.5500 mm): Footprint J102
+[lib_footprint_mismatch]: Footprint 'PinHeader_1x02_P2.54mm_Vertical' does not match copy in library 'Connector_PinHeader_2.54mm'.
+    Local override; warning
+    @(67.3000 mm, 115.8000 mm): Footprint J106
+[lib_footprint_mismatch]: Footprint 'PinHeader_1x02_P2.54mm_Vertical' does not match copy in library 'Connector_PinHeader_2.54mm'.
+    Local override; warning
+    @(89.0500 mm, 98.3000 mm): Footprint J104
+[lib_footprint_mismatch]: Footprint 'PinHeader_1x09_P2.54mm_Vertical' does not match copy in library 'Connector_PinHeader_2.54mm'.
+    Local override; warning
+    @(87.1800 mm, 124.1000 mm): Footprint J103
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(225.8000 mm, 119.8500 mm): Reference 'U901'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(207.3000 mm, 119.8500 mm): Reference 'U801'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(188.8000 mm, 119.8500 mm): Reference 'U701'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(170.3000 mm, 119.8500 mm): Reference 'U601'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(151.8000 mm, 119.8500 mm): Reference 'U501'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(133.3000 mm, 119.8500 mm): Reference 'U401'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(114.8000 mm, 119.8500 mm): Reference 'U301'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(96.3000 mm, 119.8500 mm): Reference 'U201'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(94.1514 mm, 116.5954 mm): Footprint Text '*' of U202
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(94.1514 mm, 116.5954 mm): Footprint Text '*' of U202
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(89.3000 mm, 106.3000 mm): Reference 'D101'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(80.5916 mm, 110.5416 mm): Reference 'C104'
+[silk_overlap]: Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.1432 mm)
+    Rule: board setup constraints silk; warning
+    @(84.0900 mm, 127.8500 mm): PCB Text '2' on F.Silkscreen
+    @(89.5800 mm, 120.7000 mm): Rectangle on F.Silkscreen
+[silk_overlap]: Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.1432 mm)
+    Rule: board setup constraints silk; warning
+    @(81.5500 mm, 127.8500 mm): PCB Text '3' on F.Silkscreen
+    @(89.5800 mm, 120.7000 mm): Rectangle on F.Silkscreen
+[silk_overlap]: Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.1432 mm)
+    Rule: board setup constraints silk; warning
+    @(86.6300 mm, 127.8500 mm): PCB Text '1' on F.Silkscreen
+    @(89.5800 mm, 120.7000 mm): Rectangle on F.Silkscreen
+[silk_overlap]: Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.0718 mm)
+    Rule: board setup constraints silk; warning
+    @(96.3000 mm, 119.8500 mm): Reference 'U201'
+    @(96.4395 mm, 119.1515 mm): Segment on F.Silkscreen
+[silk_overlap]: Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.1171 mm)
+    Rule: board setup constraints silk; warning
+    @(95.2205 mm, 119.6104 mm): Segment on F.Silkscreen
+    @(94.5000 mm, 119.3500 mm): Reference 'C201'
+[silk_overlap]: Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.0765 mm)
+    Rule: board setup constraints silk; warning
+    @(95.2205 mm, 115.0604 mm): Segment on F.Silkscreen
+    @(94.5500 mm, 115.4500 mm): Reference 'C203'
+[silk_overlap]: Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.0000 mm)
+    Rule: board setup constraints silk; warning
+    @(94.1514 mm, 116.5954 mm): Footprint Text '*' of U202
+    @(94.1514 mm, 116.5954 mm): Footprint Text '*' of U202
+[silk_overlap]: Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.0766 mm)
+    Rule: board setup constraints silk; warning
+    @(94.1514 mm, 116.5954 mm): Footprint Text '*' of U202
+    @(94.5500 mm, 115.4500 mm): Reference 'C203'
+[silk_overlap]: Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.0766 mm)
+    Rule: board setup constraints silk; warning
+    @(94.1514 mm, 116.5954 mm): Footprint Text '*' of U202
+    @(94.5500 mm, 115.4500 mm): Reference 'C203'
+[silk_overlap]: Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.0938 mm)
+    Rule: board setup constraints silk; warning
+    @(88.6916 mm, 112.0416 mm): Reference 'C102'
+    @(82.0500 mm, 120.0000 mm): Rectangle on F.Silkscreen
+[silk_overlap]: Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.0954 mm)
+    Rule: board setup constraints silk; warning
+    @(114.8000 mm, 119.8500 mm): Reference 'U301'
+    @(113.7205 mm, 119.8500 mm): Arc on F.Silkscreen
+[silk_overlap]: Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.0718 mm)
+    Rule: board setup constraints silk; warning
+    @(114.8000 mm, 119.8500 mm): Reference 'U301'
+    @(114.9395 mm, 119.1515 mm): Segment on F.Silkscreen
+[silk_overlap]: Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.1131 mm)
+    Rule: board setup constraints silk; warning
+    @(113.7205 mm, 119.6104 mm): Segment on F.Silkscreen
+    @(113.0000 mm, 119.3500 mm): Reference 'C301'
+[silk_overlap]: Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.1363 mm)
+    Rule: board setup constraints silk; warning
+    @(117.5275 mm, 114.7873 mm): Segment on F.Silkscreen
+    @(116.8000 mm, 115.3500 mm): Reference 'U302'
+[silk_overlap]: Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.1432 mm)
+    Rule: board setup constraints silk; warning
+    @(108.9500 mm, 113.3500 mm): Reference 'C304'
+    @(111.2500 mm, 111.0000 mm): Reference 'R302'
+[silk_overlap]: Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.1148 mm)
+    Rule: board setup constraints silk; warning
+    @(113.0500 mm, 115.4500 mm): Reference 'C303'
+    @(113.7205 mm, 115.0604 mm): Segment on F.Silkscreen
+[silk_overlap]: Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.1363 mm)
+    Rule: board setup constraints silk; warning
+    @(98.3000 mm, 115.3500 mm): Reference 'U202'
+    @(99.0275 mm, 114.7873 mm): Segment on F.Silkscreen
+[silk_overlap]: Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.1443 mm)
+    Rule: board setup constraints silk; warning
+    @(71.4916 mm, 105.7916 mm): Reference 'J105'
+    @(72.2433 mm, 104.7179 mm): Segment on F.Silkscreen
+[silk_overlap]: Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.0198 mm)
+    Rule: board setup constraints silk; warning
+    @(71.4916 mm, 105.7916 mm): Reference 'J105'
+    @(70.8000 mm, 109.3000 mm): Rectangle on F.Silkscreen
+[silk_overlap]: Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.1432 mm)
+    Rule: board setup constraints silk; warning
+    @(76.4700 mm, 127.8500 mm): PCB Text '5' on F.Silkscreen
+    @(89.5800 mm, 120.7000 mm): Rectangle on F.Silkscreen
+[silk_overlap]: Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.1432 mm)
+    Rule: board setup constraints silk; warning
+    @(73.9300 mm, 127.8500 mm): PCB Text '6' on F.Silkscreen
+    @(89.5800 mm, 120.7000 mm): Rectangle on F.Silkscreen
+[silk_overlap]: Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.1432 mm)
+    Rule: board setup constraints silk; warning
+    @(71.3900 mm, 127.8500 mm): PCB Text '7' on F.Silkscreen
+    @(89.5800 mm, 120.7000 mm): Rectangle on F.Silkscreen
+[silk_overlap]: Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.1432 mm)
+    Rule: board setup constraints silk; warning
+    @(65.5000 mm, 127.8500 mm): PCB Text 'gnd' on F.Silkscreen
+    @(89.5800 mm, 120.7000 mm): Rectangle on F.Silkscreen
+[silk_overlap]: Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.1432 mm)
+    Rule: board setup constraints silk; warning
+    @(68.8500 mm, 127.8500 mm): PCB Text '8' on F.Silkscreen
+    @(89.5800 mm, 120.7000 mm): Rectangle on F.Silkscreen
+[silk_overlap]: Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.1150 mm)
+    Rule: board setup constraints silk; warning
+    @(83.1000 mm, 113.4000 mm): Reference 'J102'
+    @(82.0500 mm, 120.0000 mm): Rectangle on F.Silkscreen
+[silk_overlap]: Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.0000 mm)
+    Rule: board setup constraints silk; warning
+    @(80.5916 mm, 110.5416 mm): Reference 'C104'
+    @(79.2916 mm, 112.8916 mm): Reference 'C106'
+[silk_overlap]: Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.0000 mm)
+    Rule: board setup constraints silk; warning
+    @(78.6314 mm, 103.6003 mm): Footprint Text '*' of U103
+    @(78.6314 mm, 103.6003 mm): Footprint Text '*' of U103
+[silk_overlap]: Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.0955 mm)
+    Rule: board setup constraints silk; warning
+    @(79.0100 mm, 127.8500 mm): PCB Text '4' on F.Silkscreen
+    @(89.5800 mm, 120.7000 mm): Rectangle on F.Silkscreen
+[silk_overlap]: Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.1432 mm)
+    Rule: board setup constraints silk; warning
+    @(92.7500 mm, 111.0000 mm): Reference 'R202'
+    @(90.4500 mm, 113.3500 mm): Reference 'C204'
+[silk_overlap]: Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.0000 mm)
+    Rule: board setup constraints silk; warning
+    @(89.2916 mm, 109.2916 mm): Reference 'C101'
+    @(89.3000 mm, 108.3866 mm): Footprint Text '*' of D101
+[silk_overlap]: Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.0000 mm)
+    Rule: board setup constraints silk; warning
+    @(89.2916 mm, 109.2916 mm): Reference 'C101'
+    @(89.3000 mm, 108.3866 mm): Footprint Text '*' of D101
+[silk_overlap]: Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.0000 mm)
+    Rule: board setup constraints silk; warning
+    @(89.3000 mm, 108.3866 mm): Footprint Text '*' of D101
+    @(89.3000 mm, 108.3866 mm): Footprint Text '*' of D101
+[silk_overlap]: Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.0050 mm)
+    Rule: board setup constraints silk; warning
+    @(89.3000 mm, 108.3866 mm): Footprint Text '*' of D101
+    @(89.3000 mm, 106.3000 mm): Reference 'D101'
+[silk_overlap]: Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.0050 mm)
+    Rule: board setup constraints silk; warning
+    @(89.3000 mm, 108.3866 mm): Footprint Text '*' of D101
+    @(89.3000 mm, 106.3000 mm): Reference 'D101'
+[silk_overlap]: Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.1105 mm)
+    Rule: board setup constraints silk; warning
+    @(89.3000 mm, 106.3000 mm): Reference 'D101'
+    @(88.5230 mm, 107.3020 mm): Segment on F.Silkscreen
+[silk_overlap]: Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.0790 mm)
+    Rule: board setup constraints silk; warning
+    @(89.3000 mm, 106.3000 mm): Reference 'D101'
+    @(88.5230 mm, 105.2980 mm): Segment on F.Silkscreen
+[silk_overlap]: Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.0418 mm)
+    Rule: board setup constraints silk; warning
+    @(90.0770 mm, 105.2980 mm): Segment on F.Silkscreen
+    @(89.3000 mm, 106.3000 mm): Reference 'D101'
+[silk_overlap]: Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.1308 mm)
+    Rule: board setup constraints silk; warning
+    @(89.3000 mm, 106.3000 mm): Reference 'D101'
+    @(89.8581 mm, 107.3020 mm): Segment on F.Silkscreen
+[silk_overlap]: Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.0718 mm)
+    Rule: board setup constraints silk; warning
+    @(133.4395 mm, 119.1515 mm): Segment on F.Silkscreen
+    @(133.3000 mm, 119.8500 mm): Reference 'U401'
+[silk_overlap]: Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.1432 mm)
+    Rule: board setup constraints silk; warning
+    @(129.7500 mm, 111.0000 mm): Reference 'R402'
+    @(127.4500 mm, 113.3500 mm): Reference 'C404'
+[silk_overlap]: Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.1148 mm)
+    Rule: board setup constraints silk; warning
+    @(132.2205 mm, 115.0604 mm): Segment on F.Silkscreen
+    @(131.5500 mm, 115.4500 mm): Reference 'C403'
+[silk_overlap]: Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.1131 mm)
+    Rule: board setup constraints silk; warning
+    @(132.2205 mm, 119.6104 mm): Segment on F.Silkscreen
+    @(131.5000 mm, 119.3500 mm): Reference 'C401'
+[silk_overlap]: Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.1497 mm)
+    Rule: board setup constraints silk; warning
+    @(135.3000 mm, 115.3500 mm): Reference 'U402'
+    @(136.0275 mm, 114.7873 mm): Segment on F.Silkscreen
+[silk_overlap]: Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.0782 mm)
+    Rule: board setup constraints silk; warning
+    @(97.2000 mm, 81.0500 mm): Reference 'U204'
+    @(96.4500 mm, 83.3500 mm): Segment on F.Silkscreen
+[silk_overlap]: Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.0535 mm)
+    Rule: board setup constraints silk; warning
+    @(88.7800 mm, 80.2875 mm): Segment on F.Silkscreen
+    @(83.6000 mm, 82.1000 mm): Reference 'J101'
+[silk_overlap]: Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.1188 mm)
+    Rule: board setup constraints silk; warning
+    @(89.5000 mm, 92.6000 mm): Reference 'J104'
+    @(92.5500 mm, 100.8000 mm): Rectangle on F.Silkscreen
+[silk_overlap]: Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.0000 mm)
+    Rule: board setup constraints silk; warning
+    @(82.3068 mm, 86.5718 mm): Footprint Text '*' of U101
+    @(82.3068 mm, 86.5718 mm): Footprint Text '*' of U101
+[silk_overlap]: Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.1305 mm)
+    Rule: board setup constraints silk; warning
+    @(134.3000 mm, 81.1500 mm): Reference 'U404'
+    @(133.4500 mm, 83.3500 mm): Segment on F.Silkscreen
+[silk_overlap]: Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.0782 mm)
+    Rule: board setup constraints silk; warning
+    @(124.9500 mm, 81.1500 mm): Reference 'U305'
+    @(124.2000 mm, 83.3000 mm): Segment on F.Silkscreen
+[silk_overlap]: Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.0782 mm)
+    Rule: board setup constraints silk; warning
+    @(143.4500 mm, 81.1500 mm): Reference 'U405'
+    @(142.7000 mm, 83.3000 mm): Segment on F.Silkscreen
+[silk_overlap]: Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.0782 mm)
+    Rule: board setup constraints silk; warning
+    @(105.7000 mm, 83.3000 mm): Segment on F.Silkscreen
+    @(106.4500 mm, 81.1500 mm): Reference 'U205'
+[silk_overlap]: Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.1305 mm)
+    Rule: board setup constraints silk; warning
+    @(226.8000 mm, 81.2000 mm): Reference 'U904'
+    @(225.9500 mm, 83.3500 mm): Segment on F.Silkscreen
+[silk_overlap]: Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.0782 mm)
+    Rule: board setup constraints silk; warning
+    @(235.9500 mm, 81.1500 mm): Reference 'U905'
+    @(235.2000 mm, 83.3000 mm): Segment on F.Silkscreen
+[silk_overlap]: Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.1282 mm)
+    Rule: board setup constraints silk; warning
+    @(208.2500 mm, 81.2000 mm): Reference 'U804'
+    @(207.4500 mm, 83.3500 mm): Segment on F.Silkscreen
+[silk_overlap]: Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.0782 mm)
+    Rule: board setup constraints silk; warning
+    @(216.7000 mm, 83.3000 mm): Segment on F.Silkscreen
+    @(217.4500 mm, 81.1500 mm): Reference 'U805'
+[silk_overlap]: Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.1096 mm)
+    Rule: board setup constraints silk; warning
+    @(151.8000 mm, 119.8500 mm): Reference 'U501'
+    @(150.7205 mm, 119.8500 mm): Arc on F.Silkscreen
+[silk_overlap]: Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.0718 mm)
+    Rule: board setup constraints silk; warning
+    @(151.8000 mm, 119.8500 mm): Reference 'U501'
+    @(151.9395 mm, 119.1515 mm): Segment on F.Silkscreen
+[silk_overlap]: Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.1131 mm)
+    Rule: board setup constraints silk; warning
+    @(150.7205 mm, 119.6104 mm): Segment on F.Silkscreen
+    @(150.0000 mm, 119.3500 mm): Reference 'C501'
+[silk_overlap]: Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.1363 mm)
+    Rule: board setup constraints silk; warning
+    @(153.8000 mm, 115.3500 mm): Reference 'U502'
+    @(154.5275 mm, 114.7873 mm): Segment on F.Silkscreen
+[silk_overlap]: Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.1148 mm)
+    Rule: board setup constraints silk; warning
+    @(150.7205 mm, 115.0604 mm): Segment on F.Silkscreen
+    @(150.0500 mm, 115.4500 mm): Reference 'C503'
+[silk_overlap]: Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.1432 mm)
+    Rule: board setup constraints silk; warning
+    @(145.9500 mm, 113.3500 mm): Reference 'C504'
+    @(148.2500 mm, 111.0000 mm): Reference 'R502'
+[silk_overlap]: Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.0851 mm)
+    Rule: board setup constraints silk; warning
+    @(188.8000 mm, 119.8500 mm): Reference 'U701'
+    @(187.7205 mm, 119.8500 mm): Arc on F.Silkscreen
+[silk_overlap]: Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.1131 mm)
+    Rule: board setup constraints silk; warning
+    @(187.7205 mm, 119.6104 mm): Segment on F.Silkscreen
+    @(187.0000 mm, 119.3500 mm): Reference 'C701'
+[silk_overlap]: Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.0718 mm)
+    Rule: board setup constraints silk; warning
+    @(188.8000 mm, 119.8500 mm): Reference 'U701'
+    @(188.9395 mm, 119.1515 mm): Segment on F.Silkscreen
+[silk_overlap]: Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.1131 mm)
+    Rule: board setup constraints silk; warning
+    @(206.2205 mm, 119.6104 mm): Segment on F.Silkscreen
+    @(205.5000 mm, 119.3500 mm): Reference 'C801'
+[silk_overlap]: Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.1168 mm)
+    Rule: board setup constraints silk; warning
+    @(207.3000 mm, 119.8500 mm): Reference 'U801'
+    @(207.4395 mm, 119.1515 mm): Segment on F.Silkscreen
+[silk_overlap]: Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.1497 mm)
+    Rule: board setup constraints silk; warning
+    @(209.3000 mm, 115.3500 mm): Reference 'U802'
+    @(210.0275 mm, 114.7873 mm): Segment on F.Silkscreen
+[silk_overlap]: Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.1148 mm)
+    Rule: board setup constraints silk; warning
+    @(187.7205 mm, 115.0604 mm): Segment on F.Silkscreen
+    @(187.0500 mm, 115.4500 mm): Reference 'C703'
+[silk_overlap]: Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.1363 mm)
+    Rule: board setup constraints silk; warning
+    @(190.8000 mm, 115.3500 mm): Reference 'U702'
+    @(191.5275 mm, 114.7873 mm): Segment on F.Silkscreen
+[silk_overlap]: Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.1148 mm)
+    Rule: board setup constraints silk; warning
+    @(206.2205 mm, 115.0604 mm): Segment on F.Silkscreen
+    @(205.5500 mm, 115.4500 mm): Reference 'C803'
+[silk_overlap]: Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.1432 mm)
+    Rule: board setup constraints silk; warning
+    @(203.7500 mm, 111.0000 mm): Reference 'R802'
+    @(201.4500 mm, 113.3500 mm): Reference 'C804'
+[silk_overlap]: Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.0782 mm)
+    Rule: board setup constraints silk; warning
+    @(198.2000 mm, 83.3000 mm): Segment on F.Silkscreen
+    @(198.9500 mm, 81.1500 mm): Reference 'U705'
+[silk_overlap]: Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.1282 mm)
+    Rule: board setup constraints silk; warning
+    @(189.7500 mm, 81.2000 mm): Reference 'U704'
+    @(188.9500 mm, 83.3500 mm): Segment on F.Silkscreen
+[silk_overlap]: Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.1305 mm)
+    Rule: board setup constraints silk; warning
+    @(152.8000 mm, 81.1000 mm): Reference 'U504'
+    @(151.9500 mm, 83.3500 mm): Segment on F.Silkscreen
+[silk_overlap]: Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.1282 mm)
+    Rule: board setup constraints silk; warning
+    @(171.2500 mm, 81.1500 mm): Reference 'U604'
+    @(170.4500 mm, 83.3500 mm): Segment on F.Silkscreen
+[silk_overlap]: Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.0782 mm)
+    Rule: board setup constraints silk; warning
+    @(161.9500 mm, 81.1500 mm): Reference 'U505'
+    @(161.2000 mm, 83.3000 mm): Segment on F.Silkscreen
+[silk_overlap]: Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.1258 mm)
+    Rule: board setup constraints silk; warning
+    @(180.4500 mm, 81.1500 mm): Reference 'U605'
+    @(179.7000 mm, 83.3000 mm): Segment on F.Silkscreen
+[silk_overlap]: Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.1432 mm)
+    Rule: board setup constraints silk; warning
+    @(219.9500 mm, 113.3500 mm): Reference 'C904'
+    @(222.2500 mm, 111.0000 mm): Reference 'R902'
+[silk_overlap]: Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.1363 mm)
+    Rule: board setup constraints silk; warning
+    @(227.8000 mm, 115.3500 mm): Reference 'U902'
+    @(228.5275 mm, 114.7873 mm): Segment on F.Silkscreen
+[silk_overlap]: Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.0000 mm)
+    Rule: board setup constraints silk; warning
+    @(225.8000 mm, 119.8500 mm): Reference 'U901'
+    @(225.9395 mm, 119.1515 mm): Segment on F.Silkscreen
+[silk_overlap]: Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.1108 mm)
+    Rule: board setup constraints silk; warning
+    @(224.7205 mm, 115.0604 mm): Segment on F.Silkscreen
+    @(224.0500 mm, 115.4500 mm): Reference 'C903'
+[silk_overlap]: Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.1131 mm)
+    Rule: board setup constraints silk; warning
+    @(224.7205 mm, 119.6104 mm): Segment on F.Silkscreen
+    @(224.0000 mm, 119.3500 mm): Reference 'C901'
+[silk_overlap]: Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.0718 mm)
+    Rule: board setup constraints silk; warning
+    @(170.3000 mm, 119.8500 mm): Reference 'U601'
+    @(170.4395 mm, 119.1515 mm): Segment on F.Silkscreen
+[silk_overlap]: Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.1273 mm)
+    Rule: board setup constraints silk; warning
+    @(170.3000 mm, 119.8500 mm): Reference 'U601'
+    @(169.2205 mm, 119.8500 mm): Arc on F.Silkscreen
+[silk_overlap]: Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.1131 mm)
+    Rule: board setup constraints silk; warning
+    @(169.2205 mm, 119.6104 mm): Segment on F.Silkscreen
+    @(168.5000 mm, 119.3500 mm): Reference 'C601'
+[silk_overlap]: Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.1432 mm)
+    Rule: board setup constraints silk; warning
+    @(182.9500 mm, 113.3500 mm): Reference 'C704'
+    @(185.2500 mm, 111.0000 mm): Reference 'R702'
+[silk_overlap]: Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.1363 mm)
+    Rule: board setup constraints silk; warning
+    @(173.0275 mm, 114.7873 mm): Segment on F.Silkscreen
+    @(172.3000 mm, 115.3500 mm): Reference 'U602'
+[silk_overlap]: Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.1432 mm)
+    Rule: board setup constraints silk; warning
+    @(166.7500 mm, 111.0000 mm): Reference 'R602'
+    @(164.4500 mm, 113.3500 mm): Reference 'C604'
+[silk_overlap]: Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.1148 mm)
+    Rule: board setup constraints silk; warning
+    @(169.2205 mm, 115.0604 mm): Segment on F.Silkscreen
+    @(168.5500 mm, 115.4500 mm): Reference 'C603'
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** End of Report **
