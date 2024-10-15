@@ -6566,7 +6566,7 @@
 				)
 			)
 		)
-		(property "Value" "150"
+		(property "Value" "220"
 			(at 85.09 41.656 90)
 			(effects
 				(font

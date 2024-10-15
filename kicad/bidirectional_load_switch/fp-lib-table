@@ -11,4 +11,5 @@
   (lib (name "and_gate_SN74LVC1G08DCKR")(type "KiCad")(uri "${KIPRJMOD}/symbols/SN74LVC1G08DCKR/KiCADv6/footprints.pretty")(options "")(descr ""))
   (lib (name "mosfet_STD16N60M6")(type "KiCad")(uri "${KIPRJMOD}/symbols/STD16N60M6/KiCADv6/footprints.pretty")(options "")(descr ""))
   (lib (name "diode_CUS10S30_H3F")(type "KiCad")(uri "${KIPRJMOD}/symbols/CUS10S30_H3F/KiCADv6/footprints.pretty")(options "")(descr ""))
+  (lib (name "platteville_logo")(type "KiCad")(uri "${KIPRJMOD}/symbols/platteville_logo")(options "")(descr ""))
 )
