@@ -18,3 +18,6 @@ pdftoppm kicad/bidirectional_load_switch/pcb/back.pdf -singlefile kicad/bidirect
 pdftoppm kicad/bidirectional_load_switch/pcb/both.pdf -singlefile kicad/bidirectional_load_switch/pcb/both -png
 pdftoppm kicad/bidirectional_load_switch/schematic/schematic.pdf -singlefile kicad/bidirectional_load_switch/schematic/schematic -png
 pdftoppm kicad/bidirectional_load_switch/schematic/schematic.pdf -f 2 -singlefile kicad/bidirectional_load_switch/schematic/channel_schematic -png
+
+# merge pdfs
+pdfunite kicad/bidirectional_load_switch/schematic/schematic.pdf kicad/bidirectional_load_switch/pcb/back.pdf kicad/bidirectional_load_switch/pcb/front.pdf kicad/bidirectional_load_switch/pcb/both.pdf kicad/bidirectional_load_switch/printable.pdf
