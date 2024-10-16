@@ -1,0 +1,24 @@
+Drill report for bidirectional_load_switch.kicad_pcb
+Created on 2024-10-15T23:56:24-0500
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  F.Cu                      front
+    L2 :  B.Cu                      back
+
+
+Drill file 'bidirectional_load_switch.drl' contains
+    plated through holes:
+    =============================================================
+    T1  0.300mm  0.0118"  (804 holes)
+    T2  1.000mm  0.0394"  (23 holes)
+    T3  1.400mm  0.0551"  (4 holes)
+
+    Total plated holes count 831
+
+
+Not plated through holes are merged with plated holes
+    unplated through holes:
+    =============================================================
+
+    Total unplated holes count 0
