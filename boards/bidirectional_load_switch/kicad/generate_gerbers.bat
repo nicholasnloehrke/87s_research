@@ -1,0 +1,1 @@
+kikit fab jlcpcb --drc bidirectional_load_switch.kicad_pcb gerbers/
