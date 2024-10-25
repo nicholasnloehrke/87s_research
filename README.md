@@ -1,5 +1,11 @@
 # Code and hardware design files
 
+## Device
+
+### Front panel
+
+![front_panel](docs/really_professional_front_panel_mockup.png)
+
 ## Bidirectional Load Switch
 
 ### Render
