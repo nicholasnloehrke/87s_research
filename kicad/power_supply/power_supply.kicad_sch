@@ -12,7 +12,7 @@
 	)
 	(lib_symbols)
 	(sheet
-		(at 59.69 48.26)
+		(at 67.945 48.26)
 		(size 24.13 21.59)
 		(fields_autoplaced yes)
 		(stroke
@@ -24,7 +24,7 @@
 		)
 		(uuid "64dc0b5a-21d5-4edc-b6c2-a4fad2cceb53")
 		(property "Sheetname" "15 Volt Isolated DC-DC"
-			(at 59.69 47.5484 0)
+			(at 67.945 47.5484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33,7 +33,7 @@
 			)
 		)
 		(property "Sheetfile" "isolated_dc_to_dc.kicad_sch"
-			(at 59.69 70.4346 0)
+			(at 67.945 70.4346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
