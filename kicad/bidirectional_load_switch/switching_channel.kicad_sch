@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(date "2024-09-17")
-		(rev "0")
+		(rev "0.1.0")
 		(company "University of Wisconsin-Platteville")
 		(comment 1 "Nicholas Loehrke")
 	)

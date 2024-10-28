@@ -2,19 +2,18 @@
 	(version 20231120)
 	(generator "eeschema")
 	(generator_version "8.0")
-	(uuid "6a7d9dc9-f78f-470f-911b-b95256023173")
+	(uuid "a4768a02-c961-4971-939f-bbf2bfa51fa3")
 	(paper "A4")
 	(title_block
-		(title "Power Supply")
-		(date "2024-10-27")
-		(rev "0.1.0")
+		(title "Bidirectional Load Switch")
+		(date "2024-09-17")
+		(rev "0")
 		(company "University of Wisconsin-Platteville")
-		(comment 1 "Nicholas Loehrke")
 	)
 	(lib_symbols)
 	(sheet
-		(at 88.265 41.275)
-		(size 33.02 24.765)
+		(at 67.945 48.26)
+		(size 24.13 21.59)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -23,9 +22,9 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "00f00675-e615-4796-971e-104476714f1d")
-		(property "Sheetname" "Charger"
-			(at 88.265 40.5634 0)
+		(uuid "64dc0b5a-21d5-4edc-b6c2-a4fad2cceb53")
+		(property "Sheetname" "15 Volt Isolated DC-DC"
+			(at 67.945 47.5484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33,26 +32,27 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "charger.kicad_sch"
-			(at 88.265 66.6246 0)
+		(property "Sheetfile" "isolated_dc_to_dc.kicad_sch"
+			(at 67.945 70.4346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
 			)
 		)
 		(instances
 			(project "power_supply"
-				(path "/6a7d9dc9-f78f-470f-911b-b95256023173"
-					(page "3")
+				(path "/a4768a02-c961-4971-939f-bbf2bfa51fa3"
+					(page "2")
 				)
 			)
 		)
 	)
 	(sheet
-		(at 44.45 41.275)
-		(size 32.385 24.13)
+		(at 109.22 48.26)
+		(size 24.13 21.59)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -61,9 +61,9 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "4a384965-6a35-4bf6-849e-cb865e62d5b4")
-		(property "Sheetname" "USB-C PD"
-			(at 44.45 40.5634 0)
+		(uuid "ddbdefe5-bf32-4636-87af-c8b1cd1d170c")
+		(property "Sheetname" "5 Volt DC-DC"
+			(at 109.22 47.5484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -71,29 +71,20 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "usb_c_pd.kicad_sch"
-			(at 44.45 65.9896 0)
+		(property "Sheetfile" "5_volt_dc_to_dc.kicad_sch"
+			(at 109.22 70.4346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
 			)
-		)
-		(pin "VSNK" output
-			(at 76.835 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "82052de3-d9f7-44ac-9eb0-e51fa4b9206a")
 		)
 		(instances
 			(project "power_supply"
-				(path "/6a7d9dc9-f78f-470f-911b-b95256023173"
-					(page "2")
+				(path "/a4768a02-c961-4971-939f-bbf2bfa51fa3"
+					(page "3")
 				)
 			)
 		)
