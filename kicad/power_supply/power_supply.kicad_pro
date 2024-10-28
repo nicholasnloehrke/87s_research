@@ -586,6 +586,10 @@
     [
       "00f00675-e615-4796-971e-104476714f1d",
       "Charger"
+    ],
+    [
+      "cf53f1a5-f32c-4d02-84d0-a76cca0772c3",
+      "Buck-Boost"
     ]
   ],
   "text_variables": {}

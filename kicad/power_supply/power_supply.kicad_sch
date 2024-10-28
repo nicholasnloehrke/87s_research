@@ -13,8 +13,8 @@
 	)
 	(lib_symbols)
 	(sheet
-		(at 88.265 41.275)
-		(size 33.02 24.765)
+		(at 73.66 86.995)
+		(size 24.13 13.335)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -25,7 +25,7 @@
 		)
 		(uuid "00f00675-e615-4796-971e-104476714f1d")
 		(property "Sheetname" "Charger"
-			(at 88.265 40.5634 0)
+			(at 73.66 86.2834 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34,7 +34,7 @@
 			)
 		)
 		(property "Sheetfile" "charger.kicad_sch"
-			(at 88.265 66.6246 0)
+			(at 73.66 100.9146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51,8 +51,8 @@
 		)
 	)
 	(sheet
-		(at 44.45 41.275)
-		(size 32.385 24.13)
+		(at 41.275 86.995)
+		(size 24.765 13.335)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -63,7 +63,7 @@
 		)
 		(uuid "4a384965-6a35-4bf6-849e-cb865e62d5b4")
 		(property "Sheetname" "USB-C PD"
-			(at 44.45 40.5634 0)
+			(at 41.275 86.2834 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -72,7 +72,7 @@
 			)
 		)
 		(property "Sheetfile" "usb_c_pd.kicad_sch"
-			(at 44.45 65.9896 0)
+			(at 41.275 100.9146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -81,7 +81,7 @@
 			)
 		)
 		(pin "VSNK" output
-			(at 76.835 53.34 0)
+			(at 66.04 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -94,6 +94,53 @@
 			(project "power_supply"
 				(path "/6a7d9dc9-f78f-470f-911b-b95256023173"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 107.95 87.63)
+		(size 25.4 13.97)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "cf53f1a5-f32c-4d02-84d0-a76cca0772c3")
+		(property "Sheetname" "Buck-Boost"
+			(at 107.95 86.9184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "buck_boost.kicad_sch"
+			(at 107.95 102.1846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Field2" ""
+			(at 107.95 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "power_supply"
+				(path "/6a7d9dc9-f78f-470f-911b-b95256023173"
+					(page "4")
 				)
 			)
 		)
