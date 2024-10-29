@@ -3428,7 +3428,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 87.63) (xy 26.67 87.63)
+			(xy 35.56 86.36) (xy 34.29 86.36)
 		)
 		(stroke
 			(width 0)
@@ -3978,7 +3978,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 90.17) (xy 34.29 90.17)
+			(xy 29.21 88.9) (xy 26.67 88.9)
 		)
 		(stroke
 			(width 0)
@@ -4588,7 +4588,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 87.63) (xy 34.29 87.63)
+			(xy 27.94 86.36) (xy 26.67 86.36)
 		)
 		(stroke
 			(width 0)
@@ -4638,7 +4638,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 96.52) (xy 31.75 90.17)
+			(xy 29.21 95.25) (xy 29.21 88.9)
 		)
 		(stroke
 			(width 0)
@@ -6260,22 +6260,22 @@
 	)
 	(global_label "5V"
 		(shape input)
-		(at 25.4 87.63 180)
+		(at 35.56 86.36 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "f779ceaa-6ac5-4ea4-87dc-57f1ac9cd3fc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 20.1167 87.63 0)
+			(at 40.8433 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -6628,7 +6628,8 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Socket")
-		(at 39.37 87.63 0)
+		(at 21.59 86.36 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6636,7 +6637,7 @@
 		(dnp no)
 		(uuid "2a8e83bf-69f2-457b-ba8d-90b9a9a90ee4")
 		(property "Reference" "J102"
-			(at 34.29 93.218 0)
+			(at 26.67 91.948 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6645,7 +6646,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Socket"
-			(at 40.64 90.1699 0)
+			(at 20.32 88.8999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6655,7 +6656,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 39.37 87.63 0)
+			(at 21.59 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6664,7 +6665,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 39.37 87.63 0)
+			(at 21.59 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6673,7 +6674,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 39.37 87.63 0)
+			(at 21.59 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7264,7 +7265,8 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 31.75 96.52 0)
+		(at 29.21 95.25 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7273,7 +7275,7 @@
 		(fields_autoplaced yes)
 		(uuid "746d1796-b339-4f33-9e99-56f77bad5ea0")
 		(property "Reference" "#PWR0101"
-			(at 31.75 102.87 0)
+			(at 29.21 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7282,7 +7284,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 31.75 101.6 0)
+			(at 29.21 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7290,7 +7292,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 31.75 96.52 0)
+			(at 29.21 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7299,7 +7301,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 31.75 96.52 0)
+			(at 29.21 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7308,7 +7310,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 31.75 96.52 0)
+			(at 29.21 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8365,7 +8367,7 @@
 		(dnp no)
 		(uuid "a5a02dd5-7742-401d-81db-0dbb20874f38")
 		(property "Reference" "D101"
-			(at 82.169 76.708 0)
+			(at 83.058 76.708 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -8411,7 +8413,7 @@
 			)
 		)
 		(property "MPN" "CUS10S30_H3F"
-			(at 86.36 78.994 0)
+			(at 83.82 79.502 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9792,7 +9794,8 @@
 	)
 	(symbol
 		(lib_id "diode_CUS10S30_H3F:CUS10S30_H3F")
-		(at 33.02 87.63 180)
+		(at 27.94 86.36 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9800,7 +9803,7 @@
 		(dnp no)
 		(uuid "df564a80-8221-4e26-939b-0aad97685ce1")
 		(property "Reference" "D103"
-			(at 28.829 81.788 0)
+			(at 30.988 80.264 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -9808,7 +9811,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 28.829 84.328 0)
+			(at 32.131 83.058 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -9817,7 +9820,7 @@
 			)
 		)
 		(property "Footprint" "diode_CUS10S30_H3F:USC_TOS"
-			(at 41.021 93.218 0)
+			(at 19.939 91.948 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9827,7 +9830,7 @@
 			)
 		)
 		(property "Datasheet" "https://toshiba.semicon-storage.com/info/CUS10S30_datasheet_en_20140407.pdf?did=14077&prodName=CUS10S30"
-			(at 40.005 94.996 0)
+			(at 20.955 93.726 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9837,7 +9840,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 32.385 87.63 0)
+			(at 28.575 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9846,7 +9849,7 @@
 			)
 		)
 		(property "MPN" "CUS10S30_H3F"
-			(at 33.02 84.074 0)
+			(at 30.988 82.804 0)
 			(effects
 				(font
 					(size 1.27 1.27)
