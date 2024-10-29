@@ -1,0 +1,9 @@
+- BMS
+    - https://liionbms.com/php/bms_chips_options.php
+    - LTC6803
+    - BQ769x0
+    - ISL94202
+    - ISL78600
+    - L99BM114
+    - LTC3300
+    - LTC6804
