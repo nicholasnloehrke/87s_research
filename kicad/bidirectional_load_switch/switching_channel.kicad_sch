@@ -5,8 +5,9 @@
 	(uuid "3b53677e-1198-4aff-8fe6-e9b230f3fe2b")
 	(paper "A4")
 	(title_block
-		(date "2024-09-17")
-		(rev "0.1.0")
+		(title "Bidirectional Load Switch")
+		(date "2024-10-29")
+		(rev "0.2.0")
 		(company "University of Wisconsin-Platteville")
 		(comment 1 "Nicholas Loehrke")
 	)
