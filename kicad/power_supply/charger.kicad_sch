@@ -2815,6 +2815,18 @@
 		(uuid 810ac76c-a823-4c2f-8a69-a1ff4c35c7e1)
 	)
 	(rectangle
+		(start 15.875 162.56)
+		(end 172.085 193.675)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 8bc6377a-636a-4206-b0dd-e680cb5c16c3)
+	)
+	(rectangle
 		(start 121.92 15.875)
 		(end 280.67 161.29)
 		(stroke
@@ -2857,6 +2869,16 @@
 			)
 		)
 		(uuid "2404ebf8-f26a-43f0-bc3d-3373cb633968")
+	)
+	(text "Battery and Thermister Connectors"
+		(exclude_from_sim no)
+		(at 52.324 166.116 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "45111cd2-7a89-4af2-8881-d03b8c31bee5")
 	)
 	(text "Cell Count Setting"
 		(exclude_from_sim no)

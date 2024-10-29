@@ -17,12 +17,13 @@
 				)
 			)
 		)
-		(property "Value" "12401826E412A"
+		(property "Value" ""
 			(at 0 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -34,8 +35,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
-			(at 3.81 0 0)
+		(property "Datasheet" "https://cdn.amphenol-cs.com/media/wysiwyg/files/documentation/datasheet/inputoutput/io_usb_type_c.pdf"
+			(at 3.81 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43,13 +44,21 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "USB Full-Featured Type-C Receptacle connector"
-			(at 0 0 0)
+		(property "Description" "CONN RCP USB3.1 TYPEC 24P SMD RA"
+			(at 2.54 35.814 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "MPN" "12401826E412A"
+			(at 0.254 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "ki_keywords" "usb universal serial bus type-C full-featured"
