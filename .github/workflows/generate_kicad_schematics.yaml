@@ -12,8 +12,10 @@ jobs:
 
     - name: Install dependencies
       run: |
-        sudo apt-get update
-        sudo apt-get install -y kicad-cli poppler-utils pdfunite
+        sudo add-apt-repository ppa:kicad/kicad-8.0-releases
+        sudo apt update
+        sudo apt install kicad
+        sudo apt install -y kicad poppler-utils 
 
     - name: Run script
       run: |
