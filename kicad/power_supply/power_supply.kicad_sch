@@ -53,7 +53,7 @@
 			(uuid "d96be3bb-4f8b-46ba-b2ef-11c62a749d67")
 		)
 		(pin "VBATT" bidirectional
-			(at 105.41 76.2 0)
+			(at 105.41 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -63,7 +63,7 @@
 			(uuid "3619d35b-0524-4e9c-8dae-18b9d88afb56")
 		)
 		(pin "VOUT" output
-			(at 105.41 67.31 0)
+			(at 105.41 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -76,6 +76,44 @@
 			(project "power_supply"
 				(path "/6a7d9dc9-f78f-470f-911b-b95256023173"
 					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 176.53 60.96)
+		(size 27.94 17.145)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4a32eb29-be4b-436b-89a4-eb4177809080")
+		(property "Sheetname" "Isolated Flyback"
+			(at 176.53 60.2484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "isolated_flyback.kicad_sch"
+			(at 176.53 78.6896 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "power_supply"
+				(path "/6a7d9dc9-f78f-470f-911b-b95256023173"
+					(page "7")
 				)
 			)
 		)
@@ -111,7 +149,7 @@
 			)
 		)
 		(pin "VSNK" output
-			(at 68.58 71.12 0)
+			(at 68.58 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -119,6 +157,26 @@
 				(justify right)
 			)
 			(uuid "82052de3-d9f7-44ac-9eb0-e51fa4b9206a")
+		)
+		(pin "POWER_OK3_OD" input
+			(at 68.58 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "4f5bfd60-0c46-440b-ab20-db9715429121")
+		)
+		(pin "POWER_OK2_OD" input
+			(at 68.58 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "60059d1d-1f9c-47fd-a47c-0bbe0487fe26")
 		)
 		(instances
 			(project "power_supply"
@@ -129,7 +187,84 @@
 		)
 	)
 	(sheet
-		(at 119.38 58.42)
+		(at 127 116.84)
+		(size 25.4 18.415)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c2fcbfb1-6741-44cb-a82c-7741918cd8a1")
+		(property "Sheetname" "Buck-Boost2"
+			(at 127 116.1284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "buck_boost.kicad_sch"
+			(at 127 135.8396 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Field2" ""
+			(at 127 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "VIN" input
+			(at 127 125.73 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "51f49c55-be1a-4d31-aaf8-440805df6edc")
+		)
+		(pin "VOUT" output
+			(at 152.4 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ed08f675-d2cc-49f4-90b7-79c657b05d4f")
+		)
+		(pin "FB_BT" input
+			(at 152.4 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "53d99a88-c083-4b18-be94-6d8894d092cf")
+		)
+		(instances
+			(project "power_supply"
+				(path "/6a7d9dc9-f78f-470f-911b-b95256023173"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 127 60.96)
 		(size 25.4 18.415)
 		(fields_autoplaced yes)
 		(stroke
@@ -141,7 +276,7 @@
 		)
 		(uuid "cf53f1a5-f32c-4d02-84d0-a76cca0772c3")
 		(property "Sheetname" "Buck-Boost"
-			(at 119.38 57.7084 0)
+			(at 127 60.2484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -150,7 +285,7 @@
 			)
 		)
 		(property "Sheetfile" "buck_boost.kicad_sch"
-			(at 119.38 77.4196 0)
+			(at 127 79.9596 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -159,7 +294,7 @@
 			)
 		)
 		(property "Field2" ""
-			(at 119.38 58.42 0)
+			(at 127 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -168,7 +303,7 @@
 			)
 		)
 		(pin "VIN" input
-			(at 119.38 67.31 180)
+			(at 127 69.85 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -178,7 +313,7 @@
 			(uuid "fef41622-ad9f-454d-8680-ddfefc45b382")
 		)
 		(pin "VOUT" output
-			(at 144.78 63.5 0)
+			(at 152.4 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -188,7 +323,7 @@
 			(uuid "9412693a-bcc8-4a06-a6f0-9c15c2e2361d")
 		)
 		(pin "FB_BT" input
-			(at 144.78 72.39 0)
+			(at 152.4 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -201,6 +336,83 @@
 			(project "power_supply"
 				(path "/6a7d9dc9-f78f-470f-911b-b95256023173"
 					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 127 88.9)
+		(size 25.4 18.415)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d1fcefd7-3ecc-4716-9879-f129c42734ff")
+		(property "Sheetname" "Buck-Boost1"
+			(at 127 88.1884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "buck_boost.kicad_sch"
+			(at 127 107.8996 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Field2" ""
+			(at 127 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "VIN" input
+			(at 127 97.79 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "7284e4d4-aebe-48da-8ad4-ebc679b10df3")
+		)
+		(pin "VOUT" output
+			(at 152.4 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c8768334-a34e-4ca6-a0ad-1826195efdeb")
+		)
+		(pin "FB_BT" input
+			(at 152.4 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "aff7fc6d-0bdb-48bf-9422-b88809e944bf")
+		)
+		(instances
+			(project "power_supply"
+				(path "/6a7d9dc9-f78f-470f-911b-b95256023173"
+					(page "5")
 				)
 			)
 		)

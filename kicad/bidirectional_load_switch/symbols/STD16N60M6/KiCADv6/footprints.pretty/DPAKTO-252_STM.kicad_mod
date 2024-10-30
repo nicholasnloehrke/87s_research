@@ -67,6 +67,50 @@
 		)
 	)
 	(attr smd)
+	(fp_rect
+		(start -2.85 -5.3)
+		(end -0.5 -2.85)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Paste")
+		(uuid "e0fccf5f-46c0-4230-9068-56eb30b404a5")
+	)
+	(fp_rect
+		(start -2.85 -1.85)
+		(end -0.5 0.6)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Paste")
+		(uuid "a479d22b-17bb-49af-9474-84ed1f058ea3")
+	)
+	(fp_rect
+		(start 0.5 -5.3)
+		(end 2.85 -2.85)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Paste")
+		(uuid "9c82f850-6969-4b3b-955e-cc37a646ee86")
+	)
+	(fp_rect
+		(start 0.5 -1.85)
+		(end 2.85 0.6)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Paste")
+		(uuid "7ee1d335-2e2d-4535-972a-57ec103f2ca6")
+	)
 	(fp_line
 		(start -3.4 0)
 		(end -3.4 -5)
@@ -177,7 +221,7 @@
 	(pad "2" smd rect
 		(at 0 -2.35)
 		(size 6.3 6.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask")
 		(thermal_bridge_angle 45)
 		(uuid "a8c6e387-482e-49f8-8ec0-656a29a307ad")
 	)

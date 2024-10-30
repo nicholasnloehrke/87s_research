@@ -1,12 +1,12 @@
 G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,8.0.5*
-G04 #@! TF.CreationDate,2024-10-17T16:54:29-05:00*
-G04 #@! TF.ProjectId,bidirectional_load_switch,62696469-7265-4637-9469-6f6e616c5f6c,rev?*
+G04 #@! TF.CreationDate,2024-10-30T13:21:30-05:00*
+G04 #@! TF.ProjectId,bidirectional_load_switch,62696469-7265-4637-9469-6f6e616c5f6c,0.2.0*
 G04 #@! TF.SameCoordinates,Original*
 G04 #@! TF.FileFunction,Soldermask,Bot*
 G04 #@! TF.FilePolarity,Negative*
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 8.0.5) date 2024-10-17 16:54:29*
+G04 Created by KiCad (PCBNEW 8.0.5) date 2024-10-30 13:21:30*
 %MOMM*%
 %LPD*%
 G01*
@@ -71,8 +71,8 @@ X71940000Y-124100000D03*
 X69400000Y-124100000D03*
 X66860000Y-124100000D03*
 D14*
-X85840000Y-78037500D03*
-X85840000Y-69337500D03*
 X80760000Y-78037500D03*
+X85840000Y-78037500D03*
 X80760000Y-69337500D03*
+X85840000Y-69337500D03*
 M02*

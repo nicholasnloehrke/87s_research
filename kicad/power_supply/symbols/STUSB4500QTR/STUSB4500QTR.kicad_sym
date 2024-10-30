@@ -38454,16 +38454,17 @@
 				)
 			)
 		)
-		(property "Value" "STUSB4500QTR"
+		(property "Value" "~"
 			(at 8.89 -21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.7x2.7mm"
-			(at 0 0 0)
+			(at 0.254 36.322 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38472,7 +38473,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.st.com/resource/en/datasheet/stusb4500.pdf"
-			(at 0 0 0)
+			(at -0.254 39.624 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38481,12 +38482,20 @@
 			)
 		)
 		(property "Description" "Stand-alone USB PD controller (with sink Auto-run mode), QFN-24"
-			(at 0 0 0)
+			(at -0.254 42.672 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "MPN" "STUSB4500QTR"
+			(at 10.16 -24.892 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "ki_keywords" "USB PD Type C Sink"
