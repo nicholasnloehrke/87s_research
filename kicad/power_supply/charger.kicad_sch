@@ -711,7 +711,7 @@
 				)
 			)
 		)
-		(symbol "Device:D_Schottky_Small"
+		(symbol "Device:D_Schottky_Small_Filled"
 			(pin_numbers hide)
 			(pin_names
 				(offset 0.254) hide)
@@ -727,7 +727,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "D_Schottky_Small"
+			(property "Value" "D_Schottky_Small_Filled"
 				(at -7.112 -2.032 0)
 				(effects
 					(font
@@ -754,7 +754,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Schottky diode, small symbol"
+			(property "Description" "Schottky diode, small symbol, filled shape"
 				(at 0 0 0)
 				(effects
 					(font
@@ -781,7 +781,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "D_Schottky_Small_0_1"
+			(symbol "D_Schottky_Small_Filled_0_1"
 				(polyline
 					(pts
 						(xy -0.762 0) (xy 0.762 0)
@@ -803,7 +803,7 @@
 						(type default)
 					)
 					(fill
-						(type none)
+						(type outline)
 					)
 				)
 				(polyline
@@ -819,7 +819,7 @@
 					)
 				)
 			)
-			(symbol "D_Schottky_Small_1_1"
+			(symbol "D_Schottky_Small_Filled_1_1"
 				(pin passive line
 					(at -2.54 0 0)
 					(length 1.778)
@@ -5198,17 +5198,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_Schottky_Small")
-		(at 185.42 68.58 180)
+		(lib_id "Device:D_Schottky_Small_Filled")
+		(at 222.25 54.61 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "3107aee5-1e66-48cb-9cb0-be974b5bfa9f")
-		(property "Reference" "D301"
-			(at 185.674 62.23 0)
+		(uuid "2d65a06c-fe54-4f21-ba2d-38b160df4fd1")
+		(property "Reference" "D305"
+			(at 222.504 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5216,7 +5216,7 @@
 			)
 		)
 		(property "Value" "40V 2A"
-			(at 185.674 64.77 0)
+			(at 222.504 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5224,7 +5224,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 185.42 68.58 90)
+			(at 222.25 54.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5233,7 +5233,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 185.42 68.58 90)
+			(at 222.25 54.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5241,8 +5241,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Schottky diode, small symbol"
-			(at 185.42 68.58 0)
+		(property "Description" "Schottky diode, small symbol, filled shape"
+			(at 222.25 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5251,15 +5251,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "c4efb1aa-094c-4843-8780-492f8196c3bf")
+			(uuid "73ec448c-d2af-4daa-8587-5900589e7267")
 		)
 		(pin "2"
-			(uuid "78f3e6cf-1b48-4b41-ba14-eb3db8bc76d8")
+			(uuid "bc1881b9-60e8-4615-a847-cb3b271109db")
 		)
 		(instances
-			(project ""
+			(project "power_supply"
 				(path "/6a7d9dc9-f78f-470f-911b-b95256023173/00f00675-e615-4796-971e-104476714f1d"
-					(reference "D301")
+					(reference "D305")
 					(unit 1)
 				)
 			)
@@ -6429,73 +6429,6 @@
 			(project "power_supply"
 				(path "/6a7d9dc9-f78f-470f-911b-b95256023173/00f00675-e615-4796-971e-104476714f1d"
 					(reference "C307")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_Schottky_Small")
-		(at 222.25 54.61 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6ea39629-b186-4d97-9389-0ceb4896fd08")
-		(property "Reference" "D302"
-			(at 222.504 48.514 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "40V 2A"
-			(at 222.504 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 222.25 54.61 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 222.25 54.61 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Schottky diode, small symbol"
-			(at 222.25 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "40656a99-bff5-4be5-9e4c-6d18ec867c66")
-		)
-		(pin "1"
-			(uuid "1a41c018-0c3a-48b0-9486-28fef2f324b0")
-		)
-		(instances
-			(project ""
-				(path "/6a7d9dc9-f78f-470f-911b-b95256023173/00f00675-e615-4796-971e-104476714f1d"
-					(reference "D302")
 					(unit 1)
 				)
 			)
@@ -8075,6 +8008,74 @@
 			(project "power_supply"
 				(path "/6a7d9dc9-f78f-470f-911b-b95256023173/00f00675-e615-4796-971e-104476714f1d"
 					(reference "#PWR0309")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Schottky_Small_Filled")
+		(at 185.42 68.58 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e219612a-bfe5-41b0-adee-7a9987b3facd")
+		(property "Reference" "D304"
+			(at 185.674 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "40V 2A"
+			(at 185.674 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 185.42 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 185.42 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Schottky diode, small symbol, filled shape"
+			(at 185.42 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "06a0b5e0-dd6c-400d-b8dd-d6893b70a065")
+		)
+		(pin "2"
+			(uuid "11348c2e-ad6d-44cc-a7bb-90ed65d3b0a6")
+		)
+		(instances
+			(project ""
+				(path "/6a7d9dc9-f78f-470f-911b-b95256023173/00f00675-e615-4796-971e-104476714f1d"
+					(reference "D304")
 					(unit 1)
 				)
 			)
