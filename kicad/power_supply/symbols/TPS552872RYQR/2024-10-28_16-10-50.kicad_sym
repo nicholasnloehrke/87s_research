@@ -17,16 +17,17 @@
 				)
 			)
 		)
-		(property "Value" "TPS552872RYQR"
+		(property "Value" ""
 			(at 21.082 -47.244 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "VQFN21_RYQ_TEX"
-			(at 21.082 -48.768 0)
+			(at 21.59 -52.07 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -34,21 +35,30 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 0 0 0)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps552872.pdf?ts=1701344503514&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTPS552872"
+			(at 20.066 15.748 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
+				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 0 0 0)
+		(property "Description" "  Buck-Boost Switching Regulator IC Positive Adjustable 0.8V 1 Output 2.5A 21-PowerVFQFN"
+			(at 19.05 18.796 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "MPN" "TPS552872RYQR"
+			(at 21.336 -46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "ki_fp_filters" "VQFN21_RYQ_TEX"

@@ -5920,6 +5920,17 @@
 		)
 		(uuid "dcd79572-a3f8-4328-9f77-37b202785457")
 	)
+	(text "Required PDO configuration:\n\nPDO1 = Doesn't matter, the minimum \n		VIN for the MP2759 is 6.6V \n		to charge a 1-cell battery\nPDO2 = 9V, 2A (18W, 1-cell max.)\nPDO3 = 15V, 2A (30W, 3-cell max.)\n\n\n**Make sure to set the charger ILIM\nto the lowest current of PDO2 and PDO3**"
+		(exclude_from_sim no)
+		(at 214.63 125.73 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+			)
+			(justify left top)
+		)
+		(uuid "e268d0de-84f7-4022-b265-08e7dce9bfba")
+	)
 	(text "White"
 		(exclude_from_sim no)
 		(at 131.318 176.784 0)
@@ -6271,8 +6282,32 @@
 		)
 		(uuid "f58e4655-3a60-4566-b64e-6ff27093d229")
 	)
-	(hierarchical_label "VSNK"
+	(hierarchical_label "POWER_OK3_OD"
 		(shape input)
+		(at 204.47 88.9 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0abcbf23-82f4-45d8-8fce-7386c0db8c97")
+	)
+	(hierarchical_label "POWER_OK2_OD"
+		(shape input)
+		(at 204.47 86.36 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c04b0f12-9742-4b10-8b3e-9d4332335408")
+	)
+	(hierarchical_label "VSNK"
+		(shape output)
 		(at 267.97 43.18 0)
 		(fields_autoplaced yes)
 		(effects
@@ -6707,7 +6742,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "14161231-d811-42ad-a024-94da0070c7ef")
-		(property "Reference" "TP206"
+		(property "Reference" "TP204"
 			(at 209.296 104.14 90)
 			(effects
 				(font
@@ -6759,7 +6794,7 @@
 		(instances
 			(project "power_supply"
 				(path "/6a7d9dc9-f78f-470f-911b-b95256023173/4a384965-6a35-4bf6-849e-cb865e62d5b4"
-					(reference "TP206")
+					(reference "TP204")
 					(unit 1)
 				)
 			)
@@ -8807,7 +8842,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9448e186-19f7-4370-94f6-f60b48832e1c")
-		(property "Reference" "TP205"
+		(property "Reference" "TP203"
 			(at 209.296 101.6 90)
 			(effects
 				(font
@@ -8859,7 +8894,7 @@
 		(instances
 			(project "power_supply"
 				(path "/6a7d9dc9-f78f-470f-911b-b95256023173/4a384965-6a35-4bf6-849e-cb865e62d5b4"
-					(reference "TP205")
+					(reference "TP203")
 					(unit 1)
 				)
 			)
@@ -9315,73 +9350,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 204.47 88.9 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "baedb16f-3efa-42cd-b128-62fe29f16042")
-		(property "Reference" "TP203"
-			(at 209.296 88.9 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 209.55 90.1699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 204.47 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 204.47 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 204.47 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "de7d4134-bb22-45cb-89e8-193167738c25")
-		)
-		(instances
-			(project "power_supply"
-				(path "/6a7d9dc9-f78f-470f-911b-b95256023173/4a384965-6a35-4bf6-849e-cb865e62d5b4"
-					(reference "TP203")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 209.55 66.04 0)
 		(unit 1)
@@ -9582,73 +9550,6 @@
 			(project "power_supply"
 				(path "/6a7d9dc9-f78f-470f-911b-b95256023173/4a384965-6a35-4bf6-849e-cb865e62d5b4"
 					(reference "R205")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 204.47 86.36 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "cf13af6d-1cb5-4fdd-89b8-6d86b7921c32")
-		(property "Reference" "TP202"
-			(at 209.296 86.36 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 209.55 87.6299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 204.47 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 204.47 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 204.47 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "200010da-8fcc-44d8-a207-dde9509ce726")
-		)
-		(instances
-			(project "power_supply"
-				(path "/6a7d9dc9-f78f-470f-911b-b95256023173/4a384965-6a35-4bf6-849e-cb865e62d5b4"
-					(reference "TP202")
 					(unit 1)
 				)
 			)
@@ -9998,7 +9899,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f5949c92-4571-4a45-a5b9-8528bd0475e4")
-		(property "Reference" "TP204"
+		(property "Reference" "TP202"
 			(at 209.296 99.06 90)
 			(effects
 				(font
@@ -10050,7 +9951,7 @@
 		(instances
 			(project "power_supply"
 				(path "/6a7d9dc9-f78f-470f-911b-b95256023173/4a384965-6a35-4bf6-849e-cb865e62d5b4"
-					(reference "TP204")
+					(reference "TP202")
 					(unit 1)
 				)
 			)

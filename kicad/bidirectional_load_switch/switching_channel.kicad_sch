@@ -3682,8 +3682,8 @@
 	)
 	(text_box "Bidirectional switch"
 		(exclude_from_sim no)
-		(at 183.515 63.5 0)
-		(size 57.15 70.485)
+		(at 182.88 63.5 0)
+		(size 57.785 70.485)
 		(stroke
 			(width 0)
 			(type dot)

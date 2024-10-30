@@ -13,8 +13,8 @@
 	)
 	(lib_symbols)
 	(sheet
-		(at 73.66 86.995)
-		(size 24.13 13.335)
+		(at 82.55 62.23)
+		(size 22.86 18.415)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -25,7 +25,7 @@
 		)
 		(uuid "00f00675-e615-4796-971e-104476714f1d")
 		(property "Sheetname" "Charger"
-			(at 73.66 86.2834 0)
+			(at 82.55 61.5184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34,13 +34,43 @@
 			)
 		)
 		(property "Sheetfile" "charger.kicad_sch"
-			(at 73.66 100.9146 0)
+			(at 82.55 81.2296 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
 			)
+		)
+		(pin "VIN" input
+			(at 82.55 71.12 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "d96be3bb-4f8b-46ba-b2ef-11c62a749d67")
+		)
+		(pin "VBATT" bidirectional
+			(at 105.41 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "3619d35b-0524-4e9c-8dae-18b9d88afb56")
+		)
+		(pin "VOUT" output
+			(at 105.41 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "f8dbb184-9a65-4261-9a35-dbb7f189bf88")
 		)
 		(instances
 			(project "power_supply"
@@ -51,8 +81,8 @@
 		)
 	)
 	(sheet
-		(at 41.275 86.995)
-		(size 24.765 13.335)
+		(at 44.45 63.5)
+		(size 24.13 15.875)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -63,7 +93,7 @@
 		)
 		(uuid "4a384965-6a35-4bf6-849e-cb865e62d5b4")
 		(property "Sheetname" "USB-C PD"
-			(at 41.275 86.2834 0)
+			(at 44.45 62.7884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -72,7 +102,7 @@
 			)
 		)
 		(property "Sheetfile" "usb_c_pd.kicad_sch"
-			(at 41.275 100.9146 0)
+			(at 44.45 79.9596 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -81,7 +111,7 @@
 			)
 		)
 		(pin "VSNK" output
-			(at 66.04 93.98 0)
+			(at 68.58 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -99,8 +129,8 @@
 		)
 	)
 	(sheet
-		(at 107.95 87.63)
-		(size 25.4 13.97)
+		(at 119.38 58.42)
+		(size 25.4 18.415)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -111,7 +141,7 @@
 		)
 		(uuid "cf53f1a5-f32c-4d02-84d0-a76cca0772c3")
 		(property "Sheetname" "Buck-Boost"
-			(at 107.95 86.9184 0)
+			(at 119.38 57.7084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -120,7 +150,7 @@
 			)
 		)
 		(property "Sheetfile" "buck_boost.kicad_sch"
-			(at 107.95 102.1846 0)
+			(at 119.38 77.4196 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -129,13 +159,43 @@
 			)
 		)
 		(property "Field2" ""
-			(at 107.95 87.63 0)
+			(at 119.38 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
+		)
+		(pin "VIN" input
+			(at 119.38 67.31 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "fef41622-ad9f-454d-8680-ddfefc45b382")
+		)
+		(pin "VOUT" output
+			(at 144.78 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "9412693a-bcc8-4a06-a6f0-9c15c2e2361d")
+		)
+		(pin "FB_BT" input
+			(at 144.78 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "1c77679f-4e81-4e44-bcb9-bc7620be2eeb")
 		)
 		(instances
 			(project "power_supply"
