@@ -15,15 +15,7 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v4
 
-    - name: Cache KiCad dependencies
-      id: cache-kicad
-      uses: actions/cache@v4
-      with:
-        path: /usr/bin/kicad-cli
-        key: kicad-${{ runner.os }}-8.0
-
     - name: Install KiCad
-      if: steps.cache-kicad.outputs.cache-hit != 'true'
       run: |
         sudo add-apt-repository ppa:kicad/kicad-8.0-releases
         sudo apt update
@@ -31,6 +23,8 @@ jobs:
 
     - name: Generate schematics
       run: |
+        chmod +x .github/scripts/generate_kicad_schematics.sh
+        ./.github/scripts/generate_kicad_schematics.sh
         kicad-cli sch export pdf -n --output boards/bidirectional_load_switch/schematic.pdf boards/bidirectional_load_switch/pcb/bidirectional_load_switch.kicad_sch
 
     - name: Commit and push changes

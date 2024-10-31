@@ -23,3 +23,4 @@
 # pdfunite kicad/bidirectional_load_switch/schematic/schematic.pdf kicad/bidirectional_load_switch/pcb/back.pdf kicad/bidirectional_load_switch/pcb/front.pdf kicad/bidirectional_load_switch/pcb/both.pdf kicad/bidirectional_load_switch/printable.pdf
 
 kicad-cli sch export pdf -n --output boards/bidirectional_load_switch/schematic.pdf boards/bidirectional_load_switch/pcb/bidirectional_load_switch.kicad_sch
+kicad-cli sch export pdf -n --output boards/power_supply/schematic.pdf boards/power_supply/pcb/power_supply.kicad_sch
