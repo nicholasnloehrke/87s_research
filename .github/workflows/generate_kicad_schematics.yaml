@@ -1,9 +1,12 @@
 name: Generate KiCad Schematic PDFs and Images
 
-on: push
+on: 
+  push:
+    branches:
+      - main
 
 jobs:
-  generate_files:
+  checkout_generate_push:
     runs-on: ubuntu-latest
 
     steps:
@@ -17,15 +20,13 @@ jobs:
         sudo apt install kicad
         sudo apt install -y kicad poppler-utils 
 
-    - name: Run script
+    - name: Generate schematics
       run: |
-        chmod +x .github/scripts/generate_kicad_schematics.sh
-        .github/scripts/generate_kicad_schematics.sh
+        kicad-cli sch export pdf -n --output boards/bidirectional_load_switch/schematic.pdf boards/bidirectional_load_switch/pcb/bidirectional_load_switch.kicad_sch
 
     - name: Commit and push changes
       run: |
-        git config user.name "github-actions[bot]"
-        git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+        git config --global user.name "github-actions[bot]"
+        git config --global user.email "github-actions[bot]@users.noreply.github.com"
         git add .
-        git commit -m "Add generated schematic PDF"
-        git push
+        git commit -m "Automated commit from GitHub Actions" || echo "No changes to commit"
