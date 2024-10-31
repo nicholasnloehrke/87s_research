@@ -22,5 +22,4 @@
 # # merge pdfs
 # pdfunite kicad/bidirectional_load_switch/schematic/schematic.pdf kicad/bidirectional_load_switch/pcb/back.pdf kicad/bidirectional_load_switch/pcb/front.pdf kicad/bidirectional_load_switch/pcb/both.pdf kicad/bidirectional_load_switch/printable.pdf
 
-
 kicad-cli sch export pdf -n --output boards/bidirectional_load_switch/schematic.pdf boards/bidirectional_load_switch/pcb/bidirectional_load_switch.kicad_sch
