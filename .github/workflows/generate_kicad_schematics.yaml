@@ -19,7 +19,7 @@ jobs:
       id: cache-kicad
       uses: actions/cache@v4
       with:
-        path: /usr/local/bin/kicad
+        path: /usr/bin/kicad-cli
         key: kicad-${{ runner.os }}-8.0
 
     - name: Install KiCad
