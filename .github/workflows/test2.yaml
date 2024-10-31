@@ -16,6 +16,13 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
+      - name: Install dependencies
+        run: |
+          sudo add-apt-repository ppa:kicad/kicad-8.0-releases
+          sudo apt update
+          sudo apt install kicad
+          sudo apt install -y kicad poppler-utils 
+
       - name: Make changes (e.g., generate PDFs)
         run: |
           # Replace this with your commands to make changes or generate files
