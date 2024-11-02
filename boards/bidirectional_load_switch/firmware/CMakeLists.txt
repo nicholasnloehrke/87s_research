@@ -1,5 +1,6 @@
 cmake_minimum_required(VERSION 3.11)
 
+
 # Project name
 project("My Firmware" C CXX ASM)
 
