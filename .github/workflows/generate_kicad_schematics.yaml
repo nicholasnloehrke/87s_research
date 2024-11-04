@@ -24,24 +24,12 @@ jobs:
     - name: Generate schematics
       run: |
         chmod +x .github/scripts/generate_kicad_schematics.sh
-        .github/scripts/generate_kicad_schematics.sh
-
-    - name: Check if there are changes
-      id: git_changes
-      run: |
-        git add .
-        if git diff --cached --quiet; then
-          echo "No changes detected" 
-          echo "changes=false" >> $GITHUB_ENV
-        else
-          echo "Changes detected"
-          echo "changes=true" >> $GITHUB_ENV
-        fi
+        ./.github/scripts/generate_kicad_schematics.sh
 
     - name: Commit and push changes
-      if: env.changes == 'true'
       run: |
         git config --global user.name "github-actions[bot]"
         git config --global user.email "github-actions[bot]@users.noreply.github.com"
-        git commit -m "Automated commit from GitHub Actions"
+        git add .
+        git commit -m "Automated commit from GitHub Actions" || echo "No changes to commit"
         git push
