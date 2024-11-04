@@ -3638,7 +3638,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "41adfae0-4fa2-44e2-9ab4-7ac4b08e3c95")
 		(property "Reference" "C601"
 			(at 52.07 79.4638 0)

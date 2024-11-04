@@ -4,6 +4,7 @@
 .$*.bkp
 *.FCBak
 ~$*.xlsx
+\#auto_saved_files#
 
 #######################################
 #               PYTHON                #

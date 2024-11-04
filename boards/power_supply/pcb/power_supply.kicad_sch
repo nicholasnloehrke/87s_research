@@ -81,7 +81,7 @@
 		)
 	)
 	(sheet
-		(at 176.53 60.96)
+		(at 170.18 62.23)
 		(size 27.94 17.145)
 		(fields_autoplaced yes)
 		(stroke
@@ -93,7 +93,7 @@
 		)
 		(uuid "4a32eb29-be4b-436b-89a4-eb4177809080")
 		(property "Sheetname" "Isolated Flyback"
-			(at 176.53 60.2484 0)
+			(at 170.18 61.5184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -102,7 +102,7 @@
 			)
 		)
 		(property "Sheetfile" "isolated_flyback.kicad_sch"
-			(at 176.53 78.6896 0)
+			(at 170.18 79.9596 0)
 			(effects
 				(font
 					(size 1.27 1.27)
