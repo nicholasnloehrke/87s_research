@@ -19,3 +19,4 @@
 - v0.1.0
     - Insufficient spacing on the AC connector 'AC_in' net to 'earth' net
     - Lack of diode inline with 5 volt supply which would cause an issue if 5 volts and 3v3 (from ISP header) are supplied simultaneously 
+    - Lack of pulldown resistor on the !fault signal from the attiny85 which could potentially have the gate driver inputs float, resulting in sporadic channel activation
