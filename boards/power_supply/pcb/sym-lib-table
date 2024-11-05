@@ -7,4 +7,5 @@
   (lib (name "MP2759GQ-0000-Z")(type "KiCad")(uri "${KIPRJMOD}/symbols/MP2759GQ-0000-Z/MP2759GQ-0000-Z.kicad_sym")(options "")(descr ""))
   (lib (name "TPS552872RYQR")(type "KiCad")(uri "${KIPRJMOD}/symbols/TPS552872RYQR/2024-10-28_16-10-50.kicad_sym")(options "")(descr ""))
   (lib (name "LM5181NGUR")(type "KiCad")(uri "${KIPRJMOD}/symbols/LM5181NGUR/LM5181NGUR.kicad_sym")(options "")(descr ""))
+  (lib (name "750315829")(type "KiCad")(uri "${KIPRJMOD}/symbols/750315829/750315829.kicad_sym")(options "")(descr ""))
 )

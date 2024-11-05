@@ -4070,7 +4070,7 @@
 		)
 		(uuid "2fa59ac4-9ba4-4c94-b32f-ff999c304565")
 	)
-	(label "IN"
+	(label "VIN"
 		(at 161.29 80.01 0)
 		(fields_autoplaced yes)
 		(effects
@@ -4191,7 +4191,7 @@
 		)
 		(uuid "85cbd7c5-7aa5-4b4a-92ea-3a649c8780c8")
 	)
-	(label "IN"
+	(label "VIN"
 		(at 214.63 54.61 0)
 		(fields_autoplaced yes)
 		(effects
@@ -5199,7 +5199,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2d65a06c-fe54-4f21-ba2d-38b160df4fd1")
-		(property "Reference" "D305"
+		(property "Reference" "D302"
 			(at 222.504 48.26 0)
 			(effects
 				(font
@@ -5251,7 +5251,7 @@
 		(instances
 			(project "power_supply"
 				(path "/6a7d9dc9-f78f-470f-911b-b95256023173/00f00675-e615-4796-971e-104476714f1d"
-					(reference "D305")
+					(reference "D302")
 					(unit 1)
 				)
 			)
@@ -6230,7 +6230,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "619c03b1-5b86-40a0-8883-a409afe63173")
-		(property "Reference" "C306"
+		(property "Reference" "C307"
 			(at 232.41 93.9862 0)
 			(effects
 				(font
@@ -6284,7 +6284,7 @@
 		(instances
 			(project "power_supply"
 				(path "/6a7d9dc9-f78f-470f-911b-b95256023173/00f00675-e615-4796-971e-104476714f1d"
-					(reference "C306")
+					(reference "C307")
 					(unit 1)
 				)
 			)
@@ -6366,7 +6366,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6e1ec3a0-985f-4d38-a7a7-8e1ddc3635e3")
-		(property "Reference" "C307"
+		(property "Reference" "C308"
 			(at 242.57 93.9862 0)
 			(effects
 				(font
@@ -6420,7 +6420,7 @@
 		(instances
 			(project "power_supply"
 				(path "/6a7d9dc9-f78f-470f-911b-b95256023173/00f00675-e615-4796-971e-104476714f1d"
-					(reference "C307")
+					(reference "C308")
 					(unit 1)
 				)
 			)
@@ -6572,7 +6572,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "78362e70-f95b-4a10-80bc-ff349d70157e")
-		(property "Reference" "C305"
+		(property "Reference" "C306"
 			(at 227.33 106.6862 0)
 			(effects
 				(font
@@ -6626,7 +6626,7 @@
 		(instances
 			(project ""
 				(path "/6a7d9dc9-f78f-470f-911b-b95256023173/00f00675-e615-4796-971e-104476714f1d"
-					(reference "C305")
+					(reference "C306")
 					(unit 1)
 				)
 			)
@@ -7396,7 +7396,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "adc5260d-80aa-4134-beaf-ca5fb3dcc723")
-		(property "Reference" "C308"
+		(property "Reference" "C302"
 			(at 148.336 83.058 0)
 			(effects
 				(font
@@ -7450,7 +7450,7 @@
 		(instances
 			(project "power_supply"
 				(path "/6a7d9dc9-f78f-470f-911b-b95256023173/00f00675-e615-4796-971e-104476714f1d"
-					(reference "C308")
+					(reference "C302")
 					(unit 1)
 				)
 			)
@@ -7602,7 +7602,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bdbec085-fdce-434d-af7d-65807c950188")
-		(property "Reference" "C304"
+		(property "Reference" "C305"
 			(at 213.36 78.7462 0)
 			(effects
 				(font
@@ -7656,7 +7656,7 @@
 		(instances
 			(project "power_supply"
 				(path "/6a7d9dc9-f78f-470f-911b-b95256023173/00f00675-e615-4796-971e-104476714f1d"
-					(reference "C304")
+					(reference "C305")
 					(unit 1)
 				)
 			)
@@ -7672,7 +7672,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "be84b69a-2e60-49b2-800c-8ecb0e75fef5")
-		(property "Reference" "C303"
+		(property "Reference" "C304"
 			(at 201.93 55.8862 0)
 			(effects
 				(font
@@ -7726,7 +7726,7 @@
 		(instances
 			(project "power_supply"
 				(path "/6a7d9dc9-f78f-470f-911b-b95256023173/00f00675-e615-4796-971e-104476714f1d"
-					(reference "C303")
+					(reference "C304")
 					(unit 1)
 				)
 			)
@@ -8083,7 +8083,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ddc62ac5-a0c4-4feb-be47-ce010b77f816")
-		(property "Reference" "C302"
+		(property "Reference" "C303"
 			(at 157.226 83.058 0)
 			(effects
 				(font
@@ -8137,7 +8137,7 @@
 		(instances
 			(project "power_supply"
 				(path "/6a7d9dc9-f78f-470f-911b-b95256023173/00f00675-e615-4796-971e-104476714f1d"
-					(reference "C302")
+					(reference "C303")
 					(unit 1)
 				)
 			)
@@ -8153,7 +8153,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e219612a-bfe5-41b0-adee-7a9987b3facd")
-		(property "Reference" "D304"
+		(property "Reference" "D301"
 			(at 185.674 62.23 0)
 			(effects
 				(font
@@ -8205,7 +8205,7 @@
 		(instances
 			(project ""
 				(path "/6a7d9dc9-f78f-470f-911b-b95256023173/00f00675-e615-4796-971e-104476714f1d"
-					(reference "D304")
+					(reference "D301")
 					(unit 1)
 				)
 			)

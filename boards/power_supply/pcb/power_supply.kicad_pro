@@ -545,6 +545,18 @@
           "label": "Description",
           "name": "Description",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -607,15 +619,15 @@
     ],
     [
       "cf53f1a5-f32c-4d02-84d0-a76cca0772c3",
-      "Buck-Boost"
+      "Buck-Boost-1"
     ],
     [
       "d1fcefd7-3ecc-4716-9879-f129c42734ff",
-      "Buck-Boost1"
+      "Buck-Boost-2"
     ],
     [
       "c2fcbfb1-6741-44cb-a82c-7741918cd8a1",
-      "Buck-Boost2"
+      "Buck-Boost-3"
     ],
     [
       "4a32eb29-be4b-436b-89a4-eb4177809080",
