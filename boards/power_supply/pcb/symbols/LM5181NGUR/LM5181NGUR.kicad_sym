@@ -93,42 +93,6 @@
 					(type background)
 				)
 			)
-			(pin unspecified line
-				(at 35.56 0 180)
-				(length 5.08)
-				(name "SW"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 35.56 -10.16 180)
-				(length 5.08)
-				(name "FB"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin power_in line
 				(at 0 0 0)
 				(length 5.08)
@@ -147,7 +111,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin passive line
 				(at 0 -5.08 0)
 				(length 5.08)
 				(name "EN_UVLO"
@@ -165,7 +129,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at 35.56 -15.24 180)
 				(length 5.08)
 				(name "SS_BIAS"
@@ -183,7 +147,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at 0 -10.16 0)
 				(length 5.08)
 				(name "TC"
@@ -201,7 +165,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at 0 -20.32 0)
 				(length 5.08)
 				(name "RSET"
@@ -248,6 +212,44 @@
 					)
 				)
 				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "LM5181NGUR_1_1"
+			(pin passive line
+				(at 35.56 0 180)
+				(length 5.08)
+				(name "SW"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 35.56 -10.16 180)
+				(length 5.08)
+				(name "FB"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
 					(effects
 						(font
 							(size 1.27 1.27)

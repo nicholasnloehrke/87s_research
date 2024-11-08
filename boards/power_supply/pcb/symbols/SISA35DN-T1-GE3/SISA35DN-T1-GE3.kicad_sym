@@ -3,6 +3,7 @@
 	(generator "kicad_symbol_editor")
 	(generator_version "8.0")
 	(symbol "SISA35DN-T1-GE3"
+		(pin_numbers hide)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -55,7 +56,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(color 0 100 100 1)
+					(color 132 0 132 1)
 				)
 			)
 		)

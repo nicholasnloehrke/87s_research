@@ -27,7 +27,7 @@
 			)
 		)
 		(property "Footprint" "VQFN21_RYQ_TEX"
-			(at 21.59 -52.07 0)
+			(at 21.59 -50.8 0)
 			(effects
 				(font
 					(size 1.524 1.524)

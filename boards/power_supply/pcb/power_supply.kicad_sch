@@ -846,7 +846,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4ed34adb-2ea5-49fb-afcf-afa1d409114f")
-		(property "Reference" "J103"
+		(property "Reference" "J102"
 			(at 189.23 95.2499 0)
 			(effects
 				(font
@@ -900,7 +900,7 @@
 		(instances
 			(project "power_supply"
 				(path "/6a7d9dc9-f78f-470f-911b-b95256023173"
-					(reference "J103")
+					(reference "J102")
 					(unit 1)
 				)
 			)
@@ -982,7 +982,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6c6793b4-7d75-452f-ae66-9c9322e8d37a")
-		(property "Reference" "J104"
+		(property "Reference" "J103"
 			(at 189.23 128.2699 0)
 			(effects
 				(font
@@ -1036,7 +1036,7 @@
 		(instances
 			(project "power_supply"
 				(path "/6a7d9dc9-f78f-470f-911b-b95256023173"
-					(reference "J104")
+					(reference "J103")
 					(unit 1)
 				)
 			)
@@ -1052,7 +1052,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7051b681-e375-4132-b6c6-3c69e8520370")
-		(property "Reference" "#PWR0106"
+		(property "Reference" "#PWR0105"
 			(at 180.34 106.68 0)
 			(effects
 				(font
@@ -1102,7 +1102,7 @@
 		(instances
 			(project "power_supply"
 				(path "/6a7d9dc9-f78f-470f-911b-b95256023173"
-					(reference "#PWR0106")
+					(reference "#PWR0105")
 					(unit 1)
 				)
 			)
@@ -1184,7 +1184,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "77faf2dd-fd83-4ed9-b984-714602745721")
-		(property "Reference" "J105"
+		(property "Reference" "J101"
 			(at 135.89 46.9899 0)
 			(effects
 				(font
@@ -1238,7 +1238,7 @@
 		(instances
 			(project "power_supply"
 				(path "/6a7d9dc9-f78f-470f-911b-b95256023173"
-					(reference "J105")
+					(reference "J101")
 					(unit 1)
 				)
 			)
@@ -1320,7 +1320,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7fec812b-0fa3-48d0-8ebb-a0e893031a63")
-		(property "Reference" "#PWR0105"
+		(property "Reference" "#PWR0106"
 			(at 180.34 139.7 0)
 			(effects
 				(font
@@ -1370,7 +1370,7 @@
 		(instances
 			(project "power_supply"
 				(path "/6a7d9dc9-f78f-470f-911b-b95256023173"
-					(reference "#PWR0105")
+					(reference "#PWR0106")
 					(unit 1)
 				)
 			)
@@ -1456,7 +1456,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cb4e79c8-41af-430e-936f-edd4d4842f60")
-		(property "Reference" "J102"
+		(property "Reference" "J104"
 			(at 231.14 66.0399 0)
 			(effects
 				(font
@@ -1510,7 +1510,7 @@
 		(instances
 			(project ""
 				(path "/6a7d9dc9-f78f-470f-911b-b95256023173"
-					(reference "J102")
+					(reference "J104")
 					(unit 1)
 				)
 			)
