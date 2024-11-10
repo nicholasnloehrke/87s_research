@@ -18,4 +18,5 @@
   (lib (name "1N4148W-13-F")(type "KiCad")(uri "${KIPRJMOD}/symbols/1N4148W-13-F/1N4148W-13-F.kicad_sym")(options "")(descr ""))
   (lib (name "SMAZ27-13-F")(type "KiCad")(uri "${KIPRJMOD}/symbols/SMAZ27-13-F/SMAZ27-13-F.kicad_sym")(options "")(descr ""))
   (lib (name "865080543009")(type "KiCad")(uri "${KIPRJMOD}/symbols/865080543009/865080543009.kicad_sym")(options "")(descr ""))
+  (lib (name "SMAZ22-13-F")(type "KiCad")(uri "${KIPRJMOD}/symbols/SMAZ22-13-F/SMAZ22-13-F.kicad_sym")(options "")(descr ""))
 )

@@ -319,7 +319,7 @@
 			)
 			(symbol "865080543009_1_1"
 				(pin passive line
-					(at 0 0 0)
+					(at 5.08 0 180)
 					(length 1.27)
 					(name ""
 						(effects
@@ -337,7 +337,7 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 0 180)
+					(at 0 0 0)
 					(length 1.27)
 					(name ""
 						(effects
@@ -346,7 +346,7 @@
 							)
 						)
 					)
-					(number "1"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3550,7 +3550,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 156.21 85.09 0)
 			(effects
 				(font
@@ -3701,7 +3701,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 200.66 43.18 0)
 			(effects
 				(font
@@ -3852,7 +3852,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 170.18 43.18 0)
 			(effects
 				(font
@@ -3897,94 +3897,6 @@
 				)
 				(path "/6a7d9dc9-f78f-470f-911b-b95256023173/d1fcefd7-3ecc-4716-9879-f129c42734ff"
 					(reference "C514")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "865080543009:865080543009")
-		(lib_id "865080543009:865080543009")
-		(at 215.9 45.72 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(uuid "1f1f37b2-bc04-4bc6-83ff-20c1e4b5e8e2")
-		(property "Reference" "C422"
-			(at 218.44 41.9059 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "47u"
-			(at 218.44 45.212 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "865080543009:865080543009"
-			(at 220.472 45.466 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/865080543009.pdf"
-			(at 227.33 44.196 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 220.472 45.466 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "865080543009"
-			(at 218.44 47.244 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "1"
-			(uuid "503f149b-b9a2-4b88-a5c5-a5168e76e8de")
-		)
-		(pin "1"
-			(uuid "697dcb37-d7ec-4d2f-b760-8702a6bca85b")
-		)
-		(instances
-			(project "power_supply"
-				(path "/6a7d9dc9-f78f-470f-911b-b95256023173/c2fcbfb1-6741-44cb-a82c-7741918cd8a1"
-					(reference "C622")
-					(unit 1)
-				)
-				(path "/6a7d9dc9-f78f-470f-911b-b95256023173/cf53f1a5-f32c-4d02-84d0-a76cca0772c3"
-					(reference "C422")
-					(unit 1)
-				)
-				(path "/6a7d9dc9-f78f-470f-911b-b95256023173/d1fcefd7-3ecc-4716-9879-f129c42734ff"
-					(reference "C522")
 					(unit 1)
 				)
 			)
@@ -4092,7 +4004,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 85.09 48.26 0)
 			(effects
 				(font
@@ -4143,93 +4055,6 @@
 		)
 	)
 	(symbol
-		(lib_name "865080543009:865080543009")
-		(lib_id "865080543009:865080543009")
-		(at 39.37 50.8 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(uuid "2c8a7b4a-4e8c-4ac6-86d6-26122a47813f")
-		(property "Reference" "C401"
-			(at 36.83 46.228 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "47u"
-			(at 37.084 50.038 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "865080543009:865080543009"
-			(at 34.798 50.546 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/865080543009.pdf"
-			(at 27.94 49.276 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 34.798 50.546 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "865080543009"
-			(at 37.084 52.578 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "1"
-			(uuid "2e2014e6-0098-43a3-aedf-bbdbb74e37bb")
-		)
-		(pin "1"
-			(uuid "6ffcb029-b7dc-4a91-8234-4c95e5fce259")
-		)
-		(instances
-			(project ""
-				(path "/6a7d9dc9-f78f-470f-911b-b95256023173/c2fcbfb1-6741-44cb-a82c-7741918cd8a1"
-					(reference "C601")
-					(unit 1)
-				)
-				(path "/6a7d9dc9-f78f-470f-911b-b95256023173/cf53f1a5-f32c-4d02-84d0-a76cca0772c3"
-					(reference "C401")
-					(unit 1)
-				)
-				(path "/6a7d9dc9-f78f-470f-911b-b95256023173/d1fcefd7-3ecc-4716-9879-f129c42734ff"
-					(reference "C501")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 208.28 43.18 0)
 		(unit 1)
@@ -4256,7 +4081,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 208.28 43.18 0)
 			(effects
 				(font
@@ -4405,7 +4230,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 177.8 63.5 0)
 			(effects
 				(font
@@ -4482,7 +4307,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 185.42 43.18 0)
 			(effects
 				(font
@@ -4560,7 +4385,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 176.53 82.55 0)
 			(effects
 				(font
@@ -4637,7 +4462,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "VQFN21_RYQ_TEX"
+		(property "Footprint" "TPS552872RYQR:TPS552872RYQR"
 			(at 133.35 93.98 0)
 			(effects
 				(font
@@ -4780,7 +4605,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 95.25 52.07 0)
 			(effects
 				(font
@@ -4858,7 +4683,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 53.34 167.64 0)
 			(effects
 				(font
@@ -4935,7 +4760,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 182.88 78.74 0)
 			(effects
 				(font
@@ -4994,7 +4819,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4b65a5d8-86c7-4eb6-afdf-705c711451c4")
-		(property "Reference" "L401"
+		(property "Reference" "L601"
 			(at 131.064 24.892 0)
 			(effects
 				(font
@@ -5069,6 +4894,92 @@
 		)
 	)
 	(symbol
+		(lib_id "865080543009:865080543009")
+		(at 39.37 50.8 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "4c82fa44-3c33-4707-b1f5-f93753f483d2")
+		(property "Reference" "C601"
+			(at 36.83 45.4701 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47u"
+			(at 36.83 48.0101 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "865080543009:865080543009"
+			(at 34.798 50.546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/865080543009.pdf"
+			(at 27.94 49.276 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 34.798 50.546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "865080543009"
+			(at 36.83 50.5501 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "4f417444-313f-493b-9f80-1a0fcdcf1ea1")
+		)
+		(pin "2"
+			(uuid "87715d94-bff4-4431-8f64-58db0dddd518")
+		)
+		(instances
+			(project ""
+				(path "/6a7d9dc9-f78f-470f-911b-b95256023173/c2fcbfb1-6741-44cb-a82c-7741918cd8a1"
+					(reference "C601")
+					(unit 1)
+				)
+				(path "/6a7d9dc9-f78f-470f-911b-b95256023173/cf53f1a5-f32c-4d02-84d0-a76cca0772c3"
+					(reference "C401")
+					(unit 1)
+				)
+				(path "/6a7d9dc9-f78f-470f-911b-b95256023173/d1fcefd7-3ecc-4716-9879-f129c42734ff"
+					(reference "C501")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 54.61 48.26 0)
 		(mirror y)
@@ -5096,7 +5007,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 54.61 48.26 0)
 			(effects
 				(font
@@ -5173,7 +5084,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 143.51 34.29 0)
 			(effects
 				(font
@@ -5251,7 +5162,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 77.47 48.26 0)
 			(effects
 				(font
@@ -5403,7 +5314,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 97.79 87.63 0)
 			(effects
 				(font
@@ -5481,7 +5392,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 69.85 48.26 0)
 			(effects
 				(font
@@ -5559,7 +5470,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 53.34 157.48 0)
 			(effects
 				(font
@@ -5637,7 +5548,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 148.59 157.48 0)
 			(effects
 				(font
@@ -5712,7 +5623,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 62.23 48.26 0)
 			(effects
 				(font
@@ -5772,7 +5683,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8ee4b24a-fbb7-4f21-9b63-dd0d55232c09")
-		(property "Reference" "C402"
+		(property "Reference" "C602"
 			(at 46.482 46.228 0)
 			(effects
 				(font
@@ -5790,7 +5701,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 46.99 48.26 0)
 			(effects
 				(font
@@ -5868,7 +5779,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 123.19 34.29 0)
 			(effects
 				(font
@@ -5945,7 +5856,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 162.56 43.18 0)
 			(effects
 				(font
@@ -6022,7 +5933,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 53.34 148.59 0)
 			(effects
 				(font
@@ -6173,7 +6084,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 123.19 157.48 0)
 			(effects
 				(font
@@ -6248,7 +6159,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 124.46 157.48 0)
 			(effects
 				(font
@@ -6400,7 +6311,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 167.64 59.69 0)
 			(effects
 				(font
@@ -6459,7 +6370,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d1b0b754-eba4-474b-abdd-74d687c5a6c5")
-		(property "Reference" "R410"
+		(property "Reference" "R610"
 			(at 230.378 34.29 0)
 			(effects
 				(font
@@ -6632,7 +6543,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 177.8 55.88 0)
 			(effects
 				(font
@@ -6683,6 +6594,93 @@
 		)
 	)
 	(symbol
+		(lib_id "865080543009:865080543009")
+		(at 215.9 45.72 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "de4eb03d-0784-4f73-933d-b09d7f341c8a")
+		(property "Reference" "C622"
+			(at 218.44 40.3901 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "47u"
+			(at 218.44 42.9301 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "865080543009:865080543009"
+			(at 211.328 45.466 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/865080543009.pdf"
+			(at 204.47 44.196 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 211.328 45.466 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "865080543009"
+			(at 218.44 45.4701 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "1"
+			(uuid "fd52f05c-63b3-4e5d-8997-0e7a94b1fce1")
+		)
+		(pin "2"
+			(uuid "478f71c6-2cf3-4948-a767-13b4dafacec0")
+		)
+		(instances
+			(project ""
+				(path "/6a7d9dc9-f78f-470f-911b-b95256023173/c2fcbfb1-6741-44cb-a82c-7741918cd8a1"
+					(reference "C622")
+					(unit 1)
+				)
+				(path "/6a7d9dc9-f78f-470f-911b-b95256023173/cf53f1a5-f32c-4d02-84d0-a76cca0772c3"
+					(reference "C422")
+					(unit 1)
+				)
+				(path "/6a7d9dc9-f78f-470f-911b-b95256023173/d1fcefd7-3ecc-4716-9879-f129c42734ff"
+					(reference "C522")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 177.8 43.18 0)
 		(unit 1)
@@ -6709,7 +6707,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 177.8 43.18 0)
 			(effects
 				(font
@@ -6787,7 +6785,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 110.49 87.63 0)
 			(effects
 				(font
@@ -6865,7 +6863,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 176.53 74.93 0)
 			(effects
 				(font
@@ -6943,7 +6941,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 149.86 157.48 0)
 			(effects
 				(font
@@ -7021,7 +7019,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 246.38 52.07 0)
 			(effects
 				(font
@@ -7098,7 +7096,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 193.04 43.18 0)
 			(effects
 				(font

@@ -849,7 +849,7 @@
 		(layers "F.Cu" "F.Paste")
 		(uuid "f3c0f55f-1a7f-486f-8954-2883e3e48105")
 	)
-	(pad "SH1" thru_hole oval
+	(pad "S1" thru_hole oval
 		(at -4.49 1.11)
 		(size 0.85 1.45)
 		(drill oval 0.55 1.15)
@@ -858,16 +858,7 @@
 		(solder_mask_margin 0.102)
 		(uuid "0ab0fa00-5265-47aa-a42c-6f695c070ffc")
 	)
-	(pad "SH2" thru_hole oval
-		(at 4.49 1.11)
-		(size 0.85 1.45)
-		(drill oval 0.55 1.15)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(solder_mask_margin 0.102)
-		(uuid "93c62f8a-0651-4e4a-a159-6fe9b758a5c1")
-	)
-	(pad "SH3" thru_hole oval
+	(pad "S1" thru_hole oval
 		(at -4.13 -2.34)
 		(size 0.85 1.45)
 		(drill oval 0.55 1.15)
@@ -876,7 +867,7 @@
 		(solder_mask_margin 0.102)
 		(uuid "e26849db-f692-479a-bcea-af9a3a836415")
 	)
-	(pad "SH4" thru_hole oval
+	(pad "S1" thru_hole oval
 		(at 4.13 -2.34)
 		(size 0.85 1.45)
 		(drill oval 0.55 1.15)
@@ -884,6 +875,15 @@
 		(remove_unused_layers no)
 		(solder_mask_margin 0.102)
 		(uuid "5995db63-65df-44fd-a5a0-3b649fcfac7f")
+	)
+	(pad "S1" thru_hole oval
+		(at 4.49 1.11)
+		(size 0.85 1.45)
+		(drill oval 0.55 1.15)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "93c62f8a-0651-4e4a-a159-6fe9b758a5c1")
 	)
 	(zone
 		(net 0)

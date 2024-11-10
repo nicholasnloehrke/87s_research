@@ -18,4 +18,5 @@
   (lib (name "TPS552872RYQR")(type "KiCad")(uri "${KIPRJMOD}/symbols/TPS552872RYQR/footprints.pretty")(options "")(descr ""))
   (lib (name "USBLC6-2SC6")(type "KiCad")(uri "${KIPRJMOD}/symbols/USBLC6-2SC6/USBLC6-2SC6.pretty")(options "")(descr ""))
   (lib (name "LM5181NGUR")(type "KiCad")(uri "${KIPRJMOD}/symbols/LM5181NGUR/footprints.pretty")(options "")(descr ""))
+  (lib (name "SMAZ22-13-F")(type "KiCad")(uri "${KIPRJMOD}/symbols/SMAZ22-13-F/SMAZ22-13-F.pretty")(options "")(descr ""))
 )

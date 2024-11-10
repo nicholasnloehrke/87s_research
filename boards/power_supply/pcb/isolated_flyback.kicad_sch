@@ -650,151 +650,6 @@
 				)
 			)
 		)
-		(symbol "Device:D_Zener_Small_Filled"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0.254) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.286 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "D_Zener_Small_Filled"
-				(at 0 -2.286 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Zener diode, small symbol, filled shape"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "D_Zener_Small_Filled_0_1"
-				(polyline
-					(pts
-						(xy 0.762 0) (xy -0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.254 1.016) (xy -0.762 1.016) (xy -0.762 -1.016)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 1.016) (xy -0.762 0) (xy 0.762 -1.016) (xy 0.762 1.016)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "D_Zener_Small_Filled_1_1"
-				(pin passive line
-					(at -2.54 0 0)
-					(length 1.778)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 0 180)
-					(length 1.778)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Device:R_Small_US"
 			(pin_numbers hide)
 			(pin_names
@@ -1523,6 +1378,140 @@
 				)
 			)
 		)
+		(symbol "SMAZ22-13-F:SMAZ22-13-F"
+			(pin_numbers hide)
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0.762 4.572 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "22V"
+				(at 4.826 4.572 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds18015.pdf"
+				(at -1.27 9.398 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "SMAZ22-13-F"
+				(at 2.794 2.794 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SMAZ22-13-F_0_1"
+				(polyline
+					(pts
+						(xy 3.302 0) (xy 1.778 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 1.016) (xy 1.778 1.016) (xy 1.778 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 1.016) (xy 1.778 0) (xy 3.302 -1.016) (xy 3.302 1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "SMAZ22-13-F_1_1"
+				(pin passive line
+					(at 0 0 0)
+					(length 1.778)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 1.778)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "SMAZ27-13-F:SMAZ27-13-F"
 			(pin_numbers hide)
 			(pin_names hide)
@@ -1869,19 +1858,13 @@
 		(uuid "337d9005-6142-4463-93c7-618c195a38b3")
 	)
 	(junction
-		(at 223.52 95.25)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3d2e4e4d-7fda-4e88-89db-74ca6768535e")
-	)
-	(junction
 		(at 76.2 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5806c771-6667-4cae-befc-7d9f22c00f7d")
 	)
 	(junction
-		(at 252.73 95.25)
+		(at 250.19 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "59c014c8-bbd0-464d-9a4d-ef3ce337d3e4")
@@ -1893,13 +1876,25 @@
 		(uuid "63b81d60-225d-4d0e-b6a9-48bc1e6b02a4")
 	)
 	(junction
+		(at 214.63 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "64a0b180-bffe-4bc7-b08b-8e7fe0f150f1")
+	)
+	(junction
+		(at 214.63 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "77e8c8be-2fec-47db-99c2-9ff86d7fcf3d")
+	)
+	(junction
 		(at 116.84 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "88aa3bc4-af22-4e1e-a4ac-d1764afde34c")
 	)
 	(junction
-		(at 243.84 95.25)
+		(at 241.3 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "98e2b2b3-e736-4b24-98c5-1da9c13cfeca")
@@ -1909,12 +1904,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9a3c3e04-9f12-468b-b1c5-f8df7e8eaa34")
-	)
-	(junction
-		(at 223.52 85.09)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a0c17b27-627b-42ce-9767-f38a98d39039")
 	)
 	(junction
 		(at 121.92 92.71)
@@ -1959,7 +1948,7 @@
 		(uuid "c8eb1e67-53fc-4188-9d67-246bdab3250d")
 	)
 	(junction
-		(at 243.84 85.09)
+		(at 241.3 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cbfcc858-2e69-483f-9210-bcfc5b65aae9")
@@ -1983,7 +1972,7 @@
 		(uuid "df56fc26-324e-4400-a4f0-2d662763e05d")
 	)
 	(junction
-		(at 252.73 85.09)
+		(at 250.19 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e3d980c5-f767-4f5b-b4bb-67a044f58184")
@@ -2032,7 +2021,7 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 95.25) (xy 252.73 92.71)
+			(xy 250.19 95.25) (xy 250.19 92.71)
 		)
 		(stroke
 			(width 0)
@@ -2089,6 +2078,16 @@
 			(type default)
 		)
 		(uuid "1489081f-fd2d-4b29-87c4-72429a8318dc")
+	)
+	(wire
+		(pts
+			(xy 214.63 85.09) (xy 241.3 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c5a0a0d-f7b3-48b0-bdf8-2365238acbca")
 	)
 	(wire
 		(pts
@@ -2202,23 +2201,13 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 85.09) (xy 266.7 85.09)
+			(xy 250.19 85.09) (xy 264.16 85.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "4a0f810a-b434-4e07-abee-9fe4c040fe83")
-	)
-	(wire
-		(pts
-			(xy 223.52 95.25) (xy 243.84 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "507b660e-0e18-4b7b-b9d4-53e991852c4d")
 	)
 	(wire
 		(pts
@@ -2242,7 +2231,7 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 95.25) (xy 266.7 95.25)
+			(xy 250.19 95.25) (xy 264.16 95.25)
 		)
 		(stroke
 			(width 0)
@@ -2342,6 +2331,16 @@
 	)
 	(wire
 		(pts
+			(xy 214.63 95.25) (xy 241.3 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b0095a6-6a87-4917-80f4-a4cfadbfabdf")
+	)
+	(wire
+		(pts
 			(xy 190.5 74.93) (xy 187.96 74.93)
 		)
 		(stroke
@@ -2372,7 +2371,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 95.25) (xy 252.73 95.25)
+			(xy 241.3 95.25) (xy 250.19 95.25)
 		)
 		(stroke
 			(width 0)
@@ -2422,7 +2421,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 95.25) (xy 223.52 95.25)
+			(xy 208.28 95.25) (xy 214.63 95.25)
 		)
 		(stroke
 			(width 0)
@@ -2442,7 +2441,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 92.71) (xy 243.84 95.25)
+			(xy 241.3 92.71) (xy 241.3 95.25)
 		)
 		(stroke
 			(width 0)
@@ -2482,7 +2481,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 85.09) (xy 223.52 85.09)
+			(xy 208.28 85.09) (xy 214.63 85.09)
 		)
 		(stroke
 			(width 0)
@@ -2492,7 +2491,7 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 87.63) (xy 252.73 85.09)
+			(xy 250.19 87.63) (xy 250.19 85.09)
 		)
 		(stroke
 			(width 0)
@@ -2582,17 +2581,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 85.09) (xy 243.84 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cc8a1db7-09d5-4006-879b-553f0e10c405")
-	)
-	(wire
-		(pts
-			(xy 223.52 85.09) (xy 223.52 87.63)
+			(xy 214.63 85.09) (xy 214.63 87.63)
 		)
 		(stroke
 			(width 0)
@@ -2612,7 +2601,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 85.09) (xy 252.73 85.09)
+			(xy 241.3 85.09) (xy 250.19 85.09)
 		)
 		(stroke
 			(width 0)
@@ -2662,7 +2651,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 92.71) (xy 223.52 95.25)
+			(xy 214.63 92.71) (xy 214.63 95.25)
 		)
 		(stroke
 			(width 0)
@@ -2682,7 +2671,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 87.63) (xy 243.84 85.09)
+			(xy 241.3 87.63) (xy 241.3 85.09)
 		)
 		(stroke
 			(width 0)
@@ -2755,8 +2744,20 @@
 		(uuid 46ad91c3-5107-4477-83d4-56c7ec0045fb)
 	)
 	(rectangle
+		(start 15.875 59.69)
+		(end 281.305 137.795)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 5991e0a3-5e91-44ef-a918-dac2911bfa84)
+	)
+	(rectangle
 		(start 196.215 80.645)
-		(end 236.22 96.52)
+		(end 234.95 96.52)
 		(stroke
 			(width 0)
 			(type dash)
@@ -2827,6 +2828,16 @@
 		)
 		(uuid "9e719ece-2297-43ec-be0b-41b44928fa03")
 	)
+	(text "Isolated Flyback Converter"
+		(exclude_from_sim no)
+		(at 43.688 63.5 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "dc13d4c6-3049-4ad4-8b9f-75464aa14475")
+	)
 	(label "FB"
 		(at 118.11 102.87 180)
 		(fields_autoplaced yes)
@@ -2851,7 +2862,7 @@
 	)
 	(hierarchical_label "VOUT-"
 		(shape output)
-		(at 266.7 95.25 0)
+		(at 264.16 95.25 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2875,7 +2886,7 @@
 	)
 	(hierarchical_label "VOUT+"
 		(shape output)
-		(at 266.7 85.09 0)
+		(at 264.16 85.09 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2887,7 +2898,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 252.73 90.17 180)
+		(at 250.19 90.17 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2895,7 +2906,7 @@
 		(dnp no)
 		(uuid "0c03a76c-b7a3-4198-86cb-4a725247efeb")
 		(property "Reference" "C706"
-			(at 254 88.392 0)
+			(at 251.46 88.392 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2904,7 +2915,7 @@
 			)
 		)
 		(property "Value" "22u"
-			(at 254 91.948 0)
+			(at 251.46 91.948 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2912,8 +2923,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 252.73 90.17 0)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 250.19 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2922,7 +2933,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 252.73 90.17 0)
+			(at 250.19 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2931,7 +2942,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 252.73 90.17 0)
+			(at 250.19 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2982,7 +2993,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 137.16 116.84 0)
 			(effects
 				(font
@@ -3051,7 +3062,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 46.99 97.79 0)
 			(effects
 				(font
@@ -3173,7 +3184,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 243.84 90.17 180)
+		(at 241.3 90.17 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3181,7 +3192,7 @@
 		(dnp no)
 		(uuid "41b5c0ab-78c9-4d01-a716-a0b41e1917b2")
 		(property "Reference" "C705"
-			(at 245.11 88.392 0)
+			(at 242.57 88.392 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3190,7 +3201,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 245.11 91.948 0)
+			(at 242.57 91.948 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3198,8 +3209,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 243.84 90.17 0)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 241.3 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3208,7 +3219,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 243.84 90.17 0)
+			(at 241.3 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3217,7 +3228,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 243.84 90.17 0)
+			(at 241.3 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3334,7 +3345,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 147.32 116.84 0)
 			(effects
 				(font
@@ -3403,7 +3414,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 54.61 97.79 0)
 			(effects
 				(font
@@ -3462,7 +3473,7 @@
 				)
 			)
 		)
-		(property "Value" "22p"
+		(property "Value" "100"
 			(at 175.768 72.644 90)
 			(effects
 				(font
@@ -3470,7 +3481,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 172.72 74.93 0)
 			(effects
 				(font
@@ -3539,7 +3550,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 62.23 97.79 0)
 			(effects
 				(font
@@ -3675,7 +3686,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 208.28 90.17 0)
 			(effects
 				(font
@@ -3784,6 +3795,84 @@
 		)
 	)
 	(symbol
+		(lib_id "SMAZ22-13-F:SMAZ22-13-F")
+		(at 214.63 87.63 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "92bd90d2-26b7-4823-9e87-d66e756236b4")
+		(property "Reference" "D704"
+			(at 217.17 87.6299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22V"
+			(at 217.17 90.1699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SMAZ22-13-F:SMAZ22-13-F"
+			(at 217.17 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds18015.pdf"
+			(at 224.028 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 217.17 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SMAZ22-13-F"
+			(at 217.17 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "b593d0a5-970d-447b-bc7d-fba7a90299c9")
+		)
+		(pin "2"
+			(uuid "cfac0c57-f28e-4af5-8988-8c45764331a2")
+		)
+		(instances
+			(project ""
+				(path "/6a7d9dc9-f78f-470f-911b-b95256023173/4a32eb29-be4b-436b-89a4-eb4177809080"
+					(reference "D704")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Jumper:SolderJumper_2_Open")
 		(at 137.16 125.73 270)
 		(mirror x)
@@ -3811,7 +3900,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 137.16 125.73 0)
 			(effects
 				(font
@@ -3956,7 +4045,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 76.2 118.11 0)
 			(effects
 				(font
@@ -4025,7 +4114,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "NGU0008C-IPC_A"
+		(property "Footprint" "LM5181NGUR:NGU0008C-IPC_A"
 			(at 78.486 79.756 0)
 			(effects
 				(font
@@ -4126,7 +4215,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 147.32 125.73 0)
 			(effects
 				(font
@@ -4195,7 +4284,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SMAZ27-13-F:SMAZ27-13-F"
 			(at 118.11 80.01 0)
 			(effects
 				(font
@@ -4263,15 +4352,15 @@
 				)
 			)
 		)
-		(property "Value" "100"
-			(at 188.468 72.644 90)
+		(property "Value" "22p"
+			(at 188.214 72.644 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 185.42 74.93 0)
 			(effects
 				(font
@@ -4314,76 +4403,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_Zener_Small_Filled")
-		(at 223.52 90.17 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "d6330144-0e13-4e7a-a073-7486048a458d")
-		(property "Reference" "D704"
-			(at 226.06 88.8999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "22V"
-			(at 226.06 91.4399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 223.52 90.17 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 223.52 90.17 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Zener diode, small symbol, filled shape"
-			(at 223.52 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d69cb6d9-48d6-43b3-9292-9b07dc8bcbc8")
-		)
-		(pin "1"
-			(uuid "e8c3bb7f-38a1-4cb9-861f-e377a8784810")
-		)
-		(instances
-			(project "power_supply"
-				(path "/6a7d9dc9-f78f-470f-911b-b95256023173/4a32eb29-be4b-436b-89a4-eb4177809080"
-					(reference "D704")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "750315829:750315829")
 		(at 143.51 95.25 0)
 		(mirror x)
@@ -4410,7 +4429,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "750315829:750315829"
 			(at 147.32 96.52 0)
 			(effects
 				(font
