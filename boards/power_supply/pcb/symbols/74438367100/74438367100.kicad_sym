@@ -2,29 +2,30 @@
 	(version 20231120)
 	(generator "kicad_symbol_editor")
 	(generator_version "8.0")
-	(symbol "SK34SMA-3G"
+	(symbol "74438367100"
 		(pin_numbers hide)
+		(pin_names hide)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "D"
-			(at 2.54 4.318 0)
+		(property "Reference" "L"
+			(at 1.016 5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" ""
-			(at 1.27 3.81 0)
+		(property "Value" "10u"
+			(at 6.35 5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "SK34SMA-3G:SK34SMA-3G"
-			(at 1.27 3.81 0)
+		(property "Footprint" "74438367100:74438367100"
+			(at 0 3.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32,8 +33,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://diotec.com/request/datasheet/sk34sma-3g.pdf"
-			(at 0.762 6.858 0)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/74438367100.pdf"
+			(at -0.762 13.462 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42,7 +43,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 1.27 3.81 0)
+			(at 0 3.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50,18 +51,18 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "SK34SMA-3G"
-			(at 2.54 2.54 0)
+		(property "MPN" "74438367100"
+			(at 4.318 3.048 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(symbol "SK34SMA-3G_0_1"
+		(symbol "74438367100_0_1"
 			(polyline
 				(pts
-					(xy 1.27 0) (xy 3.81 0)
+					(xy 1.27 1.27) (xy 3.175 1.27)
 				)
 				(stroke
 					(width 0)
@@ -73,44 +74,69 @@
 			)
 			(polyline
 				(pts
-					(xy 3.4817 -1.2956) (xy 3.4817 1.2444)
+					(xy 6.35 1.27) (xy 4.445 1.27)
 				)
 				(stroke
-					(width 0.2032)
+					(width 0)
 					(type default)
 				)
 				(fill
 					(type none)
 				)
 			)
-			(polyline
-				(pts
-					(xy 3.4817 -1.2956) (xy 3.0781 -1.296) (xy 3.0781 -0.9489)
-				)
+			(arc
+				(start 2.54 0)
+				(mid 1.905 0.635)
+				(end 1.27 0)
 				(stroke
-					(width 0.2032)
+					(width 0)
 					(type default)
 				)
 				(fill
 					(type none)
 				)
 			)
-			(polyline
-				(pts
-					(xy 3.4817 1.2444) (xy 3.8853 1.2448) (xy 3.8853 0.8977)
-				)
+			(arc
+				(start 3.81 0)
+				(mid 3.175 0.635)
+				(end 2.54 0)
 				(stroke
-					(width 0.2032)
+					(width 0)
 					(type default)
 				)
 				(fill
 					(type none)
 				)
 			)
-			(polyline
-				(pts
-					(xy 1.5767 1.2444) (xy 1.5767 -1.2956) (xy 3.4817 -0.0256) (xy 1.5767 1.2444)
+			(arc
+				(start 5.08 0)
+				(mid 4.445 0.635)
+				(end 3.81 0)
+				(stroke
+					(width 0)
+					(type default)
 				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 6.35 0)
+				(mid 5.715 0.635)
+				(end 5.08 0)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "74438367100_1_1"
+			(circle
+				(center 0.7386 0.7103)
+				(radius 0.2216)
 				(stroke
 					(width 0)
 					(type default)
@@ -119,10 +145,8 @@
 					(type outline)
 				)
 			)
-		)
-		(symbol "SK34SMA-3G_1_1"
 			(pin passive line
-				(at 5.08 0 180)
+				(at 0 0 0)
 				(length 1.27)
 				(name ""
 					(effects
@@ -140,7 +164,7 @@
 				)
 			)
 			(pin passive line
-				(at 0 0 0)
+				(at 7.62 0 180)
 				(length 1.27)
 				(name ""
 					(effects

@@ -2,29 +2,30 @@
 	(version 20231120)
 	(generator "kicad_symbol_editor")
 	(generator_version "8.0")
-	(symbol "SK34SMA-3G"
+	(symbol "PE1206FRE470R02L"
 		(pin_numbers hide)
+		(pin_names hide)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "D"
-			(at 2.54 4.318 0)
+		(property "Reference" "R"
+			(at 2.8575 4.7625 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" ""
-			(at 1.27 3.81 0)
+		(property "Value" "20m"
+			(at 3.1115 2.7305 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "SK34SMA-3G:SK34SMA-3G"
-			(at 1.27 3.81 0)
+		(property "Footprint" "PE1206FRE470R02L:PE1206FRE470R02L"
+			(at 2.8575 4.7625 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32,8 +33,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://diotec.com/request/datasheet/sk34sma-3g.pdf"
-			(at 0.762 6.858 0)
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/app/datasheet/rchip/pyu-pe_521_rohs_l.pdf"
+			(at 1.778 8.636 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42,7 +43,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 1.27 3.81 0)
+			(at 2.8575 4.7625 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50,18 +51,18 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "SK34SMA-3G"
-			(at 2.54 2.54 0)
+		(property "MPN" "PE1206FRE470R02L"
+			(at 3.1115 -2.3495 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(symbol "SK34SMA-3G_0_1"
+		(symbol "PE1206FRE470R02L_1_1"
 			(polyline
 				(pts
-					(xy 1.27 0) (xy 3.81 0)
+					(xy 1.016 0) (xy 1.397 1.016) (xy 1.778 0) (xy 2.159 -1.016) (xy 2.54 0)
 				)
 				(stroke
 					(width 0)
@@ -73,58 +74,20 @@
 			)
 			(polyline
 				(pts
-					(xy 3.4817 -1.2956) (xy 3.4817 1.2444)
-				)
-				(stroke
-					(width 0.2032)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 3.4817 -1.2956) (xy 3.0781 -1.296) (xy 3.0781 -0.9489)
-				)
-				(stroke
-					(width 0.2032)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 3.4817 1.2444) (xy 3.8853 1.2448) (xy 3.8853 0.8977)
-				)
-				(stroke
-					(width 0.2032)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.5767 1.2444) (xy 1.5767 -1.2956) (xy 3.4817 -0.0256) (xy 1.5767 1.2444)
+					(xy 2.54 0) (xy 2.921 1.016) (xy 3.302 0) (xy 3.683 -1.016) (xy 4.064 0)
 				)
 				(stroke
 					(width 0)
 					(type default)
 				)
 				(fill
-					(type outline)
+					(type none)
 				)
 			)
-		)
-		(symbol "SK34SMA-3G_1_1"
 			(pin passive line
-				(at 5.08 0 180)
-				(length 1.27)
-				(name ""
+				(at 0 0 0)
+				(length 1.016)
+				(name "~"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -140,9 +103,9 @@
 				)
 			)
 			(pin passive line
-				(at 0 0 0)
-				(length 1.27)
-				(name ""
+				(at 5.08 0 180)
+				(length 1.016)
+				(name "~"
 					(effects
 						(font
 							(size 1.27 1.27)
