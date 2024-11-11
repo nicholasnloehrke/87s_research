@@ -447,4 +447,15 @@
 		(roundrect_rratio 0.25)
 		(uuid "009c4340-3ea8-46b8-89cd-d5ecc513502a")
 	)
+	(model "${KIPRJMOD}/symbols/PTS526_SK15_SMTR2_LFS/PTS526_SK15_SMTR2_LFS.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
 )

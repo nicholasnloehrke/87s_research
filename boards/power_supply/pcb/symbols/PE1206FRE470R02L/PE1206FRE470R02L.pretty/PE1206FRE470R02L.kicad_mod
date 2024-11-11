@@ -4,7 +4,7 @@
 	(generator_version "8.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 1.85 -1.95 0)
+		(at 0.685 -1.95 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "fdfefee0-1d7b-41ff-9e72-2ad6a05a21fe")
@@ -16,7 +16,7 @@
 		)
 	)
 	(property "Value" "PE1206FRE470R02L"
-		(at 1.1 -4.75 0)
+		(at -0.065 -4.75 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "d42b2142-75ee-43dc-8bc5-b0fc94975fff")
@@ -28,7 +28,7 @@
 		)
 	)
 	(property "Footprint" ""
-		(at 3.15 -5.5 0)
+		(at 1.985 -5.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -41,7 +41,7 @@
 		)
 	)
 	(property "Datasheet" ""
-		(at 3.15 -5.5 0)
+		(at 1.985 -5.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -54,7 +54,7 @@
 		)
 	)
 	(property "Description" ""
-		(at 3.15 -5.5 0)
+		(at 1.985 -5.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -68,8 +68,8 @@
 	)
 	(attr smd)
 	(fp_rect
-		(start -1.046993 -1.15)
-		(end 3.375 1.15)
+		(start -2.211993 -1.15)
+		(end 2.21 1.15)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -79,7 +79,7 @@
 		(uuid "28c4997e-ee1c-463a-9ccc-9ca6255f5241")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 1.1 -3.25 0)
+		(at -0.065 -3.25 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "9bf80427-b3ae-4b32-8bd9-ec092c19efd1")
@@ -91,7 +91,7 @@
 		)
 	)
 	(pad "1" smd roundrect
-		(at 0 0)
+		(at -1.165 0)
 		(size 1.57 1.78)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.1592356688)
@@ -99,11 +99,22 @@
 		(uuid "3197799e-b58f-44d2-b85d-269bf850c303")
 	)
 	(pad "2" smd roundrect
-		(at 2.33 0)
+		(at 1.165 0)
 		(size 1.57 1.78)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.1592356688)
 		(thermal_bridge_angle 45)
 		(uuid "21be423a-aabb-4362-b101-b72a9941ba05")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
 	)
 )

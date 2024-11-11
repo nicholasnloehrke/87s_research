@@ -383,4 +383,15 @@
 		)
 		(uuid "6c2ec187-2344-48c9-90dd-2f35a65bc893")
 	)
+	(model "${KIPRJMOD}/symbols/MP2759GQ-0000-Z/MP2759GQ-0000-Z.iges"
+		(offset
+			(xyz 2.8 -1.1 0.08)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

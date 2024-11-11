@@ -4062,6 +4062,17 @@
 		)
 		(uuid "85fe93ff-02db-4f98-b1b4-faafe5ad802c")
 	)
+	(label "VBATT"
+		(at 260.35 83.82 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c533f8f5-220c-4999-b39e-d0653005fc75")
+	)
 	(label "ILIM"
 		(at 39.37 29.21 0)
 		(fields_autoplaced yes)
@@ -4072,6 +4083,17 @@
 			(justify left bottom)
 		)
 		(uuid "dd6e874e-57de-4545-aa7f-342b3752d4e1")
+	)
+	(label "VOUT"
+		(at 260.35 40.64 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "deca84d0-ecaf-4542-9f43-ee1f78b1f16b")
 	)
 	(label "NTC"
 		(at 50.8 161.29 0)
@@ -4804,7 +4826,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
 			(at 22.86 171.45 0)
 			(effects
 				(font
@@ -7183,7 +7205,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
 			(at 90.17 170.18 0)
 			(effects
 				(font

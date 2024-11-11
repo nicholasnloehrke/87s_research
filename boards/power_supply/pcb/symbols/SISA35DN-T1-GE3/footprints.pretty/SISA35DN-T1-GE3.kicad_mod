@@ -357,4 +357,15 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "4d7098cb-d4ce-4fa7-b12a-ee9ad38ae6e2")
 	)
+	(model "${KIPRJMOD}/symbols/SISA35DN-T1-GE3/SISA35DN-T1-GE3.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 180)
+		)
+	)
 )

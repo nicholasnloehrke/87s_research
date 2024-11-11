@@ -4,7 +4,7 @@
 	(generator_version "8.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 2.45 -3.75 0)
+		(at 0.5 -3.75 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "4f4bbadf-d92b-4e15-8431-b105d8c1a965")
@@ -16,7 +16,7 @@
 		)
 	)
 	(property "Value" "74438367010"
-		(at 1.85 -6.85 0)
+		(at -0.1 -6.85 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "c572e6bd-96db-4e43-9838-03dd555090a5")
@@ -28,7 +28,7 @@
 		)
 	)
 	(property "Footprint" ""
-		(at 3.95 -7.35 0)
+		(at 2 -7.35 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -41,7 +41,7 @@
 		)
 	)
 	(property "Datasheet" ""
-		(at 3.95 -7.35 0)
+		(at 2 -7.35 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -54,7 +54,7 @@
 		)
 	)
 	(property "Description" ""
-		(at 3.95 -7.35 0)
+		(at 2 -7.35 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -68,8 +68,8 @@
 	)
 	(attr smd)
 	(fp_circle
-		(center -1.5 -3.5)
-		(end -1.3 -3.5)
+		(center -3.45 -3.5)
+		(end -3.25 -3.5)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -79,8 +79,8 @@
 		(uuid "bd785cf6-721b-4937-ac97-3a42195c37c9")
 	)
 	(fp_rect
-		(start -1.1 -3.05)
-		(end 5 3.05)
+		(start -3.05 -3.05)
+		(end 3.05 3.05)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -90,7 +90,7 @@
 		(uuid "caef5039-60bb-4083-80bd-c0dae529e0f8")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 1.85 -5.35 0)
+		(at -0.1 -5.35 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "d202c9c7-1218-439c-8f63-de790092d386")
@@ -102,7 +102,7 @@
 		)
 	)
 	(pad "1" smd roundrect
-		(at 0 0)
+		(at -1.95 0)
 		(size 1.7 5.6)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.1470588235)
@@ -110,11 +110,22 @@
 		(uuid "9d561a99-a254-4a26-a18d-08b4009f86c6")
 	)
 	(pad "2" smd roundrect
-		(at 3.9 0)
+		(at 1.95 0)
 		(size 1.7 5.6)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.1470588235)
 		(thermal_bridge_angle 45)
 		(uuid "6b21fcf2-2299-48ab-a00c-f1b1279ab9ce")
+	)
+	(model "${KIPRJMOD}/symbols/74438367010/74438367010.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
 	)
 )

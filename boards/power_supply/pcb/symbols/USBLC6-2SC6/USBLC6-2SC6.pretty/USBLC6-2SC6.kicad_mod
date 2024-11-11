@@ -17,6 +17,7 @@
 	(property "Value" "SOT95P280X145-6N"
 		(at 4.3924 2.3189 0)
 		(layer "F.Fab")
+		(hide yes)
 		(uuid "696b6c66-560c-4931-b4f5-f26d913ec444")
 		(effects
 			(font
@@ -112,46 +113,6 @@
 		)
 		(layer "F.CrtYd")
 		(uuid "d6d24d18-f89b-48c6-95ab-da86cb14607f")
-	)
-	(fp_line
-		(start -0.8125 -1.4625)
-		(end 0.8125 -1.4625)
-		(stroke
-			(width 0.127)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "a964335d-f0a1-413a-83e1-1a06883dc6bd")
-	)
-	(fp_line
-		(start -0.8125 1.4625)
-		(end -0.8125 -1.4625)
-		(stroke
-			(width 0.127)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "a2e60cd5-5044-4d75-a781-79b92cd1f384")
-	)
-	(fp_line
-		(start 0.8125 -1.4625)
-		(end 0.8125 1.4625)
-		(stroke
-			(width 0.127)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "7479c42a-b1a9-4525-84fb-95fd3501254a")
-	)
-	(fp_line
-		(start 0.8125 1.4625)
-		(end -0.8125 1.4625)
-		(stroke
-			(width 0.127)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "22dd76fe-6d37-459e-83b1-8eb3cb13978a")
 	)
 	(pad "1" smd roundrect
 		(at -1.255 -0.95)

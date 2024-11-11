@@ -468,16 +468,6 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 46.99) (xy 121.92 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2f936b53-d28f-4304-8538-860b694b1669")
-	)
-	(wire
-		(pts
 			(xy 118.11 72.39) (xy 127 72.39)
 		)
 		(stroke
@@ -585,6 +575,16 @@
 			(type default)
 		)
 		(uuid "73df515e-a125-4927-94cf-7e25e271fd6d")
+	)
+	(wire
+		(pts
+			(xy 121.92 46.99) (xy 129.54 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "771815c7-c424-4931-a183-d96cf4509f46")
 	)
 	(wire
 		(pts
@@ -844,7 +844,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
 			(at 187.96 95.25 0)
 			(effects
 				(font
@@ -980,7 +980,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
 			(at 187.96 128.27 0)
 			(effects
 				(font
@@ -1156,16 +1156,16 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Socket")
-		(at 134.62 46.99 0)
+		(at 134.62 49.53 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "77faf2dd-fd83-4ed9-b984-714602745721")
 		(property "Reference" "J101"
-			(at 135.89 46.9899 0)
+			(at 135.89 49.5301 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1174,7 +1174,7 @@
 			)
 		)
 		(property "Value" "Battery"
-			(at 135.89 49.5299 0)
+			(at 135.89 46.9901 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1182,8 +1182,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_AMASS:AMASS_XT30U-F_1x02_P5.0mm_Vertical"
-			(at 134.62 46.99 0)
+		(property "Footprint" "xt30:AMASS_XT30U-F_1x02_P5.0mm_Vertical"
+			(at 134.62 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1192,7 +1192,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 134.62 46.99 0)
+			(at 134.62 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1201,7 +1201,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 134.62 46.99 0)
+			(at 134.62 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1454,7 +1454,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
 			(at 229.87 62.23 0)
 			(effects
 				(font

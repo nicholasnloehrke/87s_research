@@ -117,4 +117,15 @@
 		(thermal_bridge_angle 45)
 		(uuid "3304f97e-8e49-4afd-a9d6-d6fd3c298330")
 	)
+	(model "${KIPRJMOD}/symbols/865080543009/865080543009.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 90)
+		)
+	)
 )

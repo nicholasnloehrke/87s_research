@@ -19,4 +19,6 @@
   (lib (name "SMAZ27-13-F")(type "KiCad")(uri "${KIPRJMOD}/symbols/SMAZ27-13-F/SMAZ27-13-F.kicad_sym")(options "")(descr ""))
   (lib (name "865080543009")(type "KiCad")(uri "${KIPRJMOD}/symbols/865080543009/865080543009.kicad_sym")(options "")(descr ""))
   (lib (name "SMAZ22-13-F")(type "KiCad")(uri "${KIPRJMOD}/symbols/SMAZ22-13-F/SMAZ22-13-F.kicad_sym")(options "")(descr ""))
+  (lib (name "12402012E212A")(type "KiCad")(uri "${KIPRJMOD}/symbols/12402012E212A/12402012E212A.kicad_sym")(options "")(descr ""))
+  (lib (name "USB4105-GF-A")(type "KiCad")(uri "${KIPRJMOD}/symbols/USB4105-GF-A/USB4105-GF-A.kicad_sym")(options "")(descr ""))
 )

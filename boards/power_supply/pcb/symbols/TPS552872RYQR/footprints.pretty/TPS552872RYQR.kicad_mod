@@ -400,4 +400,15 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "99ab877d-4966-4315-8aa3-5200728cf836")
 	)
+	(model "${KIPRJMOD}/symbols/TPS552872RYQR/TPS552872RYQR.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 0.98 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
 )

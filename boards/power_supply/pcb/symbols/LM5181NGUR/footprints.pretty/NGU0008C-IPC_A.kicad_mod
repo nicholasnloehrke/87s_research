@@ -165,4 +165,15 @@
 		(layers "F.Cu" "F.Mask")
 		(uuid "d1051e01-a375-472c-abc1-b8a54fc7b4ca")
 	)
+	(model "${KIPRJMOD}/symbols/LM5181NGUR/LM5181NGUR.stp"
+		(offset
+			(xyz 0 0 -0.1)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )
