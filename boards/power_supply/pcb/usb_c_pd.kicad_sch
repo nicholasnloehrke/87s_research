@@ -4013,7 +4013,7 @@
 			(xy 260.35 43.18) (xy 267.97 43.18)
 		)
 		(stroke
-			(width 0)
+			(width 0.762)
 			(type default)
 		)
 		(uuid "05e82785-116b-474b-a59f-d12f5f01e560")
@@ -4043,7 +4043,7 @@
 			(xy 154.94 43.18) (xy 160.02 43.18)
 		)
 		(stroke
-			(width 0)
+			(width 0.762)
 			(type default)
 		)
 		(uuid "08d5d259-9691-4c93-a135-7fe2dc910c95")
@@ -4283,7 +4283,7 @@
 			(xy 247.65 43.18) (xy 260.35 43.18)
 		)
 		(stroke
-			(width 0)
+			(width 0.762)
 			(type default)
 		)
 		(uuid "27fc549c-1382-410a-97cd-8ee123967e6a")
@@ -4523,7 +4523,7 @@
 			(xy 137.16 43.18) (xy 154.94 43.18)
 		)
 		(stroke
-			(width 0)
+			(width 0.762)
 			(type default)
 		)
 		(uuid "50155c7b-be2c-471b-8ca1-f9b755947499")
@@ -4563,7 +4563,7 @@
 			(xy 167.64 43.18) (xy 209.55 43.18)
 		)
 		(stroke
-			(width 0)
+			(width 0.762)
 			(type default)
 		)
 		(uuid "52864d02-1c21-4268-9cb7-0fd82e1f670b")
@@ -4613,7 +4613,7 @@
 			(xy 222.25 43.18) (xy 227.33 43.18)
 		)
 		(stroke
-			(width 0)
+			(width 0.762)
 			(type default)
 		)
 		(uuid "58708464-4852-49dc-99ad-ff063e43b6ea")
@@ -4693,7 +4693,7 @@
 			(xy 220.98 43.18) (xy 222.25 43.18)
 		)
 		(stroke
-			(width 0)
+			(width 0.762)
 			(type default)
 		)
 		(uuid "64efc833-58bc-4c24-b790-5f418b009580")
@@ -4963,7 +4963,7 @@
 			(xy 137.16 74.93) (xy 137.16 43.18)
 		)
 		(stroke
-			(width 0)
+			(width 0.762)
 			(type default)
 		)
 		(uuid "8df2ed52-850f-46a6-9e34-c1e497c26110")
@@ -5083,7 +5083,7 @@
 			(xy 227.33 43.18) (xy 232.41 43.18)
 		)
 		(stroke
-			(width 0)
+			(width 0.762)
 			(type default)
 		)
 		(uuid "9eb5de0d-541b-44f6-9ad3-7a9ea0cff1e4")
@@ -5183,7 +5183,7 @@
 			(xy 260.35 43.18) (xy 260.35 63.5)
 		)
 		(stroke
-			(width 0)
+			(width 0.762)
 			(type default)
 		)
 		(uuid "aecee050-a836-42b0-b074-e5a9aa22a82b")
@@ -5203,7 +5203,7 @@
 			(xy 243.84 43.18) (xy 247.65 43.18)
 		)
 		(stroke
-			(width 0)
+			(width 0.762)
 			(type default)
 		)
 		(uuid "b452a490-88fb-41a1-bc00-65015a5cebae")
@@ -5213,7 +5213,7 @@
 			(xy 160.02 43.18) (xy 167.64 43.18)
 		)
 		(stroke
-			(width 0)
+			(width 0.762)
 			(type default)
 		)
 		(uuid "b8b3e5be-20ed-4da7-b244-044ba39cce30")
