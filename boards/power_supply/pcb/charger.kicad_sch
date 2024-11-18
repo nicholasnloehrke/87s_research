@@ -1987,42 +1987,6 @@
 					)
 				)
 				(pin passive line
-					(at 2.54 0 270)
-					(length 2.54) hide
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 0 270)
-					(length 2.54) hide
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at -3.81 -3.81 0)
 					(length 2.54)
 					(name ""
@@ -2051,60 +2015,6 @@
 						)
 					)
 					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -11.43 90)
-					(length 2.54) hide
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -11.43 90)
-					(length 2.54) hide
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -11.43 90)
-					(length 2.54) hide
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5016,7 +4926,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "2aaff27d-2880-489b-bca5-4624ceb917f4")
 		(property "Reference" "U301"
 			(at 195.2341 72.39 0)
@@ -6312,23 +6221,8 @@
 				(justify left)
 			)
 		)
-		(pin "2"
-			(uuid "848c9aba-3e3c-4e35-b7e2-74ecd185fc4b")
-		)
-		(pin "3"
-			(uuid "86e6de2c-5563-49df-a5ff-fab7f39ca52e")
-		)
-		(pin "7"
-			(uuid "eee1e6d7-94df-4e47-8f7d-a5ef9eab569c")
-		)
-		(pin "6"
-			(uuid "0d6d9e33-b90f-4b63-be73-e78d5754d335")
-		)
 		(pin "4"
 			(uuid "cc663347-11d7-4717-a9c6-e69d045564e4")
-		)
-		(pin "8"
-			(uuid "4c65dbc8-c824-431e-ad28-24c2f96cd7e3")
 		)
 		(pin "1"
 			(uuid "99c02a3b-654c-45c3-97b8-82cc793cfea9")
@@ -7631,7 +7525,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 198.12 57.15 0)
 			(effects
 				(font
