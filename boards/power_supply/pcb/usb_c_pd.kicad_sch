@@ -6524,7 +6524,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "20238d08-6a5d-4f20-8376-1690f6584ddb")
-		(property "Reference" "R215"
+		(property "Reference" "R209"
 			(at 223.774 45.72 0)
 			(effects
 				(font
@@ -6578,7 +6578,7 @@
 		(instances
 			(project "power_supply"
 				(path "/6a7d9dc9-f78f-470f-911b-b95256023173/4a384965-6a35-4bf6-849e-cb865e62d5b4"
-					(reference "R215")
+					(reference "R209")
 					(unit 1)
 				)
 			)
@@ -6806,7 +6806,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3c51959a-90ce-4224-a205-544fabdc5caa")
-		(property "Reference" "R217"
+		(property "Reference" "R211"
 			(at 262.89 64.7699 0)
 			(effects
 				(font
@@ -6860,7 +6860,7 @@
 		(instances
 			(project "power_supply"
 				(path "/6a7d9dc9-f78f-470f-911b-b95256023173/4a384965-6a35-4bf6-849e-cb865e62d5b4"
-					(reference "R217")
+					(reference "R211")
 					(unit 1)
 				)
 			)
@@ -7317,7 +7317,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "52ff9ac2-ee62-44f6-8494-f3f70cecbc4b")
-		(property "Reference" "R216"
+		(property "Reference" "R210"
 			(at 239.522 54.356 90)
 			(effects
 				(font
@@ -7369,7 +7369,7 @@
 		(instances
 			(project "power_supply"
 				(path "/6a7d9dc9-f78f-470f-911b-b95256023173/4a384965-6a35-4bf6-849e-cb865e62d5b4"
-					(reference "R216")
+					(reference "R210")
 					(unit 1)
 				)
 			)
@@ -7947,7 +7947,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "736ea059-a6dc-4e33-93db-3e1ce0efc8a8")
-		(property "Reference" "R214"
+		(property "Reference" "R208"
 			(at 214.63 57.1499 0)
 			(effects
 				(font
@@ -8001,7 +8001,7 @@
 		(instances
 			(project "power_supply"
 				(path "/6a7d9dc9-f78f-470f-911b-b95256023173/4a384965-6a35-4bf6-849e-cb865e62d5b4"
-					(reference "R214")
+					(reference "R208")
 					(unit 1)
 				)
 			)
