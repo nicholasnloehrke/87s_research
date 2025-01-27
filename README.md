@@ -10,6 +10,10 @@
 
 ![power_supply_block_diagram](block_diagrams/power_supply.png)
 
+### Controller 
+
+![controller_block_diagram](block_diagrams/controller.png)
+
 ## Boards
 
 ### Bidirectional Load Switch
