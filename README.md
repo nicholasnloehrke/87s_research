@@ -4,11 +4,7 @@
 
 ### Overall system
 
-![complete_system_block_diagram](block_diagrams/complete_system.png)
-
-### Power supply
-
-![power_supply_block_diagram](block_diagrams/power_supply.png)
+> TODO
 
 ### Controller 
 

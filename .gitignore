@@ -5,6 +5,11 @@
 *.FCBak
 ~$*.xlsx
 \#auto_saved_files#
+build/
+*.swo
+*.swp
+*backups/
+compile_commands.json
 
 #######################################
 #               PYTHON                #

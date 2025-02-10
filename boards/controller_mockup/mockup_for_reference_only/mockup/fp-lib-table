@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "USB4120_03_C")(type "KiCad")(uri "${KIPRJMOD}/USB4120_03_C/USB4120_03_C.pretty")(options "")(descr ""))
+)
