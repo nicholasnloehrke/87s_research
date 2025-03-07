@@ -1,0 +1,129 @@
+(footprint "SMAZ22-13-F"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.2 -2.3 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "cd0e1113-b5ef-4357-8cc0-a7e0b61e2429")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "SMAZ22-13-F"
+		(at -0.25 -5.45 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "1597d6ee-70bb-461c-8c17-a31a65a97d6b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at -0.2 -5.67 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9f6145b6-04dc-4502-999c-58ea43b4e3f8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at -0.2 -5.67 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "137a5b36-9371-4774-b927-a86e375fd1a5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at -0.2 -5.67 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "64e132e5-aed2-4a3e-a541-cc2577ec8df9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_circle
+		(center -3.6 -1.3)
+		(end -3.4 -1.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "7c7b2e40-b64b-46c6-ae36-7aad40a91c02")
+	)
+	(fp_rect
+		(start -3.8 -1.47)
+		(end 3.8 1.45)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "6eb020bd-46fa-4b1b-8adb-8dec25a3b84d")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -0.25 -3.95 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "d77466cf-5c6a-4ef5-a494-e4bdbb54764d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -2 0)
+		(size 2.5 1.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.1388888889)
+		(uuid "a59db40e-6395-449a-b083-d32f42d183a6")
+	)
+	(pad "2" smd roundrect
+		(at 2 0)
+		(size 2.5 1.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.1388888889)
+		(uuid "8924ec58-6ea9-4b2c-a0a6-4434274f109c")
+	)
+	(model "${KIPRJMOD}/symbols/SMAZ22-13-F/SMAZ22-13-F.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

@@ -1,0 +1,55 @@
+#!/usr/bin/env python3
+
+# Reference AN2867: https://www.st.com/resource/en/application_note/an2867-guidelines-for-oscillator-design-on-stm8afals-and-stm32-mcusmpus-stmicroelectronics.pdf
+
+from math import pi
+
+""" Inputs """
+# Equivalent series resistance (Ohms)
+ESR = 80
+# Crystal shunt capacitance (Farads)
+C_0 = 7e-12
+# Crystal nominal load capacitance (Farads)
+C_L = 10e-12
+# Stray capacitance (Farads)
+C_S = 5e-12
+# Crystal nominal oscillation frequency (Hz)
+F = 8e6
+# Crystal drive level (Watts)
+drive_level = 10e-3
+# Oscillator transconductance specified in the STM32 datasheet (A/V)
+g_m = 25e-3
+
+""" Constants """
+# Minimum crystal frequency (Hz)
+F_low = 4e6
+# Maximum crystal frequency (Hz)
+F_high = 50e6
+# Minimum crystal transconductance (A/V)
+g_m_min = 7.5e-3
+# Maximum crystal transconductance (A/V)
+g_m_crit_max = 1.5e-3
+
+""" Calculations """
+C_Ln = 2 * (C_L - C_S)
+r_ext = 1 / (2 * pi * F * C_Ln)
+g_mcrit = 4 * (ESR + r_ext) * ((2 * pi * F) ** 2) * ((C_0 + C_L) ** 2)
+gain_margin = g_m / g_mcrit
+
+""" Validation """
+frequency_ok = F_low <= F <= F_high
+gain_margin_ok = gain_margin > 5
+g_mcrit_ok = g_m_crit_max > g_mcrit
+
+def ok_or_bad(ok):
+    return '\033[32mOK\033[0m' if ok else '\033[31mBAD\033[0m'
+
+print(f"{ok_or_bad(frequency_ok)}: Frequency")
+print(f"{ok_or_bad(gain_margin_ok)}: Gain Margin")
+print(f"{ok_or_bad(g_mcrit_ok)}: G_m Critical")
+
+""" Values """
+print(f"C_L1 and C_L2: {C_Ln * 1e12:.02f} (pF)")
+print(f"R_ext: {r_ext / 1e3:.02f} (kOhms)")
+print(f"G_m critical: {g_mcrit:.02f}")
+print(f"Gain Margin: {gain_margin:.02f}")
