@@ -6,19 +6,17 @@ from math import pi
 
 """ Inputs """
 # Equivalent series resistance (Ohms)
-ESR = 80
+ESR = 70
 # Crystal shunt capacitance (Farads)
-C_0 = 7e-12
+C_0 = 3.5e-12
 # Crystal nominal load capacitance (Farads)
-C_L = 10e-12
+C_L = 18e-12
 # Stray capacitance (Farads)
 C_S = 5e-12
 # Crystal nominal oscillation frequency (Hz)
-F = 8e6
+F = 16e6
 # Crystal drive level (Watts)
-drive_level = 10e-3
-# Oscillator transconductance specified in the STM32 datasheet (A/V)
-g_m = 25e-3
+drive_level = 200e-6
 
 """ Constants """
 # Minimum crystal frequency (Hz)
@@ -29,10 +27,13 @@ F_high = 50e6
 g_m_min = 7.5e-3
 # Maximum crystal transconductance (A/V)
 g_m_crit_max = 1.5e-3
+# Oscillator transconductance specified in the STM32 datasheet (A/V)
+g_m = 25e-3
 
 """ Calculations """
 C_Ln = 2 * (C_L - C_S)
 r_ext = 1 / (2 * pi * F * C_Ln)
+r_ext = 0
 g_mcrit = 4 * (ESR + r_ext) * ((2 * pi * F) ** 2) * ((C_0 + C_L) ** 2)
 gain_margin = g_m / g_mcrit
 
@@ -49,7 +50,7 @@ print(f"{ok_or_bad(gain_margin_ok)}: Gain Margin")
 print(f"{ok_or_bad(g_mcrit_ok)}: G_m Critical")
 
 """ Values """
-print(f"C_L1 and C_L2: {C_Ln * 1e12:.02f} (pF)")
-print(f"R_ext: {r_ext / 1e3:.02f} (kOhms)")
-print(f"G_m critical: {g_mcrit:.02f}")
-print(f"Gain Margin: {gain_margin:.02f}")
+print(f"C_L1 and C_L2: {C_Ln * 1e12:.03f} (pF)")
+print(f"R_ext: {r_ext / 1e3:.03f} (kOhms)")
+print(f"G_m critical: {g_mcrit:.03f}")
+print(f"Gain Margin: {gain_margin:.03f}")

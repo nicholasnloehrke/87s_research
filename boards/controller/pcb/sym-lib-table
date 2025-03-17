@@ -2,4 +2,8 @@
   (version 7)
   (lib (name "TCPP01-M12")(type "KiCad")(uri "${KIPRJMOD}/symbols/TCPP01-M12/TCPP01-M12.kicad_sym")(options "")(descr ""))
   (lib (name "ISZ065N03L5SATMA1")(type "KiCad")(uri "${KIPRJMOD}/symbols/ISZ065N03L5SATMA1/ISZ065N03L5SATMA1.kicad_sym")(options "")(descr ""))
+  (lib (name "RH100-16.000-18-2030-EXT-TR")(type "KiCad")(uri "${KIPRJMOD}/symbols/RH100-16.000-18-2030-EXT-TR/RH100-16.000-18-2030-EXT-TR.kicad_sym")(options "")(descr ""))
+  (lib (name "STS321240B301")(type "KiCad")(uri "${KIPRJMOD}/symbols/STS321240B301/STS321240B301.kicad_sym")(options "")(descr ""))
+  (lib (name "BAT54KFILM")(type "KiCad")(uri "${KIPRJMOD}/symbols/BAT54KFILM/BAT54KFILM.kicad_sym")(options "")(descr ""))
+  (lib (name "B1911PG__20D000514U1930")(type "KiCad")(uri "${KIPRJMOD}/symbols/B1911PG__20D000514U1930/B1911PG__20D000514U1930.kicad_sym")(options "")(descr ""))
 )

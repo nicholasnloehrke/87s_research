@@ -428,7 +428,9 @@
   },
   "libraries": {
     "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "RH100-16.000-18-2030-EXT-TR"
+    ]
   },
   "meta": {
     "filename": "controller.kicad_pro",
@@ -590,6 +592,30 @@
     [
       "0dc23626-7569-4b13-bf8d-96dd930a3d40",
       "Root"
+    ],
+    [
+      "46db4cb1-a840-42aa-8fc1-9672303fbbb2",
+      "USB-C"
+    ],
+    [
+      "a7e4bc68-4dae-4012-b27e-72c76473c002",
+      "Encoder 1"
+    ],
+    [
+      "cd38d3a9-3b66-422d-81cc-cbda80e35873",
+      "Encoder 2"
+    ],
+    [
+      "ea7c0a0d-d92c-4319-b242-3bee0467418a",
+      "Encoder 3"
+    ],
+    [
+      "4529cab8-a64a-408e-88f5-1232a0bdc432",
+      "Charger"
+    ],
+    [
+      "4e727074-3fce-4ef3-9124-b9637b4ac434",
+      "Buck-Boost"
     ]
   ],
   "text_variables": {}
