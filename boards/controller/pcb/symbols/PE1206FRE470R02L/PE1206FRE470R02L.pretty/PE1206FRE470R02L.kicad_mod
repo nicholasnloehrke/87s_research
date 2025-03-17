@@ -1,0 +1,120 @@
+(footprint "PE1206FRE470R02L"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.685 -1.95 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "fdfefee0-1d7b-41ff-9e72-2ad6a05a21fe")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "PE1206FRE470R02L"
+		(at -0.065 -4.75 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "d42b2142-75ee-43dc-8bc5-b0fc94975fff")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 1.985 -5.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5126a505-d2fa-401f-98c7-7b5a86fc90d0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 1.985 -5.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fabf4744-aa3b-467f-86ef-2cdf90ef0977")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 1.985 -5.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3dd25124-ff02-436c-981c-939fd5810e77")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -2.211993 -1.15)
+		(end 2.21 1.15)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "28c4997e-ee1c-463a-9ccc-9ca6255f5241")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -0.065 -3.25 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "9bf80427-b3ae-4b32-8bd9-ec092c19efd1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -1.165 0)
+		(size 1.57 1.78)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.1592356688)
+		(thermal_bridge_angle 45)
+		(uuid "3197799e-b58f-44d2-b85d-269bf850c303")
+	)
+	(pad "2" smd roundrect
+		(at 1.165 0)
+		(size 1.57 1.78)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.1592356688)
+		(thermal_bridge_angle 45)
+		(uuid "21be423a-aabb-4362-b101-b72a9941ba05")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

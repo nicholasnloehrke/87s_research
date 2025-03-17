@@ -429,7 +429,9 @@
   "libraries": {
     "pinned_footprint_libs": [],
     "pinned_symbol_libs": [
-      "RH100-16.000-18-2030-EXT-TR"
+      "RH100-16.000-18-2030-EXT-TR",
+      "MCP6541T-I-LT",
+      "MCP6546T-E-OT"
     ]
   },
   "meta": {
@@ -615,7 +617,31 @@
     ],
     [
       "4e727074-3fce-4ef3-9124-b9637b4ac434",
-      "Buck-Boost"
+      "Buck-Boost 15V"
+    ],
+    [
+      "38f09873-f934-4c15-8b1c-2a7736208d37",
+      "Buck-Boost 5V"
+    ],
+    [
+      "7612b8c3-0af6-44c7-9a68-4fa08ba67a42",
+      "Isolated Flyback"
+    ],
+    [
+      "ab95f0a4-0894-486c-8173-c3091478105b",
+      "Microcontroller"
+    ],
+    [
+      "321ad057-5ae6-4f58-9241-b05f86af3dcd",
+      "Power Button"
+    ],
+    [
+      "f6cd1b10-b693-4c23-b169-3a22f990c649",
+      "LDO 3V3"
+    ],
+    [
+      "db451996-6db0-45c4-bb28-f057b85189d8",
+      "Battery ADC"
     ]
   ],
   "text_variables": {}
