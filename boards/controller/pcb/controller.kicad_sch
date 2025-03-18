@@ -398,7 +398,7 @@
 		)
 	)
 	(junction
-		(at 228.6 86.36)
+		(at 224.79 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8e52376c-36de-46f0-bc34-e1cd1c8246d2")
@@ -467,7 +467,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 86.36) (xy 228.6 86.36)
+			(xy 208.28 86.36) (xy 224.79 86.36)
 		)
 		(stroke
 			(width 0)
@@ -507,7 +507,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 60.96) (xy 250.19 60.96)
+			(xy 246.38 60.96) (xy 248.92 60.96)
 		)
 		(stroke
 			(width 0)
@@ -797,7 +797,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 105.41) (xy 228.6 105.41)
+			(xy 226.06 105.41) (xy 224.79 105.41)
 		)
 		(stroke
 			(width 0)
@@ -1157,7 +1157,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 63.5) (xy 250.19 63.5)
+			(xy 246.38 63.5) (xy 248.92 63.5)
 		)
 		(stroke
 			(width 0)
@@ -1197,7 +1197,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 60.96) (xy 226.06 60.96)
+			(xy 208.28 60.96) (xy 231.14 60.96)
 		)
 		(stroke
 			(width 0)
@@ -1257,7 +1257,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 86.36) (xy 234.95 86.36)
+			(xy 224.79 86.36) (xy 231.14 86.36)
 		)
 		(stroke
 			(width 0)
@@ -1277,7 +1277,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 102.87) (xy 228.6 102.87)
+			(xy 226.06 102.87) (xy 224.79 102.87)
 		)
 		(stroke
 			(width 0)
@@ -1287,7 +1287,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 86.36) (xy 228.6 102.87)
+			(xy 224.79 86.36) (xy 224.79 102.87)
 		)
 		(stroke
 			(width 0)
@@ -1297,7 +1297,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 105.41) (xy 228.6 106.68)
+			(xy 224.79 105.41) (xy 224.79 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1528,7 +1528,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Socket")
-		(at 255.27 60.96 0)
+		(at 254 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1537,7 +1537,7 @@
 		(fields_autoplaced yes)
 		(uuid "4a87e6bc-79a5-41b0-9697-c0d8c0aaff46")
 		(property "Reference" "J103"
-			(at 256.54 60.9599 0)
+			(at 255.27 60.9599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1546,7 +1546,7 @@
 			)
 		)
 		(property "Value" "Load Switch 15 V isolated"
-			(at 256.54 63.4999 0)
+			(at 255.27 63.4999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1555,7 +1555,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 255.27 60.96 0)
+			(at 254 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1564,7 +1564,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 255.27 60.96 0)
+			(at 254 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1573,7 +1573,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 255.27 60.96 0)
+			(at 254 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1738,7 +1738,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 228.6 106.68 0)
+		(at 224.79 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1747,7 +1747,7 @@
 		(fields_autoplaced yes)
 		(uuid "b144f046-3e29-4a67-b353-08914bcf4a01")
 		(property "Reference" "#PWR0104"
-			(at 228.6 113.03 0)
+			(at 224.79 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1756,7 +1756,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 228.6 111.76 0)
+			(at 224.79 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1765,7 +1765,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 228.6 106.68 0)
+			(at 224.79 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1774,7 +1774,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 228.6 106.68 0)
+			(at 224.79 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1783,7 +1783,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 228.6 106.68 0)
+			(at 224.79 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1875,7 +1875,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Socket")
-		(at 234.95 102.87 0)
+		(at 231.14 102.87 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1884,7 +1884,7 @@
 		(fields_autoplaced yes)
 		(uuid "f6ebf3ee-3a13-45b8-94eb-e8627147063e")
 		(property "Reference" "J102"
-			(at 236.22 102.8699 0)
+			(at 232.41 102.8699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1893,7 +1893,7 @@
 			)
 		)
 		(property "Value" "Load Switch 5V"
-			(at 236.22 105.4099 0)
+			(at 232.41 105.4099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1902,7 +1902,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 234.95 102.87 0)
+			(at 231.14 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1911,7 +1911,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 234.95 102.87 0)
+			(at 231.14 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1920,7 +1920,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 234.95 102.87 0)
+			(at 231.14 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2394,7 +2394,7 @@
 		)
 	)
 	(sheet
-		(at 226.06 57.15)
+		(at 231.14 57.15)
 		(size 15.24 15.24)
 		(fields_autoplaced yes)
 		(stroke
@@ -2406,7 +2406,7 @@
 		)
 		(uuid "7612b8c3-0af6-44c7-9a68-4fa08ba67a42")
 		(property "Sheetname" "Isolated Flyback"
-			(at 226.06 56.4384 0)
+			(at 231.14 56.4384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2415,7 +2415,7 @@
 			)
 		)
 		(property "Sheetfile" "isolated_flyback.kicad_sch"
-			(at 226.06 72.9746 0)
+			(at 231.14 72.9746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2424,7 +2424,7 @@
 			)
 		)
 		(pin "VOUT+" output
-			(at 241.3 60.96 0)
+			(at 246.38 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2434,7 +2434,7 @@
 			(uuid "6f28d9b3-c76e-442f-b117-c8d8e7074aab")
 		)
 		(pin "VOUT-" output
-			(at 241.3 63.5 0)
+			(at 246.38 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2444,7 +2444,7 @@
 			(uuid "08d8b1e7-658c-4d15-8edd-4ca5e20bb49d")
 		)
 		(pin "VIN" input
-			(at 226.06 60.96 180)
+			(at 231.14 60.96 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3002,7 +3002,7 @@
 		)
 	)
 	(sheet
-		(at 234.95 81.28)
+		(at 231.14 81.28)
 		(size 14.605 15.24)
 		(fields_autoplaced yes)
 		(stroke
@@ -3014,7 +3014,7 @@
 		)
 		(uuid "f6cd1b10-b693-4c23-b169-3a22f990c649")
 		(property "Sheetname" "LDO 3V3"
-			(at 234.95 80.5684 0)
+			(at 231.14 80.5684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3023,7 +3023,7 @@
 			)
 		)
 		(property "Sheetfile" "ldo_3v3.kicad_sch"
-			(at 234.95 97.1046 0)
+			(at 231.14 97.1046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3032,7 +3032,7 @@
 			)
 		)
 		(pin "VIN" input
-			(at 234.95 86.36 180)
+			(at 231.14 86.36 180)
 			(effects
 				(font
 					(size 1.27 1.27)

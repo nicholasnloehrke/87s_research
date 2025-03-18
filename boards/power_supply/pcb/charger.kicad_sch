@@ -2181,6 +2181,163 @@
 				)
 			)
 		)
+		(symbol "SK34SMA-3G_1"
+			(pin_numbers hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D301"
+				(at 2.794 4.826 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "~"
+				(at 2.6284 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "SK34SMA-3G:SK34SMA-3G"
+				(at 1.27 8.636 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://diotec.com/request/datasheet/sk34sma-3g.pdf"
+				(at 0.508 12.954 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 1.27 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "SK34SMA-3G"
+				(at 2.6284 2.794 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SK34SMA-3G_1_0_1"
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 3.81 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.4817 -1.2956) (xy 3.4817 1.2444)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.4817 -1.2956) (xy 3.0781 -1.296) (xy 3.0781 -0.9489)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.4817 1.2444) (xy 3.8853 1.2448) (xy 3.8853 0.8977)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.5767 1.2444) (xy 1.5767 -1.2956) (xy 3.4817 -0.0256) (xy 1.5767 1.2444)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "SK34SMA-3G_1_1_1"
+				(pin passive line
+					(at 5.08 0 180)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers hide)
@@ -3754,7 +3911,6 @@
 	)
 	(label "EN"
 		(at 101.6 165.1 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3765,7 +3921,6 @@
 	)
 	(label "~{STAT}"
 		(at 175.26 102.87 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3776,7 +3931,6 @@
 	)
 	(label "VB"
 		(at 153.67 163.83 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3787,7 +3941,6 @@
 	)
 	(label "ISET"
 		(at 88.9 72.39 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3798,7 +3951,6 @@
 	)
 	(label "ISET"
 		(at 64.77 72.39 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3809,7 +3961,6 @@
 	)
 	(label "NTC"
 		(at 207.01 111.76 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3820,7 +3971,6 @@
 	)
 	(label "~{ACOK}"
 		(at 101.6 167.64 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3831,7 +3981,6 @@
 	)
 	(label "ILIM"
 		(at 87.63 29.21 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3842,7 +3991,6 @@
 	)
 	(label "VIN"
 		(at 160.02 80.01 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3853,7 +4001,6 @@
 	)
 	(label "CELL"
 		(at 64.77 118.11 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3864,7 +4011,6 @@
 	)
 	(label "ILIM"
 		(at 64.77 29.21 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3875,7 +4021,6 @@
 	)
 	(label "CELL"
 		(at 39.37 118.11 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3886,7 +4031,6 @@
 	)
 	(label "EN"
 		(at 175.26 91.44 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3897,7 +4041,6 @@
 	)
 	(label "CELL"
 		(at 88.9 118.11 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3908,7 +4051,6 @@
 	)
 	(label "~{ACOK}"
 		(at 175.26 87.63 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3919,7 +4061,6 @@
 	)
 	(label "NTC"
 		(at 33.02 168.91 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3930,7 +4071,6 @@
 	)
 	(label "VB"
 		(at 134.62 163.83 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3941,7 +4081,6 @@
 	)
 	(label "CELL"
 		(at 210.82 95.25 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3952,7 +4091,6 @@
 	)
 	(label "VB"
 		(at 210.82 99.06 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3963,7 +4101,6 @@
 	)
 	(label "VIN"
 		(at 214.63 54.61 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3974,7 +4111,6 @@
 	)
 	(label "VBATT"
 		(at 260.35 83.82 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3985,7 +4121,6 @@
 	)
 	(label "ILIM"
 		(at 39.37 29.21 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3996,7 +4131,6 @@
 	)
 	(label "VOUT"
 		(at 260.35 40.64 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4007,7 +4141,6 @@
 	)
 	(label "NTC"
 		(at 50.8 161.29 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4018,7 +4151,6 @@
 	)
 	(label "~{STAT}"
 		(at 101.6 170.18 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4029,7 +4161,6 @@
 	)
 	(label "ISET"
 		(at 39.37 72.39 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4040,7 +4171,6 @@
 	)
 	(label "ISET"
 		(at 175.26 106.68 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4051,7 +4181,6 @@
 	)
 	(label "ILIM"
 		(at 175.26 95.25 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4063,7 +4192,6 @@
 	(hierarchical_label "VBATT"
 		(shape bidirectional)
 		(at 269.24 83.82 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4075,7 +4203,6 @@
 	(hierarchical_label "VIN"
 		(shape input)
 		(at 129.54 80.01 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4087,7 +4214,6 @@
 	(hierarchical_label "VOUT"
 		(shape output)
 		(at 269.24 40.64 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7283,6 +7409,7 @@
 		)
 	)
 	(symbol
+		(lib_name "SK34SMA-3G_1")
 		(lib_id "SK34SMA-3G:SK34SMA-3G")
 		(at 181.61 68.58 0)
 		(unit 1)
@@ -7308,7 +7435,7 @@
 			)
 		)
 		(property "Footprint" "SK34SMA-3G:SK34SMA-3G"
-			(at 182.88 64.77 0)
+			(at 182.88 59.944 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7317,7 +7444,7 @@
 			)
 		)
 		(property "Datasheet" "https://diotec.com/request/datasheet/sk34sma-3g.pdf"
-			(at 182.372 61.722 0)
+			(at 182.118 55.626 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7351,6 +7478,10 @@
 		(instances
 			(project ""
 				(path "/6a7d9dc9-f78f-470f-911b-b95256023173/00f00675-e615-4796-971e-104476714f1d"
+					(reference "D301")
+					(unit 1)
+				)
+				(path "/6a7d9dc9-f78f-470f-911b-b95256023173/d1fcefd7-3ecc-4716-9879-f129c42734ff"
 					(reference "D301")
 					(unit 1)
 				)
