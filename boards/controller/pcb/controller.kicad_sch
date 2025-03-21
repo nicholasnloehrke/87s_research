@@ -1,13 +1,15 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "0dc23626-7569-4b13-bf8d-96dd930a3d40")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Connector:Conn_01x02_Socket"
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -81,10 +83,10 @@
 				)
 			)
 			(symbol "Conn_01x02_Socket_1_1"
-				(arc
-					(start 0 -2.032)
-					(mid -0.5058 -2.54)
-					(end 0 -3.048)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -0.508 0)
+					)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -105,10 +107,10 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy -0.508 0)
-					)
+				(arc
+					(start 0 -0.508)
+					(mid -0.5058 0)
+					(end 0 0.508)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -118,9 +120,9 @@
 					)
 				)
 				(arc
-					(start 0 0.508)
-					(mid -0.5058 0)
-					(end 0 -0.508)
+					(start 0 -3.048)
+					(mid -0.5058 -2.54)
+					(end 0 -2.032)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -166,11 +168,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:R_Small_US"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0.254) hide)
+				(offset 0.254)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -240,7 +247,7 @@
 			(symbol "R_Small_US_1_1"
 				(polyline
 					(pts
-						(xy 0 0) (xy 1.016 -0.381) (xy 0 -0.762) (xy -1.016 -1.143) (xy 0 -1.524)
+						(xy 0 1.524) (xy 1.016 1.143) (xy 0 0.762) (xy -1.016 0.381) (xy 0 0)
 					)
 					(stroke
 						(width 0)
@@ -252,7 +259,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 1.524) (xy 1.016 1.143) (xy 0 0.762) (xy -1.016 0.381) (xy 0 0)
+						(xy 0 0) (xy 1.016 -0.381) (xy 0 -0.762) (xy -1.016 -1.143) (xy 0 -1.524)
 					)
 					(stroke
 						(width 0)
@@ -299,12 +306,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GND"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -395,6 +407,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 	)
 	(junction
@@ -1946,6 +1959,10 @@
 	(sheet
 		(at 146.05 57.15)
 		(size 25.4 24.13)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -1975,63 +1992,63 @@
 		)
 		(pin "PWR_LATCH" input
 			(at 146.05 73.66 180)
+			(uuid "f46f8d2f-382f-40d2-8298-7c6427e98fe8")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "f46f8d2f-382f-40d2-8298-7c6427e98fe8")
 		)
 		(pin "VSYS_in" input
 			(at 146.05 63.5 180)
+			(uuid "2e9916e8-9a42-4655-a081-beebbccd2435")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "2e9916e8-9a42-4655-a081-beebbccd2435")
 		)
 		(pin "PWR_BTN" input
 			(at 146.05 78.74 180)
+			(uuid "4c6c3714-5a2e-4a75-95a4-9d72405cc21b")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "4c6c3714-5a2e-4a75-95a4-9d72405cc21b")
 		)
 		(pin "VSYS_out" input
 			(at 171.45 63.5 0)
+			(uuid "ec646795-f1f6-4c2b-b01d-73a55b850943")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "ec646795-f1f6-4c2b-b01d-73a55b850943")
 		)
 		(pin "VBUS_CTRL" input
 			(at 146.05 71.12 180)
+			(uuid "cad86ade-ef37-41b9-b3d5-3fb78bb15bd6")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "cad86ade-ef37-41b9-b3d5-3fb78bb15bd6")
 		)
 		(pin "VBUS_DETECT" input
 			(at 146.05 76.2 180)
+			(uuid "26a79d18-b663-4ead-9333-e2e13c5cb6d5")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "26a79d18-b663-4ead-9333-e2e13c5cb6d5")
 		)
 		(instances
 			(project "controller"
@@ -2044,6 +2061,10 @@
 	(sheet
 		(at 182.88 81.28)
 		(size 25.4 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -2073,33 +2094,33 @@
 		)
 		(pin "VIN" input
 			(at 182.88 87.63 180)
+			(uuid "a904c7a7-b63b-4f9b-ae69-7e36bbcd0a27")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "a904c7a7-b63b-4f9b-ae69-7e36bbcd0a27")
 		)
 		(pin "FB_BT" passive
 			(at 208.28 92.71 0)
+			(uuid "7daaaa83-078a-4d48-b787-533a26d91e61")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "7daaaa83-078a-4d48-b787-533a26d91e61")
 		)
 		(pin "VOUT" output
 			(at 208.28 86.36 0)
+			(uuid "3252bfe8-860d-43c7-8a82-95de555fbf13")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "3252bfe8-860d-43c7-8a82-95de555fbf13")
 		)
 		(instances
 			(project "controller"
@@ -2112,6 +2133,10 @@
 	(sheet
 		(at 95.25 57.15)
 		(size 27.94 21.59)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -2141,63 +2166,63 @@
 		)
 		(pin "VOUT" output
 			(at 123.19 63.5 0)
+			(uuid "f292b16b-31ed-4d6d-aaac-fbd74f6ce33a")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "f292b16b-31ed-4d6d-aaac-fbd74f6ce33a")
 		)
 		(pin "VBATT" bidirectional
 			(at 123.19 59.69 0)
+			(uuid "0f3b6b15-60af-44ee-892c-746296454c03")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "0f3b6b15-60af-44ee-892c-746296454c03")
 		)
 		(pin "VIN" input
 			(at 95.25 63.5 180)
+			(uuid "e63f32d4-ff05-4e82-88e3-08a9fae15c25")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "e63f32d4-ff05-4e82-88e3-08a9fae15c25")
 		)
 		(pin "~{STAT}" input
 			(at 123.19 73.66 0)
+			(uuid "1a9bfcc7-0b07-4270-947b-86392b308ee4")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "1a9bfcc7-0b07-4270-947b-86392b308ee4")
 		)
 		(pin "~{ACOK}" input
 			(at 123.19 71.12 0)
+			(uuid "3cc0b204-d4af-4bc3-a423-9733f7576d2e")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "3cc0b204-d4af-4bc3-a423-9733f7576d2e")
 		)
 		(pin "EN" input
 			(at 123.19 76.2 0)
+			(uuid "8f47095d-9009-4afb-bc27-f3c0b0755101")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "8f47095d-9009-4afb-bc27-f3c0b0755101")
 		)
 		(instances
 			(project "controller"
@@ -2210,6 +2235,10 @@
 	(sheet
 		(at 29.845 48.26)
 		(size 17.145 39.37)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -2239,83 +2268,83 @@
 		)
 		(pin "USB_D_N" input
 			(at 46.99 78.74 0)
+			(uuid "804a5ebd-3b10-4ae8-bb55-bde3a2e591e3")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "804a5ebd-3b10-4ae8-bb55-bde3a2e591e3")
 		)
 		(pin "USB_DB" input
 			(at 46.99 69.85 0)
+			(uuid "5f56d786-22b2-4991-a9e1-bf8ca6c09fec")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "5f56d786-22b2-4991-a9e1-bf8ca6c09fec")
 		)
 		(pin "USB_FLT" input
 			(at 46.99 72.39 0)
+			(uuid "1dba260d-5c77-4907-a332-e7c0969a7049")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "1dba260d-5c77-4907-a332-e7c0969a7049")
 		)
 		(pin "CC2" input
 			(at 46.99 85.09 0)
+			(uuid "d3081af2-01de-4b12-85d4-46a6cade4ce0")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "d3081af2-01de-4b12-85d4-46a6cade4ce0")
 		)
 		(pin "USB_D_P" input
 			(at 46.99 76.2 0)
+			(uuid "11e90fdd-14bf-4679-8919-df0b440f4225")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "11e90fdd-14bf-4679-8919-df0b440f4225")
 		)
 		(pin "CC1" input
 			(at 46.99 82.55 0)
+			(uuid "074ac9aa-de59-4f67-b2fa-a424c69c38df")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "074ac9aa-de59-4f67-b2fa-a424c69c38df")
 		)
 		(pin "VBUS_CTRL" input
 			(at 46.99 52.07 0)
+			(uuid "f494c7ac-03a6-4254-b5db-2f5f73cb83fe")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "f494c7ac-03a6-4254-b5db-2f5f73cb83fe")
 		)
 		(pin "VBUS" output
 			(at 46.99 63.5 0)
+			(uuid "d9bcb646-cb01-495e-a324-0aecbf8f78ef")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "d9bcb646-cb01-495e-a324-0aecbf8f78ef")
 		)
 		(instances
 			(project "controller"
@@ -2328,6 +2357,10 @@
 	(sheet
 		(at 182.88 57.15)
 		(size 25.4 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -2357,33 +2390,33 @@
 		)
 		(pin "VIN" input
 			(at 182.88 63.5 180)
+			(uuid "7951ed83-ce89-4368-8479-1d7cc415a050")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "7951ed83-ce89-4368-8479-1d7cc415a050")
 		)
 		(pin "FB_BT" passive
 			(at 208.28 68.58 0)
+			(uuid "9f8ea25c-e86a-4eb6-96f2-6e5d229081c2")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "9f8ea25c-e86a-4eb6-96f2-6e5d229081c2")
 		)
 		(pin "VOUT" output
 			(at 208.28 60.96 0)
+			(uuid "1d70bea4-d7be-4c07-95d6-45f026e31d07")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "1d70bea4-d7be-4c07-95d6-45f026e31d07")
 		)
 		(instances
 			(project "controller"
@@ -2396,6 +2429,10 @@
 	(sheet
 		(at 231.14 57.15)
 		(size 15.24 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -2425,33 +2462,33 @@
 		)
 		(pin "VOUT+" output
 			(at 246.38 60.96 0)
+			(uuid "6f28d9b3-c76e-442f-b117-c8d8e7074aab")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "6f28d9b3-c76e-442f-b117-c8d8e7074aab")
 		)
 		(pin "VOUT-" output
 			(at 246.38 63.5 0)
+			(uuid "08d8b1e7-658c-4d15-8edd-4ca5e20bb49d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "08d8b1e7-658c-4d15-8edd-4ca5e20bb49d")
 		)
 		(pin "VIN" input
 			(at 231.14 60.96 180)
+			(uuid "169e6c45-848b-48b5-870e-3e12dde0880e")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "169e6c45-848b-48b5-870e-3e12dde0880e")
 		)
 		(instances
 			(project "controller"
@@ -2464,6 +2501,10 @@
 	(sheet
 		(at 25.4 117.475)
 		(size 12.7 8.89)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -2493,33 +2534,33 @@
 		)
 		(pin "SW" input
 			(at 38.1 119.38 0)
+			(uuid "0d54023e-b232-43f0-a40b-b6de33f2ea2c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "0d54023e-b232-43f0-a40b-b6de33f2ea2c")
 		)
 		(pin "B" input
 			(at 38.1 124.46 0)
+			(uuid "0fb6d35c-27a9-447b-b0b5-61df15242b11")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "0fb6d35c-27a9-447b-b0b5-61df15242b11")
 		)
 		(pin "A" input
 			(at 38.1 121.92 0)
+			(uuid "e2e1dd27-f0a9-453c-8916-c87db4ccd45d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "e2e1dd27-f0a9-453c-8916-c87db4ccd45d")
 		)
 		(instances
 			(project "controller"
@@ -2532,6 +2573,10 @@
 	(sheet
 		(at 68.58 95.25)
 		(size 54.61 53.34)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -2561,233 +2606,233 @@
 		)
 		(pin "CHG_EN" input
 			(at 123.19 97.79 0)
+			(uuid "5c842f37-d87f-404a-8ea5-ba55dbb0a016")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "5c842f37-d87f-404a-8ea5-ba55dbb0a016")
 		)
 		(pin "CHG_STAT" input
 			(at 123.19 100.33 0)
+			(uuid "302af77e-dcc3-4d9d-9833-d15169467209")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "302af77e-dcc3-4d9d-9833-d15169467209")
 		)
 		(pin "CHG_ACOK" input
 			(at 123.19 102.87 0)
+			(uuid "5ccb17fc-652c-45c3-ae3e-e594c4266bfe")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "5ccb17fc-652c-45c3-ae3e-e594c4266bfe")
 		)
 		(pin "PWR_LATCH" input
 			(at 123.19 113.03 0)
+			(uuid "c3c3883f-75c8-430d-b3d9-2ee060bfaecb")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "c3c3883f-75c8-430d-b3d9-2ee060bfaecb")
 		)
 		(pin "VBUS_DETECT" input
 			(at 123.19 115.57 0)
+			(uuid "bcbf84f5-4f3d-45c0-9472-79289e227ef2")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "bcbf84f5-4f3d-45c0-9472-79289e227ef2")
 		)
 		(pin "PWR_BTN" input
 			(at 123.19 118.11 0)
+			(uuid "0325f823-f67b-4e50-a5b4-df34c9cc2ade")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "0325f823-f67b-4e50-a5b4-df34c9cc2ade")
 		)
 		(pin "USB_FLT" input
 			(at 68.58 101.6 180)
+			(uuid "9d708aaa-0e0d-457d-9072-daf7541a0e74")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "9d708aaa-0e0d-457d-9072-daf7541a0e74")
 		)
 		(pin "USB_D_N" input
 			(at 68.58 107.95 180)
+			(uuid "e51e4ac8-8af2-4d6d-a384-3bb7a3297c97")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "e51e4ac8-8af2-4d6d-a384-3bb7a3297c97")
 		)
 		(pin "USB_DB" input
 			(at 68.58 99.06 180)
+			(uuid "cafc6b90-4ba3-452e-aaa9-30272d6cc626")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "cafc6b90-4ba3-452e-aaa9-30272d6cc626")
 		)
 		(pin "CC1" input
 			(at 68.58 111.76 180)
+			(uuid "82b65a43-8195-4181-bfef-e064447f4891")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "82b65a43-8195-4181-bfef-e064447f4891")
 		)
 		(pin "USB_D_P" input
 			(at 68.58 105.41 180)
+			(uuid "f766a49f-6f6a-43af-b6ed-59a2a2e5cf90")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "f766a49f-6f6a-43af-b6ed-59a2a2e5cf90")
 		)
 		(pin "CC2" input
 			(at 68.58 114.3 180)
+			(uuid "eddfd638-4a2d-4242-9eb8-a32067060c01")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "eddfd638-4a2d-4242-9eb8-a32067060c01")
 		)
 		(pin "TP_ADC_SDA" input
 			(at 123.19 129.54 0)
+			(uuid "ee501d84-5863-4cb6-bf55-8164e542166c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "ee501d84-5863-4cb6-bf55-8164e542166c")
 		)
 		(pin "TP_ADC_SCL" input
 			(at 123.19 133.35 0)
+			(uuid "e9caf8eb-3d1e-4a7a-bd69-83849c3fd324")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "e9caf8eb-3d1e-4a7a-bd69-83849c3fd324")
 		)
 		(pin "ENC1_B" input
 			(at 68.58 124.46 180)
+			(uuid "ef72fbc9-d23f-4ef5-88e9-2ded8bcd87fa")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "ef72fbc9-d23f-4ef5-88e9-2ded8bcd87fa")
 		)
 		(pin "ENC1_BTN" input
 			(at 68.58 119.38 180)
+			(uuid "bea080d8-f871-4007-83ae-c747830e6170")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "bea080d8-f871-4007-83ae-c747830e6170")
 		)
 		(pin "ENC2_A" input
 			(at 68.58 132.08 180)
+			(uuid "aee93d92-e7c8-4c45-85e7-dea428818ec5")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "aee93d92-e7c8-4c45-85e7-dea428818ec5")
 		)
 		(pin "ENC2_BTN" input
 			(at 68.58 129.54 180)
+			(uuid "3312f440-9dd5-4760-a9ad-77658cf1f730")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "3312f440-9dd5-4760-a9ad-77658cf1f730")
 		)
 		(pin "ENC2_B" input
 			(at 68.58 134.62 180)
+			(uuid "6ac096a8-70b2-43b0-8f34-9e9420bc7993")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "6ac096a8-70b2-43b0-8f34-9e9420bc7993")
 		)
 		(pin "ENC3_A" input
 			(at 68.58 142.24 180)
+			(uuid "9f19db1b-dd49-45d0-b919-80aef20540ff")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "9f19db1b-dd49-45d0-b919-80aef20540ff")
 		)
 		(pin "ENC1_A" input
 			(at 68.58 121.92 180)
+			(uuid "6b7e5e0b-a91e-4aab-8ea4-d85441424dd7")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "6b7e5e0b-a91e-4aab-8ea4-d85441424dd7")
 		)
 		(pin "ENC3_B" input
 			(at 68.58 144.78 180)
+			(uuid "810d120c-bee7-444f-8678-9a8976d3eb03")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "810d120c-bee7-444f-8678-9a8976d3eb03")
 		)
 		(pin "ENC3_BTN" input
 			(at 68.58 139.7 180)
+			(uuid "0293315e-0ab3-4de4-b1c0-562603fa1a32")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "0293315e-0ab3-4de4-b1c0-562603fa1a32")
 		)
 		(instances
 			(project "controller"
@@ -2800,6 +2845,10 @@
 	(sheet
 		(at 25.4 133.985)
 		(size 12.7 8.89)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -2829,33 +2878,33 @@
 		)
 		(pin "SW" input
 			(at 38.1 135.89 0)
+			(uuid "2c63a836-4a7e-4355-9a0b-bb4f9e7e73c0")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "2c63a836-4a7e-4355-9a0b-bb4f9e7e73c0")
 		)
 		(pin "B" input
 			(at 38.1 140.97 0)
+			(uuid "19c06c17-629a-4557-90d9-91d2f993a3a7")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "19c06c17-629a-4557-90d9-91d2f993a3a7")
 		)
 		(pin "A" input
 			(at 38.1 138.43 0)
+			(uuid "4b623968-f5f5-4a18-a1c0-bee26347831a")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "4b623968-f5f5-4a18-a1c0-bee26347831a")
 		)
 		(instances
 			(project "controller"
@@ -2868,6 +2917,10 @@
 	(sheet
 		(at 143.51 120.65)
 		(size 19.05 16.51)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -2897,33 +2950,33 @@
 		)
 		(pin "SDA" input
 			(at 143.51 129.54 180)
+			(uuid "db0c1d82-be92-4de4-b8f1-37d5029df13c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "db0c1d82-be92-4de4-b8f1-37d5029df13c")
 		)
 		(pin "SCL" input
 			(at 143.51 133.35 180)
+			(uuid "c6e95b68-8294-4c49-837c-ec2b6fa15a55")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "c6e95b68-8294-4c49-837c-ec2b6fa15a55")
 		)
 		(pin "VBATT" input
 			(at 143.51 124.46 180)
+			(uuid "56342654-ef53-42d2-a656-1a77dd5bd22b")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "56342654-ef53-42d2-a656-1a77dd5bd22b")
 		)
 		(instances
 			(project "controller"
@@ -2936,6 +2989,10 @@
 	(sheet
 		(at 25.4 151.765)
 		(size 12.7 8.89)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -2965,33 +3022,33 @@
 		)
 		(pin "SW" input
 			(at 38.1 153.67 0)
+			(uuid "327e8125-e6e1-4e59-a816-3fe533ccc8a3")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "327e8125-e6e1-4e59-a816-3fe533ccc8a3")
 		)
 		(pin "B" input
 			(at 38.1 158.75 0)
+			(uuid "fa5f03f9-fb4b-4f91-92a6-975e08529147")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "fa5f03f9-fb4b-4f91-92a6-975e08529147")
 		)
 		(pin "A" input
 			(at 38.1 156.21 0)
+			(uuid "4dbb940a-9405-4caa-8bca-053c9fc0d6c7")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "4dbb940a-9405-4caa-8bca-053c9fc0d6c7")
 		)
 		(instances
 			(project "controller"
@@ -3004,6 +3061,10 @@
 	(sheet
 		(at 231.14 81.28)
 		(size 14.605 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -3033,13 +3094,13 @@
 		)
 		(pin "VIN" input
 			(at 231.14 86.36 180)
+			(uuid "b42218a4-0810-449d-8d23-b554123152ea")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "b42218a4-0810-449d-8d23-b554123152ea")
 		)
 		(instances
 			(project "controller"
@@ -3054,4 +3115,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )

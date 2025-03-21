@@ -1,13 +1,17 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "2aba1e01-eb2d-4807-931a-0a0e2dec47ff")
 	(paper "A4")
 	(lib_symbols
 		(symbol "74438367100:74438367100"
-			(pin_numbers hide)
-			(pin_names hide)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -75,33 +79,9 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 6.35 1.27) (xy 4.445 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 				(arc
-					(start 2.54 0)
+					(start 1.27 0)
 					(mid 1.905 0.635)
-					(end 1.27 0)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 3.81 0)
-					(mid 3.175 0.635)
 					(end 2.54 0)
 					(stroke
 						(width 0)
@@ -112,8 +92,8 @@
 					)
 				)
 				(arc
-					(start 5.08 0)
-					(mid 4.445 0.635)
+					(start 2.54 0)
+					(mid 3.175 0.635)
 					(end 3.81 0)
 					(stroke
 						(width 0)
@@ -124,9 +104,33 @@
 					)
 				)
 				(arc
-					(start 6.35 0)
-					(mid 5.715 0.635)
+					(start 3.81 0)
+					(mid 4.445 0.635)
 					(end 5.08 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 5.08 0)
+					(mid 5.715 0.635)
+					(end 6.35 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 1.27) (xy 4.445 1.27)
+					)
 					(stroke
 						(width 0)
 						(type default)
@@ -185,9 +189,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "BZT52C11-7-F:BZT52C11-7-F"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -257,6 +264,18 @@
 				)
 				(polyline
 					(pts
+						(xy 1.5767 1.2444) (xy 1.5767 -1.2956) (xy 3.4817 -0.0256) (xy 1.5767 1.2444)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
 						(xy 3.4817 -1.2956) (xy 3.4817 1.2444)
 					)
 					(stroke
@@ -291,38 +310,8 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 1.5767 1.2444) (xy 1.5767 -1.2956) (xy 3.4817 -0.0256) (xy 1.5767 1.2444)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
 			)
 			(symbol "BZT52C11-7-F_1_1"
-				(pin passive line
-					(at 5.08 0 180)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin passive line
 					(at 0 0 0)
 					(length 1.27)
@@ -341,11 +330,32 @@
 						)
 					)
 				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Connector:Conn_01x02_Socket"
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -419,10 +429,10 @@
 				)
 			)
 			(symbol "Conn_01x02_Socket_1_1"
-				(arc
-					(start 0 -2.032)
-					(mid -0.5058 -2.54)
-					(end 0 -3.048)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -0.508 0)
+					)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -443,10 +453,10 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy -0.508 0)
-					)
+				(arc
+					(start 0 -0.508)
+					(mid -0.5058 0)
+					(end 0 0.508)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -456,9 +466,9 @@
 					)
 				)
 				(arc
-					(start 0 0.508)
-					(mid -0.5058 0)
-					(end 0 -0.508)
+					(start 0 -3.048)
+					(mid -0.5058 -2.54)
+					(end 0 -2.032)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -504,11 +514,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:C_Small"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0.254) hide)
+				(offset 0.254)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -578,10 +593,10 @@
 			(symbol "C_Small_0_1"
 				(polyline
 					(pts
-						(xy -1.524 -0.508) (xy 1.524 -0.508)
+						(xy -1.524 0.508) (xy 1.524 0.508)
 					)
 					(stroke
-						(width 0.3302)
+						(width 0.3048)
 						(type default)
 					)
 					(fill
@@ -590,10 +605,10 @@
 				)
 				(polyline
 					(pts
-						(xy -1.524 0.508) (xy 1.524 0.508)
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
 					)
 					(stroke
-						(width 0.3048)
+						(width 0.3302)
 						(type default)
 					)
 					(fill
@@ -639,11 +654,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:R_Small_US"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0.254) hide)
+				(offset 0.254)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -713,7 +733,7 @@
 			(symbol "R_Small_US_1_1"
 				(polyline
 					(pts
-						(xy 0 0) (xy 1.016 -0.381) (xy 0 -0.762) (xy -1.016 -1.143) (xy 0 -1.524)
+						(xy 0 1.524) (xy 1.016 1.143) (xy 0 0.762) (xy -1.016 0.381) (xy 0 0)
 					)
 					(stroke
 						(width 0)
@@ -725,7 +745,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 1.524) (xy 1.016 1.143) (xy 0 0.762) (xy -1.016 0.381) (xy 0 0)
+						(xy 0 0) (xy 1.016 -0.381) (xy 0 -0.762) (xy -1.016 -1.143) (xy 0 -1.524)
 					)
 					(stroke
 						(width 0)
@@ -772,11 +792,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Jumper:SolderJumper_2_Bridged"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim yes)
 			(in_bom no)
 			(on_board yes)
@@ -853,30 +878,6 @@
 						(type outline)
 					)
 				)
-				(arc
-					(start -0.254 1.016)
-					(mid -1.2656 0)
-					(end -0.254 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -0.254 1.016)
-					(mid -1.2656 0)
-					(end -0.254 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
 				(polyline
 					(pts
 						(xy -0.254 1.016) (xy -0.254 -1.016)
@@ -889,6 +890,54 @@
 						(type none)
 					)
 				)
+				(arc
+					(start -0.254 -1.016)
+					(mid -1.2656 0)
+					(end -0.254 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.254 -1.016)
+					(mid -1.2656 0)
+					(end -0.254 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(arc
+					(start 0.254 1.016)
+					(mid 1.2656 0)
+					(end 0.254 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0.254 1.016)
+					(mid 1.2656 0)
+					(end 0.254 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
 				(polyline
 					(pts
 						(xy 0.254 1.016) (xy 0.254 -1.016)
@@ -899,30 +948,6 @@
 					)
 					(fill
 						(type none)
-					)
-				)
-				(arc
-					(start 0.254 -1.016)
-					(mid 1.2656 0)
-					(end 0.254 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0.254 -1.016)
-					(mid 1.2656 0)
-					(end 0.254 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
 					)
 				)
 			)
@@ -964,11 +989,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Jumper:SolderJumper_2_Open"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim yes)
 			(in_bom no)
 			(on_board yes)
@@ -1034,30 +1064,6 @@
 				)
 			)
 			(symbol "SolderJumper_2_Open_0_1"
-				(arc
-					(start -0.254 1.016)
-					(mid -1.2656 0)
-					(end -0.254 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -0.254 1.016)
-					(mid -1.2656 0)
-					(end -0.254 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
 				(polyline
 					(pts
 						(xy -0.254 1.016) (xy -0.254 -1.016)
@@ -1070,6 +1076,54 @@
 						(type none)
 					)
 				)
+				(arc
+					(start -0.254 -1.016)
+					(mid -1.2656 0)
+					(end -0.254 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.254 -1.016)
+					(mid -1.2656 0)
+					(end -0.254 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(arc
+					(start 0.254 1.016)
+					(mid 1.2656 0)
+					(end 0.254 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0.254 1.016)
+					(mid 1.2656 0)
+					(end 0.254 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
 				(polyline
 					(pts
 						(xy 0.254 1.016) (xy 0.254 -1.016)
@@ -1080,30 +1134,6 @@
 					)
 					(fill
 						(type none)
-					)
-				)
-				(arc
-					(start 0.254 -1.016)
-					(mid 1.2656 0)
-					(end 0.254 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0.254 -1.016)
-					(mid 1.2656 0)
-					(end 0.254 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
 					)
 				)
 			)
@@ -1145,6 +1175,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "MP2759GQ-0000-Z:MP2759GQ-0000-Z"
 			(exclude_from_sim no)
@@ -1234,6 +1265,260 @@
 					)
 				)
 				(pin passive line
+					(at 0 -7.62 0)
+					(length 2.54)
+					(name "~{ACOK}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -11.43 0)
+					(length 2.54)
+					(name "VLIM"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -15.24 0)
+					(length 2.54)
+					(name "ILIM"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -22.86 0)
+					(length 2.54)
+					(name "~{STAT}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -26.67 0)
+					(length 2.54)
+					(name "ISET"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 -31.75 90)
+					(length 2.54)
+					(name "PGND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 -31.75 90)
+					(length 2.54)
+					(hide yes)
+					(name "PGND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 -31.75 90)
+					(length 2.54)
+					(hide yes)
+					(name "PGND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 5.08 270)
+					(length 2.54)
+					(name "PMID"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 16.51 -31.75 90)
+					(length 2.54)
+					(name "AGND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 0 180)
+					(length 2.54)
+					(name "BST"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 -3.81 180)
+					(length 2.54)
+					(name "SW"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 -7.62 180)
+					(length 2.54)
+					(name "CSP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 -11.43 180)
+					(length 2.54)
+					(name "BATT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
 					(at 25.4 -15.24 180)
 					(length 2.54)
 					(name "CELL"
@@ -1270,96 +1555,6 @@
 					)
 				)
 				(pin passive line
-					(at 25.4 -26.67 180)
-					(length 2.54)
-					(name "NTC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -15.24 0)
-					(length 2.54)
-					(name "ILIM"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 25.4 -11.43 180)
-					(length 2.54)
-					(name "BATT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 25.4 -7.62 180)
-					(length 2.54)
-					(name "CSP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 16.51 -31.75 90)
-					(length 2.54)
-					(name "AGND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at 25.4 -22.86 180)
 					(length 2.54)
 					(name "VCC"
@@ -1378,178 +1573,16 @@
 					)
 				)
 				(pin passive line
-					(at 0 -26.67 0)
+					(at 25.4 -26.67 180)
 					(length 2.54)
-					(name "ISET"
+					(name "NTC"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "18"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -11.43 0)
-					(length 2.54)
-					(name "VLIM"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "19"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 12.7 5.08 270)
-					(length 2.54)
-					(name "PMID"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 25.4 -3.81 180)
-					(length 2.54)
-					(name "SW"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 25.4 0 180)
-					(length 2.54)
-					(name "BST"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 -31.75 90)
-					(length 2.54)
-					(name "PGND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 -31.75 90)
-					(length 2.54) hide
-					(name "PGND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 -31.75 90)
-					(length 2.54) hide
-					(name "PGND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -22.86 0)
-					(length 2.54)
-					(name "~{STAT}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -7.62 0)
-					(length 2.54)
-					(name "~{ACOK}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
+					(number "12"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1558,10 +1591,15 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "PE1206FRE470R02L:PE1206FRE470R02L"
-			(pin_numbers hide)
-			(pin_names hide)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1678,11 +1716,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "SB54AFC-AU_R1_000A1:SB54AFC-AU_R1_000A1"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0.254) hide)
+				(offset 0.254)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1764,6 +1807,30 @@
 				)
 				(polyline
 					(pts
+						(xy 1.5767 1.2444) (xy 1.5767 -1.2956) (xy 3.4817 -0.0256) (xy 1.5767 1.2444)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.4817 1.2444) (xy 3.8853 1.2448) (xy 3.8853 0.8977)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
 						(xy 3.4817 -1.2956) (xy 3.4817 1.2444)
 					)
 					(stroke
@@ -1786,50 +1853,8 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 3.4817 1.2444) (xy 3.8853 1.2448) (xy 3.8853 0.8977)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.5767 1.2444) (xy 1.5767 -1.2956) (xy 3.4817 -0.0256) (xy 1.5767 1.2444)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
 			)
 			(symbol "SB54AFC-AU_R1_000A1_1_1"
-				(pin passive line
-					(at 5.08 0 180)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin passive line
 					(at 0 0 0)
 					(length 1.27)
@@ -1848,35 +1873,29 @@
 						)
 					)
 				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
 			(symbol "SB54AFC-AU_R1_000A1_1_2"
 				(polyline
 					(pts
 						(xy -1.905 3.81) (xy 1.905 3.81)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0 3.4798)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 3.175) (xy 0 3.81)
 					)
 					(stroke
 						(width 0.2032)
@@ -1912,7 +1931,19 @@
 				)
 				(polyline
 					(pts
-						(xy 1.905 3.81) (xy 0 6.35)
+						(xy 0 3.175) (xy 0 3.81)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 3.4798)
 					)
 					(stroke
 						(width 0.2032)
@@ -1925,6 +1956,18 @@
 				(polyline
 					(pts
 						(xy 1.905 6.35) (xy -1.905 6.35)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 3.81) (xy 0 6.35)
 					)
 					(stroke
 						(width 0.2032)
@@ -1971,9 +2014,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "SISA35DN-T1-GE3:SISA35DN-T1-GE3"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2033,31 +2079,7 @@
 			(symbol "SISA35DN-T1-GE3_0_1"
 				(polyline
 					(pts
-						(xy 0 -6.985) (xy 0 -8.255)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -5.715) (xy 1.905 -5.715)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -5.08) (xy 0 -6.35)
+						(xy -0.635 -7.62) (xy -0.635 -3.81) (xy -1.27 -3.81)
 					)
 					(stroke
 						(width 0)
@@ -2081,7 +2103,43 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 -8.89) (xy 2.54 -8.255)
+						(xy 0 -3.81) (xy 2.54 -3.81) (xy 2.54 -5.715)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -5.08) (xy 0 -6.35)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -5.715) (xy 1.905 -5.715)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -6.985) (xy 0 -8.255)
 					)
 					(stroke
 						(width 0)
@@ -2105,38 +2163,14 @@
 				)
 				(polyline
 					(pts
-						(xy 3.175 -5.08) (xy 4.445 -5.08)
+						(xy 2.54 -5.715) (xy 1.6169 -6.3499) (xy 1.6169 -5.0799) (xy 2.54 -5.7024)
 					)
 					(stroke
 						(width 0)
 						(type default)
 					)
 					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.635 -7.62) (xy -0.635 -3.81) (xy -1.27 -3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -3.81) (xy 2.54 -3.81) (xy 2.54 -5.715)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
+						(type outline)
 					)
 				)
 				(polyline
@@ -2165,14 +2199,26 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 -5.715) (xy 1.6169 -6.3499) (xy 1.6169 -5.0799) (xy 2.54 -5.7024)
+						(xy 2.54 -8.89) (xy 2.54 -8.255)
 					)
 					(stroke
 						(width 0)
 						(type default)
 					)
 					(fill
-						(type outline)
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.175 -5.08) (xy 4.445 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 				(polyline
@@ -2202,24 +2248,6 @@
 			)
 			(symbol "SISA35DN-T1-GE3_1_1"
 				(pin passive line
-					(at 2.54 0 270)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at -3.81 -3.81 0)
 					(length 2.54)
 					(name ""
@@ -2230,6 +2258,24 @@
 						)
 					)
 					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2256,12 +2302,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GND"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2352,7 +2403,268 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(rectangle
+		(start 15.875 15.875)
+		(end 120.65 80.645)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 31a63bd7-fa72-4ff3-bd0c-c89b4ed92684)
+	)
+	(rectangle
+		(start 121.92 15.875)
+		(end 280.67 147.955)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid a7624800-be63-4e79-bed5-20e397b2c79b)
+	)
+	(rectangle
+		(start 121.92 149.225)
+		(end 172.085 193.675)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid a7f9ff98-513e-45db-a9fa-63595e03a02d)
+	)
+	(rectangle
+		(start 15.875 149.225)
+		(end 82.55 193.675)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid ae8d3b3c-bd82-424e-8e14-9dd25c506b53)
+	)
+	(rectangle
+		(start 194.945 50.165)
+		(end 210.185 65.405)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid dfea3455-9d0c-46b8-998e-0a17996fde32)
+	)
+	(rectangle
+		(start 15.875 83.185)
+		(end 120.65 147.32)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid ef87b669-4008-4cf0-8cc1-7be18fd4aa86)
+	)
+	(rectangle
+		(start 83.82 149.225)
+		(end 120.65 193.675)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid f401653b-3d43-4cdd-b7ac-2bbb7a071754)
+	)
+	(text "Charging Current Setting"
+		(exclude_from_sim no)
+		(at 42.672 87.376 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "0e6d4017-3e5f-4193-ac08-f7e6a26e23dd")
+	)
+	(text "Charger"
+		(exclude_from_sim no)
+		(at 132.588 20.066 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "0fd323b9-ff74-4252-beda-86da682521e1")
+	)
+	(text "Note: Cut 'Dummy NTC' bridge when using external thermistor"
+		(exclude_from_sim no)
+		(at 48.006 191.77 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1ab8b1a2-4685-4c01-a113-51c6759e979f")
+	)
+	(text "2 cell liion"
+		(exclude_from_sim no)
+		(at 180.594 174.244 0)
+		(effects
+			(font
+				(size 3.048 3.048)
+				(thickness 0.6096)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "2493dc1a-ed6d-4669-ac98-22cd51b34d90")
+	)
+	(text "Open-drain"
+		(exclude_from_sim no)
+		(at 114.3 167.894 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "270af533-f2b2-41fc-a4fd-cca1a35b2a2f")
+	)
+	(text "Open-drain"
+		(exclude_from_sim no)
+		(at 114.3 170.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "300dd350-9fd6-48c3-8d73-ec38d8f5ac3b")
+	)
+	(text "MCU IO"
+		(exclude_from_sim no)
+		(at 93.218 152.654 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "38bdbda4-d293-478b-9e5f-a69dbeb90a06")
+	)
+	(text "<-"
+		(exclude_from_sim no)
+		(at 106.426 167.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "83527ad1-78f8-4adf-b417-31acb4788efb")
+	)
+	(text "Note: Bridge only the desired current limit's jumper"
+		(exclude_from_sim no)
+		(at 42.164 78.232 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9eb719a5-ddaf-448c-a38f-c20723e27859")
+	)
+	(text "Charge Voltage Setting"
+		(exclude_from_sim no)
+		(at 147.066 152.4 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "a24ef388-ae41-46d7-9439-313d72c62d4c")
+	)
+	(text "Note: Bridge only the desired current limit's jumper"
+		(exclude_from_sim no)
+		(at 41.656 145.034 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a5dca8f9-d251-4d78-a451-f8b80c886f03")
+	)
+	(text "Note: To enable charging, VIN > V_{BATT} + 2.4V"
+		(exclude_from_sim no)
+		(at 150.622 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ad89456d-f599-438e-af13-1e643844514b")
+	)
+	(text "<-"
+		(exclude_from_sim no)
+		(at 106.426 170.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b24b53ff-bddd-43b0-b223-705814e7baac")
+	)
+	(text "Place close to PMID"
+		(exclude_from_sim no)
+		(at 202.692 51.816 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+		)
+		(uuid "b5efdced-28b3-4163-9ca4-4900275cb7df")
+	)
+	(text "Note: Bridge only the desired charge \nvoltage's jumper"
+		(exclude_from_sim no)
+		(at 123.444 191.516 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cce3bc0a-cee2-478d-8f40-08463cee5ada")
+	)
+	(text "Input Current Limit Setting"
+		(exclude_from_sim no)
+		(at 44.958 20.066 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "f731cc25-b746-4969-92ec-7a05c165a265")
+	)
+	(text "Thermister Setting and Connector"
+		(exclude_from_sim no)
+		(at 49.022 152.4 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "fb49aaa8-6e0e-454a-8240-cb83f54a5947")
 	)
 	(junction
 		(at 255.27 91.44)
@@ -3499,266 +3811,6 @@
 			(type default)
 		)
 		(uuid "f5cc64a1-a373-40c0-8874-48048d32c39c")
-	)
-	(rectangle
-		(start 15.875 15.875)
-		(end 120.65 80.645)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 31a63bd7-fa72-4ff3-bd0c-c89b4ed92684)
-	)
-	(rectangle
-		(start 121.92 15.875)
-		(end 280.67 147.955)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(fill
-			(type none)
-		)
-		(uuid a7624800-be63-4e79-bed5-20e397b2c79b)
-	)
-	(rectangle
-		(start 121.92 149.225)
-		(end 172.085 193.675)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(fill
-			(type none)
-		)
-		(uuid a7f9ff98-513e-45db-a9fa-63595e03a02d)
-	)
-	(rectangle
-		(start 15.875 149.225)
-		(end 82.55 193.675)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(fill
-			(type none)
-		)
-		(uuid ae8d3b3c-bd82-424e-8e14-9dd25c506b53)
-	)
-	(rectangle
-		(start 194.945 50.165)
-		(end 210.185 65.405)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(fill
-			(type none)
-		)
-		(uuid dfea3455-9d0c-46b8-998e-0a17996fde32)
-	)
-	(rectangle
-		(start 15.875 83.185)
-		(end 120.65 147.32)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(fill
-			(type none)
-		)
-		(uuid ef87b669-4008-4cf0-8cc1-7be18fd4aa86)
-	)
-	(rectangle
-		(start 83.82 149.225)
-		(end 120.65 193.675)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(fill
-			(type none)
-		)
-		(uuid f401653b-3d43-4cdd-b7ac-2bbb7a071754)
-	)
-	(text "Charging Current Setting"
-		(exclude_from_sim no)
-		(at 42.672 87.376 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-			)
-		)
-		(uuid "0e6d4017-3e5f-4193-ac08-f7e6a26e23dd")
-	)
-	(text "Charger"
-		(exclude_from_sim no)
-		(at 132.588 20.066 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-			)
-		)
-		(uuid "0fd323b9-ff74-4252-beda-86da682521e1")
-	)
-	(text "Note: Cut 'Dummy NTC' bridge when using external thermistor"
-		(exclude_from_sim no)
-		(at 48.006 191.77 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "1ab8b1a2-4685-4c01-a113-51c6759e979f")
-	)
-	(text "2 cell liion"
-		(exclude_from_sim no)
-		(at 180.594 174.244 0)
-		(effects
-			(font
-				(size 3.048 3.048)
-				(thickness 0.6096)
-				(bold yes)
-			)
-			(justify left)
-		)
-		(uuid "2493dc1a-ed6d-4669-ac98-22cd51b34d90")
-	)
-	(text "Open-drain"
-		(exclude_from_sim no)
-		(at 114.3 167.894 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "270af533-f2b2-41fc-a4fd-cca1a35b2a2f")
-	)
-	(text "Open-drain"
-		(exclude_from_sim no)
-		(at 114.3 170.18 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "300dd350-9fd6-48c3-8d73-ec38d8f5ac3b")
-	)
-	(text "MCU IO"
-		(exclude_from_sim no)
-		(at 93.218 152.654 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-			)
-		)
-		(uuid "38bdbda4-d293-478b-9e5f-a69dbeb90a06")
-	)
-	(text "<-"
-		(exclude_from_sim no)
-		(at 106.426 167.64 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "83527ad1-78f8-4adf-b417-31acb4788efb")
-	)
-	(text "Note: Bridge only the desired current limit's jumper"
-		(exclude_from_sim no)
-		(at 42.164 78.232 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "9eb719a5-ddaf-448c-a38f-c20723e27859")
-	)
-	(text "Charge Voltage Setting"
-		(exclude_from_sim no)
-		(at 147.066 152.4 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-			)
-		)
-		(uuid "a24ef388-ae41-46d7-9439-313d72c62d4c")
-	)
-	(text "Note: Bridge only the desired current limit's jumper"
-		(exclude_from_sim no)
-		(at 41.656 145.034 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a5dca8f9-d251-4d78-a451-f8b80c886f03")
-	)
-	(text "Note: To enable charging, VIN > V_{BATT} + 2.4V"
-		(exclude_from_sim no)
-		(at 150.622 76.2 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "ad89456d-f599-438e-af13-1e643844514b")
-	)
-	(text "<-"
-		(exclude_from_sim no)
-		(at 106.426 170.18 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "b24b53ff-bddd-43b0-b223-705814e7baac")
-	)
-	(text "Place close to PMID"
-		(exclude_from_sim no)
-		(at 202.692 51.816 0)
-		(effects
-			(font
-				(size 0.889 0.889)
-			)
-		)
-		(uuid "b5efdced-28b3-4163-9ca4-4900275cb7df")
-	)
-	(text "Note: Bridge only the desired charge \nvoltage's jumper"
-		(exclude_from_sim no)
-		(at 123.444 191.516 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "cce3bc0a-cee2-478d-8f40-08463cee5ada")
-	)
-	(text "Input Current Limit Setting"
-		(exclude_from_sim no)
-		(at 44.958 20.066 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-			)
-		)
-		(uuid "f731cc25-b746-4969-92ec-7a05c165a265")
-	)
-	(text "Thermister Setting and Connector"
-		(exclude_from_sim no)
-		(at 49.022 152.4 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-			)
-		)
-		(uuid "fb49aaa8-6e0e-454a-8240-cb83f54a5947")
 	)
 	(label "VIN"
 		(at 214.63 54.61 0)
