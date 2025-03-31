@@ -11,3 +11,6 @@
         - EVM avaliable
         - Integrated FETs
         - Probably the easiest to design, assuming it meets the required specs
+
+# Fuel Gauges
+    - MAX17263
