@@ -3072,7 +3072,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 105.41) (xy 215.9 105.41)
+			(xy 214.63 105.41) (xy 232.41 105.41)
 		)
 		(stroke
 			(width 0)
@@ -3402,7 +3402,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 99.06) (xy 215.9 99.06)
+			(xy 214.63 99.06) (xy 232.41 99.06)
 		)
 		(stroke
 			(width 0)
@@ -3482,7 +3482,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 102.87) (xy 215.9 102.87)
+			(xy 214.63 102.87) (xy 232.41 102.87)
 		)
 		(stroke
 			(width 0)
@@ -3763,7 +3763,7 @@
 	)
 	(hierarchical_label "USB_DB"
 		(shape input)
-		(at 215.9 99.06 0)
+		(at 232.41 99.06 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3783,7 +3783,7 @@
 		)
 		(uuid "53a733ba-08c1-45dd-8c91-93977a2cced7")
 	)
-	(hierarchical_label "VBUS_CTRL"
+	(hierarchical_label "VBUS_SENS"
 		(shape input)
 		(at 140.97 96.52 180)
 		(effects
@@ -3818,7 +3818,7 @@
 	)
 	(hierarchical_label "CC2"
 		(shape input)
-		(at 215.9 105.41 0)
+		(at 232.41 105.41 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3829,7 +3829,7 @@
 	)
 	(hierarchical_label "CC1"
 		(shape input)
-		(at 215.9 102.87 0)
+		(at 232.41 102.87 0)
 		(effects
 			(font
 				(size 1.27 1.27)
