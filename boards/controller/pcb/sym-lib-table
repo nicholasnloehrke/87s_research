@@ -9,4 +9,5 @@
   (lib (name "B1911PG--20D000514U1930")(type "KiCad")(uri "${KIPRJMOD}/symbols/B1911PG--20D000514U1930/B1911PG--20D000514U1930.kicad_sym")(options "")(descr "Led green"))
   (lib (name "1217AS-H-3R3N-P3")(type "KiCad")(uri "${KIPRJMOD}/symbols/1217AS-H-3R3N-P3/1217AS-H-3R3N-P3.kicad_sym")(options "")(descr "Inductor 3.3uH"))
   (lib (name "NJM2884U1-33-TE1")(type "KiCad")(uri "${KIPRJMOD}/symbols/NJM2884U1-33-TE1/NJM2884U1-33-TE1.kicad_sym")(options "")(descr "LDO 3.3V"))
+  (lib (name "SSM3J372R_LF")(type "KiCad")(uri "${KIPRJMOD}/symbols/SSM3J372R_LF/SSM3J372R_LF.kicad_sym")(options "")(descr "Mosfet p-channel"))
 )
