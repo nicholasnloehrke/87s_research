@@ -3202,7 +3202,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 68.58) (xy 156.21 68.58)
+			(xy 153.67 71.12) (xy 156.21 71.12)
 		)
 		(stroke
 			(width 0)
@@ -3582,7 +3582,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 68.58) (xy 153.67 73.66)
+			(xy 153.67 71.12) (xy 153.67 73.66)
 		)
 		(stroke
 			(width 0)
@@ -3742,7 +3742,7 @@
 	)
 	(global_label "VBUSc"
 		(shape input)
-		(at 156.21 68.58 0)
+		(at 156.21 71.12 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3752,7 +3752,7 @@
 		)
 		(uuid "016f6a06-55bc-43ac-879c-0535d27a2aec")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 165.1824 68.58 0)
+			(at 165.1824 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3763,7 +3763,7 @@
 		)
 	)
 	(global_label "VBUS"
-		(shape input)
+		(shape output)
 		(at 223.52 73.66 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3795,7 +3795,7 @@
 		)
 		(uuid "35ede61a-22b3-4d79-88a5-50bb2168c1eb")
 	)
-	(hierarchical_label "USB_DB"
+	(hierarchical_label "DBn"
 		(shape input)
 		(at 232.41 99.06 0)
 		(effects
@@ -3817,8 +3817,8 @@
 		)
 		(uuid "53a733ba-08c1-45dd-8c91-93977a2cced7")
 	)
-	(hierarchical_label "USB_FLT"
-		(shape input)
+	(hierarchical_label "FLTn"
+		(shape output)
 		(at 232.41 96.52 0)
 		(effects
 			(font
@@ -3829,7 +3829,7 @@
 		(uuid "adcb1227-cc81-4246-9ca4-e04816f70045")
 	)
 	(hierarchical_label "CC2"
-		(shape input)
+		(shape bidirectional)
 		(at 232.41 105.41 0)
 		(effects
 			(font
@@ -3840,7 +3840,7 @@
 		(uuid "b547fbed-453c-43d4-8fcd-8b397940b7d4")
 	)
 	(hierarchical_label "CC1"
-		(shape input)
+		(shape bidirectional)
 		(at 232.41 102.87 0)
 		(effects
 			(font

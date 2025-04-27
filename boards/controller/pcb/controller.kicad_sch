@@ -6,6 +6,48 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
+		(at 128.27 123.19)
+		(size 26.67 27.94)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1a4793e5-92d0-4710-847d-f210f4a65056")
+		(property "Sheetname" "LDO 3V3"
+			(at 128.27 122.4784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ldo_3v3.kicad_sch"
+			(at 128.27 151.7146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "controller"
+				(path "/5caba13a-97ae-46d4-856f-900b12012fd8"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 94.615 41.275)
 		(size 51.435 26.67)
 		(exclude_from_sim no)
@@ -132,6 +174,48 @@
 		)
 	)
 	(sheet
+		(at 39.37 102.87)
+		(size 16.51 16.51)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9d0a88ee-2aef-4cfe-9674-1a031a786ca9")
+		(property "Sheetname" "Encoder"
+			(at 39.37 102.1584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "encoder.kicad_sch"
+			(at 39.37 119.9646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "controller"
+				(path "/5caba13a-97ae-46d4-856f-900b12012fd8"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 142.875 84.455)
 		(size 45.085 27.94)
 		(exclude_from_sim no)
@@ -169,6 +253,48 @@
 			(project "controller"
 				(path "/5caba13a-97ae-46d4-856f-900b12012fd8"
 					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 52.705 161.925)
+		(size 33.655 21.59)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b034422d-7ead-4ba1-8965-68b1c7cd2df8")
+		(property "Sheetname" "Buck Converter 5V"
+			(at 52.705 161.2134 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "buck_converter_5v.kicad_sch"
+			(at 52.705 184.0996 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "controller"
+				(path "/5caba13a-97ae-46d4-856f-900b12012fd8"
+					(page "8")
 				)
 			)
 		)

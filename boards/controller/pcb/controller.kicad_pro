@@ -431,6 +431,18 @@
     [
       "e9c1830f-f16f-4f1e-b4e4-1e9230890439",
       "Power Button"
+    ],
+    [
+      "9d0a88ee-2aef-4cfe-9674-1a031a786ca9",
+      "Encoder"
+    ],
+    [
+      "b034422d-7ead-4ba1-8965-68b1c7cd2df8",
+      "Buck Converter 5V"
+    ],
+    [
+      "1a4793e5-92d0-4710-847d-f210f4a65056",
+      "LDO 3V3"
     ]
   ],
   "text_variables": {}

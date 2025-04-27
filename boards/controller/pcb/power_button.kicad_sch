@@ -1784,7 +1784,7 @@
 		)
 	)
 	(global_label "VSYS_SW"
-		(shape input)
+		(shape output)
 		(at 186.69 83.82 0)
 		(fields_autoplaced yes)
 		(effects
