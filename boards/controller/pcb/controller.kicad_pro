@@ -447,6 +447,10 @@
     [
       "397b981f-9e39-4a0b-88ba-1021bd78e3f7",
       "LCD"
+    ],
+    [
+      "e3f9a06c-bd50-4f31-8019-b222730af2c1",
+      "Bidirectional Load Switch Interface"
     ]
   ],
   "text_variables": {}
