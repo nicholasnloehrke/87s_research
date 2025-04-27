@@ -1,4 +1,10 @@
 (sym_lib_table
   (version 7)
-  (lib (name "BQ25792RQMR")(type "KiCad")(uri "${KIPRJMOD}/symbols/BQ25792RQMR/BQ25792RQMR.kicad_sym")(options "")(descr ""))
+  (lib (name "BQ25792RQMR")(type "KiCad")(uri "${KIPRJMOD}/symbols/BQ25792RQMR/BQ25792RQMR.kicad_sym")(options "")(descr "Battery charger"))
+  (lib (name "BAT54CTB6_R1_00001")(type "KiCad")(uri "${KIPRJMOD}/symbols/BAT54CTB6_R1_00001/BAT54CTB6_R1_00001.kicad_sym")(options "")(descr "Diode 2 pair common cathode"))
+  (lib (name "ESE-20D443")(type "KiCad")(uri "${KIPRJMOD}/symbols/ESE-20D443/ESE-20D443.kicad_sym")(options "")(descr "Push button off-mon"))
+  (lib (name "SISA35DN-T1-GE3")(type "KiCad")(uri "${KIPRJMOD}/symbols/SISA35DN-T1-GE3/SISA35DN-T1-GE3.kicad_sym")(options "")(descr "Mosfet p-channel"))
+  (lib (name "CUS10S30_H3F")(type "KiCad")(uri "${KIPRJMOD}/symbols/CUS10S30_H3F/CUS10S30_H3F.kicad_sym")(options "")(descr "Diode"))
+  (lib (name "ASPI-0530HI-1R0M-T2")(type "KiCad")(uri "${KIPRJMOD}/symbols/ASPI-0530HI-1R0M-T2/ASPI-0530HI-1R0M-T2.kicad_sym")(options "")(descr "Inductor 1uH"))
+  (lib (name "B1911PG--20D000514U1930")(type "KiCad")(uri "${KIPRJMOD}/symbols/B1911PG--20D000514U1930/B1911PG--20D000514U1930.kicad_sym")(options "")(descr "Led green"))
 )

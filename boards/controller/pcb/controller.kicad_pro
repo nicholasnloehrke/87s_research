@@ -427,6 +427,10 @@
     [
       "36295df0-8e81-41b3-8cd3-2cdd8b56207c",
       "USB-C PD"
+    ],
+    [
+      "e9c1830f-f16f-4f1e-b4e4-1e9230890439",
+      "Power Button"
     ]
   ],
   "text_variables": {}

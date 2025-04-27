@@ -2644,7 +2644,7 @@
 	)
 	(symbol
 		(lib_id "MCU_ST_STM32U5:STM32U575VITx")
-		(at 130.81 92.71 0)
+		(at 132.08 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2653,7 +2653,7 @@
 		(fields_autoplaced yes)
 		(uuid "47edc8ed-2382-4d80-a5b5-9c46cf13368a")
 		(property "Reference" "U101"
-			(at 135.4933 161.29 0)
+			(at 136.7633 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2662,7 +2662,7 @@
 			)
 		)
 		(property "Value" "STM32U575VITx"
-			(at 135.4933 163.83 0)
+			(at 136.7633 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2671,7 +2671,7 @@
 			)
 		)
 		(property "Footprint" "Package_QFP:LQFP-100_14x14mm_P0.5mm"
-			(at 113.03 158.75 0)
+			(at 114.3 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2681,7 +2681,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.st.com/resource/en/datasheet/stm32u575vi.pdf"
-			(at 130.81 92.71 0)
+			(at 132.08 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2690,7 +2690,7 @@
 			)
 		)
 		(property "Description" "STMicroelectronics Arm Cortex-M33 MCU, 2048KB flash, 786KB RAM, 160 MHz, 1.71-3.6V, 82 GPIO, LQFP100"
-			(at 130.81 92.71 0)
+			(at 132.08 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
