@@ -2301,7 +2301,7 @@
 		(uuid "1f825ea4-65c8-41f6-979d-dc681c65cc54")
 	)
 	(hierarchical_label "TP_SCL"
-		(shape input)
+		(shape bidirectional)
 		(at 60.96 119.38 180)
 		(effects
 			(font
@@ -2345,7 +2345,7 @@
 		(uuid "617d298e-9c80-45be-8c0e-60e59acbeb97")
 	)
 	(hierarchical_label "TP_INT"
-		(shape input)
+		(shape output)
 		(at 60.96 121.92 180)
 		(effects
 			(font
@@ -2442,7 +2442,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "03eb7fe0-0878-4fee-95ac-10ec84e58c53")
-		(property "Reference" "RN1001"
+		(property "Reference" "RN10001"
 			(at 156.21 95.2499 0)
 			(effects
 				(font
@@ -2517,7 +2517,7 @@
 		(instances
 			(project ""
 				(path "/5caba13a-97ae-46d4-856f-900b12012fd8/397b981f-9e39-4a0b-88ba-1021bd78e3f7"
-					(reference "RN1001")
+					(reference "RN10001")
 					(unit 6)
 				)
 			)
@@ -2533,7 +2533,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "31c1d62a-4788-4cd0-97df-078e6818cf6b")
-		(property "Reference" "RN1001"
+		(property "Reference" "RN10001"
 			(at 118.11 95.2499 0)
 			(effects
 				(font
@@ -2608,7 +2608,7 @@
 		(instances
 			(project ""
 				(path "/5caba13a-97ae-46d4-856f-900b12012fd8/397b981f-9e39-4a0b-88ba-1021bd78e3f7"
-					(reference "RN1001")
+					(reference "RN10001")
 					(unit 4)
 				)
 			)
@@ -2624,7 +2624,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5ec840b8-ac2e-47bd-82e4-3dd8f41320d8")
-		(property "Reference" "RN1001"
+		(property "Reference" "RN10001"
 			(at 142.24 95.2499 0)
 			(effects
 				(font
@@ -2699,7 +2699,7 @@
 		(instances
 			(project ""
 				(path "/5caba13a-97ae-46d4-856f-900b12012fd8/397b981f-9e39-4a0b-88ba-1021bd78e3f7"
-					(reference "RN1001")
+					(reference "RN10001")
 					(unit 5)
 				)
 			)
@@ -2715,7 +2715,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "68813f3d-55c0-4589-a304-100b41c20a4b")
-		(property "Reference" "RN1001"
+		(property "Reference" "RN10001"
 			(at 186.69 95.2499 0)
 			(effects
 				(font
@@ -2790,7 +2790,7 @@
 		(instances
 			(project ""
 				(path "/5caba13a-97ae-46d4-856f-900b12012fd8/397b981f-9e39-4a0b-88ba-1021bd78e3f7"
-					(reference "RN1001")
+					(reference "RN10001")
 					(unit 8)
 				)
 			)
@@ -2806,7 +2806,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "78e8a13e-6249-44b5-b2f7-e93132acad2c")
-		(property "Reference" "RN1001"
+		(property "Reference" "RN10001"
 			(at 104.14 95.2499 0)
 			(effects
 				(font
@@ -2881,7 +2881,7 @@
 		(instances
 			(project ""
 				(path "/5caba13a-97ae-46d4-856f-900b12012fd8/397b981f-9e39-4a0b-88ba-1021bd78e3f7"
-					(reference "RN1001")
+					(reference "RN10001")
 					(unit 3)
 				)
 			)
@@ -2897,7 +2897,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7b1b1578-2b59-4c48-a17a-7143e858fd2c")
-		(property "Reference" "#PWR01001"
+		(property "Reference" "#PWR010001"
 			(at 209.55 101.6 0)
 			(effects
 				(font
@@ -2948,7 +2948,7 @@
 		(instances
 			(project ""
 				(path "/5caba13a-97ae-46d4-856f-900b12012fd8/397b981f-9e39-4a0b-88ba-1021bd78e3f7"
-					(reference "#PWR01001")
+					(reference "#PWR010001")
 					(unit 1)
 				)
 			)
@@ -2964,7 +2964,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "80ffbc47-cc7a-4a11-b319-fda06f0744ac")
-		(property "Reference" "RN1001"
+		(property "Reference" "RN10001"
 			(at 172.72 95.2499 0)
 			(effects
 				(font
@@ -3039,7 +3039,7 @@
 		(instances
 			(project ""
 				(path "/5caba13a-97ae-46d4-856f-900b12012fd8/397b981f-9e39-4a0b-88ba-1021bd78e3f7"
-					(reference "RN1001")
+					(reference "RN10001")
 					(unit 7)
 				)
 			)
@@ -3055,7 +3055,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "90c9c9f5-d495-4fac-9c99-693c095b24f8")
-		(property "Reference" "RN1001"
+		(property "Reference" "RN10001"
 			(at 76.2 95.2499 0)
 			(effects
 				(font
@@ -3130,7 +3130,7 @@
 		(instances
 			(project ""
 				(path "/5caba13a-97ae-46d4-856f-900b12012fd8/397b981f-9e39-4a0b-88ba-1021bd78e3f7"
-					(reference "RN1001")
+					(reference "RN10001")
 					(unit 1)
 				)
 			)
@@ -3146,7 +3146,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "944d3854-a648-479e-b157-cc07fb8d01eb")
-		(property "Reference" "RN1001"
+		(property "Reference" "RN10001"
 			(at 90.17 95.2499 0)
 			(effects
 				(font
@@ -3221,7 +3221,7 @@
 		(instances
 			(project ""
 				(path "/5caba13a-97ae-46d4-856f-900b12012fd8/397b981f-9e39-4a0b-88ba-1021bd78e3f7"
-					(reference "RN1001")
+					(reference "RN10001")
 					(unit 2)
 				)
 			)
@@ -3237,7 +3237,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a3d0f30e-8849-4a09-90dc-c166ab497492")
-		(property "Reference" "J1001"
+		(property "Reference" "J10001"
 			(at 232.41 105.4099 0)
 			(effects
 				(font
@@ -3330,7 +3330,7 @@
 		(instances
 			(project ""
 				(path "/5caba13a-97ae-46d4-856f-900b12012fd8/397b981f-9e39-4a0b-88ba-1021bd78e3f7"
-					(reference "J1001")
+					(reference "J10001")
 					(unit 1)
 				)
 			)
@@ -3345,7 +3345,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a9c8f9b6-be0b-4c18-95ee-f550a7cb4527")
-		(property "Reference" "R1001"
+		(property "Reference" "R10001"
 			(at 197.866 71.12 90)
 			(effects
 				(font
@@ -3397,7 +3397,7 @@
 		(instances
 			(project ""
 				(path "/5caba13a-97ae-46d4-856f-900b12012fd8/397b981f-9e39-4a0b-88ba-1021bd78e3f7"
-					(reference "R1001")
+					(reference "R10001")
 					(unit 1)
 				)
 			)
@@ -3414,7 +3414,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c9dda96a-2c09-418f-8a6e-163fabb48ca7")
-		(property "Reference" "MOSFET1002"
+		(property "Reference" "MOSFET10001"
 			(at 213.36 81.2801 0)
 			(effects
 				(font
@@ -3473,7 +3473,7 @@
 		(instances
 			(project ""
 				(path "/5caba13a-97ae-46d4-856f-900b12012fd8/397b981f-9e39-4a0b-88ba-1021bd78e3f7"
-					(reference "MOSFET1002")
+					(reference "MOSFET10001")
 					(unit 1)
 				)
 			)

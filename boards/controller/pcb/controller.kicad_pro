@@ -434,15 +434,15 @@
     ],
     [
       "9d0a88ee-2aef-4cfe-9674-1a031a786ca9",
-      "Encoder"
+      "Encoder 1"
     ],
     [
-      "b034422d-7ead-4ba1-8965-68b1c7cd2df8",
-      "Buck Converter 5V"
+      "9d397a0b-5739-46e8-8181-685ec294765e",
+      "Encoder 2"
     ],
     [
-      "1a4793e5-92d0-4710-847d-f210f4a65056",
-      "LDO 3V3"
+      "0c0e5ed6-32ab-4125-a53e-2b201c260076",
+      "Encoder 3"
     ],
     [
       "397b981f-9e39-4a0b-88ba-1021bd78e3f7",
@@ -451,6 +451,14 @@
     [
       "e3f9a06c-bd50-4f31-8019-b222730af2c1",
       "Bidirectional Load Switch Interface"
+    ],
+    [
+      "b034422d-7ead-4ba1-8965-68b1c7cd2df8",
+      "Buck Converter 5V"
+    ],
+    [
+      "1a4793e5-92d0-4710-847d-f210f4a65056",
+      "LDO 3V3"
     ]
   ],
   "text_variables": {}

@@ -3460,8 +3460,8 @@
 		)
 	)
 	(rectangle
-		(start 168.275 107.315)
-		(end 189.23 123.19)
+		(start 167.005 107.315)
+		(end 190.5 123.19)
 		(stroke
 			(width 0)
 			(type dash)
@@ -3472,7 +3472,7 @@
 		(uuid 14f2b93c-a88b-46a2-be11-eb527eaf9ff0)
 	)
 	(rectangle
-		(start 167.005 83.185)
+		(start 165.1 83.185)
 		(end 186.055 93.345)
 		(stroke
 			(width 0)
@@ -3497,7 +3497,7 @@
 	)
 	(text "50 V DC X7R\n0603 or smaller\nMinimal ESL"
 		(exclude_from_sim no)
-		(at 167.386 85.852 0)
+		(at 165.862 85.852 0)
 		(effects
 			(font
 				(size 0.889 0.889)
@@ -3680,7 +3680,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 88.9) (xy 177.8 88.9)
+			(xy 170.18 88.9) (xy 176.53 88.9)
 		)
 		(stroke
 			(width 0.508)
@@ -3760,7 +3760,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 88.9) (xy 184.15 88.9)
+			(xy 181.61 88.9) (xy 184.15 88.9)
 		)
 		(stroke
 			(width 0.508)
@@ -4080,7 +4080,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 90.17) (xy 173.99 88.9)
+			(xy 170.18 90.17) (xy 170.18 88.9)
 		)
 		(stroke
 			(width 0.508)
@@ -4548,7 +4548,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "08efc945-6a3b-4184-b516-1f12e531afed")
-		(property "Reference" "U201"
+		(property "Reference" "U5001"
 			(at 74.422 95.758 0)
 			(effects
 				(font
@@ -4617,7 +4617,7 @@
 		(instances
 			(project "controller"
 				(path "/5caba13a-97ae-46d4-856f-900b12012fd8/36295df0-8e81-41b3-8cd3-2cdd8b56207c"
-					(reference "U201")
+					(reference "U5001")
 					(unit 1)
 				)
 			)
@@ -4633,7 +4633,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1759eebd-fe09-4b52-a67c-38edac1d3432")
-		(property "Reference" "D201"
+		(property "Reference" "D5001"
 			(at 102.108 90.17 90)
 			(effects
 				(font
@@ -4695,7 +4695,7 @@
 		(instances
 			(project "controller"
 				(path "/5caba13a-97ae-46d4-856f-900b12012fd8/36295df0-8e81-41b3-8cd3-2cdd8b56207c"
-					(reference "D201")
+					(reference "D5001")
 					(unit 1)
 				)
 			)
@@ -4711,7 +4711,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1f114aea-f0c6-49ce-add7-aaf718743095")
-		(property "Reference" "#PWR0203"
+		(property "Reference" "#PWR05003"
 			(at 95.25 102.87 0)
 			(effects
 				(font
@@ -4762,7 +4762,7 @@
 		(instances
 			(project "controller"
 				(path "/5caba13a-97ae-46d4-856f-900b12012fd8/36295df0-8e81-41b3-8cd3-2cdd8b56207c"
-					(reference "#PWR0203")
+					(reference "#PWR05003")
 					(unit 1)
 				)
 			)
@@ -4778,7 +4778,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "303e712d-b981-42d5-bb9b-39d4936cd50d")
-		(property "Reference" "#PWR0204"
+		(property "Reference" "#PWR05005"
 			(at 153.67 111.76 0)
 			(effects
 				(font
@@ -4829,7 +4829,7 @@
 		(instances
 			(project "controller"
 				(path "/5caba13a-97ae-46d4-856f-900b12012fd8/36295df0-8e81-41b3-8cd3-2cdd8b56207c"
-					(reference "#PWR0204")
+					(reference "#PWR05005")
 					(unit 1)
 				)
 			)
@@ -4837,7 +4837,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 180.34 88.9 270)
+		(at 179.07 88.9 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4845,8 +4845,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "327efa95-8116-4a92-930d-62ed8b8c35d9")
-		(property "Reference" "C203"
-			(at 177.8 91.694 90)
+		(property "Reference" "C5002"
+			(at 175.006 91.694 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4854,7 +4854,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 183.134 91.694 90)
+			(at 182.118 91.694 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4862,7 +4862,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 180.34 88.9 0)
+			(at 179.07 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4871,7 +4871,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 180.34 88.9 0)
+			(at 179.07 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4880,7 +4880,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 180.34 88.9 0)
+			(at 179.07 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4897,7 +4897,7 @@
 		(instances
 			(project "controller"
 				(path "/5caba13a-97ae-46d4-856f-900b12012fd8/36295df0-8e81-41b3-8cd3-2cdd8b56207c"
-					(reference "C203")
+					(reference "C5002")
 					(unit 1)
 				)
 			)
@@ -4913,7 +4913,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3945b35b-4caf-485d-9b85-34c202739ecd")
-		(property "Reference" "#PWR0202"
+		(property "Reference" "#PWR05002"
 			(at 72.39 104.14 0)
 			(effects
 				(font
@@ -4964,7 +4964,7 @@
 		(instances
 			(project "controller"
 				(path "/5caba13a-97ae-46d4-856f-900b12012fd8/36295df0-8e81-41b3-8cd3-2cdd8b56207c"
-					(reference "#PWR0202")
+					(reference "#PWR05002")
 					(unit 1)
 				)
 			)
@@ -4979,7 +4979,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3c2bacab-d65c-4747-8671-a005c49d9c0d")
-		(property "Reference" "U202"
+		(property "Reference" "U5002"
 			(at 204.216 109.728 0)
 			(effects
 				(font
@@ -5068,7 +5068,7 @@
 		(instances
 			(project "controller"
 				(path "/5caba13a-97ae-46d4-856f-900b12012fd8/36295df0-8e81-41b3-8cd3-2cdd8b56207c"
-					(reference "U202")
+					(reference "U5002")
 					(unit 1)
 				)
 			)
@@ -5084,7 +5084,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4622c5ea-e45a-448f-91bb-d741c81701bf")
-		(property "Reference" "#PWR0208"
+		(property "Reference" "#PWR05004"
 			(at 123.19 95.25 0)
 			(effects
 				(font
@@ -5135,7 +5135,7 @@
 		(instances
 			(project "controller"
 				(path "/5caba13a-97ae-46d4-856f-900b12012fd8/36295df0-8e81-41b3-8cd3-2cdd8b56207c"
-					(reference "#PWR0208")
+					(reference "#PWR05004")
 					(unit 1)
 				)
 			)
@@ -5151,7 +5151,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4f395bbe-bc41-4839-80b0-fb2c5ae19f02")
-		(property "Reference" "U203"
+		(property "Reference" "U5003"
 			(at 202.057 66.04 90)
 			(effects
 				(font
@@ -5223,7 +5223,7 @@
 		(instances
 			(project "controller"
 				(path "/5caba13a-97ae-46d4-856f-900b12012fd8/36295df0-8e81-41b3-8cd3-2cdd8b56207c"
-					(reference "U203")
+					(reference "U5003")
 					(unit 1)
 				)
 			)
@@ -5239,7 +5239,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4fbcc80b-caf6-4794-a80a-6e33379f1df8")
-		(property "Reference" "#PWR0201"
+		(property "Reference" "#PWR05001"
 			(at 44.45 148.59 0)
 			(effects
 				(font
@@ -5290,7 +5290,7 @@
 		(instances
 			(project "controller"
 				(path "/5caba13a-97ae-46d4-856f-900b12012fd8/36295df0-8e81-41b3-8cd3-2cdd8b56207c"
-					(reference "#PWR0201")
+					(reference "#PWR05001")
 					(unit 1)
 				)
 			)
@@ -5305,7 +5305,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5996d38a-6e90-44a4-8a02-c09a6afadb43")
-		(property "Reference" "C201"
+		(property "Reference" "C5001"
 			(at 173.99 109.2262 0)
 			(effects
 				(font
@@ -5359,7 +5359,7 @@
 		(instances
 			(project "controller"
 				(path "/5caba13a-97ae-46d4-856f-900b12012fd8/36295df0-8e81-41b3-8cd3-2cdd8b56207c"
-					(reference "C201")
+					(reference "C5001")
 					(unit 1)
 				)
 			)
@@ -5375,7 +5375,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6465e540-d16a-4a2a-b15e-48d50dfa1985")
-		(property "Reference" "R205"
+		(property "Reference" "R5001"
 			(at 125.73 77.4699 0)
 			(effects
 				(font
@@ -5429,7 +5429,7 @@
 		(instances
 			(project "controller"
 				(path "/5caba13a-97ae-46d4-856f-900b12012fd8/36295df0-8e81-41b3-8cd3-2cdd8b56207c"
-					(reference "R205")
+					(reference "R5001")
 					(unit 1)
 				)
 			)
@@ -5445,7 +5445,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6635a978-6b8f-4a6a-b3f7-d7e30af8673f")
-		(property "Reference" "R201"
+		(property "Reference" "R5002"
 			(at 151.13 91.4399 0)
 			(effects
 				(font
@@ -5499,7 +5499,7 @@
 		(instances
 			(project "controller"
 				(path "/5caba13a-97ae-46d4-856f-900b12012fd8/36295df0-8e81-41b3-8cd3-2cdd8b56207c"
-					(reference "R201")
+					(reference "R5002")
 					(unit 1)
 				)
 			)
@@ -5515,7 +5515,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "73f8cae2-ca11-4238-9ea1-2ffb82636d8a")
-		(property "Reference" "J201"
+		(property "Reference" "J5001"
 			(at 48.26 66.04 0)
 			(effects
 				(font
@@ -5636,7 +5636,7 @@
 		(instances
 			(project "controller"
 				(path "/5caba13a-97ae-46d4-856f-900b12012fd8/36295df0-8e81-41b3-8cd3-2cdd8b56207c"
-					(reference "J201")
+					(reference "J5001")
 					(unit 1)
 				)
 			)
@@ -5651,7 +5651,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "756b95a3-c6d0-4667-aaa8-8d817bf5eb9c")
-		(property "Reference" "LED202"
+		(property "Reference" "LED5001"
 			(at 127.762 85.09 90)
 			(effects
 				(font
@@ -5708,7 +5708,7 @@
 		(instances
 			(project "controller"
 				(path "/5caba13a-97ae-46d4-856f-900b12012fd8/36295df0-8e81-41b3-8cd3-2cdd8b56207c"
-					(reference "LED202")
+					(reference "LED5001")
 					(unit 1)
 				)
 			)
@@ -5724,7 +5724,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8b87761c-1e4b-498d-9841-d2be1c020740")
-		(property "Reference" "R203"
+		(property "Reference" "R5004"
 			(at 226.06 91.4399 0)
 			(effects
 				(font
@@ -5778,7 +5778,7 @@
 		(instances
 			(project "controller"
 				(path "/5caba13a-97ae-46d4-856f-900b12012fd8/36295df0-8e81-41b3-8cd3-2cdd8b56207c"
-					(reference "R203")
+					(reference "R5004")
 					(unit 1)
 				)
 			)
@@ -5794,7 +5794,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8c5a3ff8-da5d-45e5-9af2-f78c63d76009")
-		(property "Reference" "#PWR0209"
+		(property "Reference" "#PWR05009"
 			(at 250.19 95.25 0)
 			(effects
 				(font
@@ -5845,7 +5845,7 @@
 		(instances
 			(project "controller"
 				(path "/5caba13a-97ae-46d4-856f-900b12012fd8/36295df0-8e81-41b3-8cd3-2cdd8b56207c"
-					(reference "#PWR0209")
+					(reference "#PWR05009")
 					(unit 1)
 				)
 			)
@@ -5860,8 +5860,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a902b4c2-deb1-4ae4-8bbe-c29c4049d6a5")
-		(property "Reference" "D202"
-			(at 175.768 77.47 90)
+		(property "Reference" "D5002"
+			(at 174.498 77.47 90)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -5916,7 +5916,7 @@
 		(instances
 			(project "controller"
 				(path "/5caba13a-97ae-46d4-856f-900b12012fd8/36295df0-8e81-41b3-8cd3-2cdd8b56207c"
-					(reference "D202")
+					(reference "D5002")
 					(unit 1)
 				)
 			)
@@ -5924,15 +5924,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 173.99 90.17 0)
+		(at 170.18 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "b6773d6a-24e8-4014-a111-ba40c2a8fe3e")
-		(property "Reference" "#PWR0205"
-			(at 173.99 96.52 0)
+		(property "Reference" "#PWR05006"
+			(at 170.18 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5941,7 +5941,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 173.99 94.488 0)
+			(at 170.18 94.488 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5950,7 +5950,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 173.99 90.17 0)
+			(at 170.18 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5959,7 +5959,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 173.99 90.17 0)
+			(at 170.18 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5968,7 +5968,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 173.99 90.17 0)
+			(at 170.18 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5982,7 +5982,7 @@
 		(instances
 			(project "controller"
 				(path "/5caba13a-97ae-46d4-856f-900b12012fd8/36295df0-8e81-41b3-8cd3-2cdd8b56207c"
-					(reference "#PWR0205")
+					(reference "#PWR05006")
 					(unit 1)
 				)
 			)
@@ -5998,7 +5998,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "be8e5099-bed8-4eea-8049-b6915b8786a2")
-		(property "Reference" "R206"
+		(property "Reference" "R5005"
 			(at 252.73 77.4699 0)
 			(effects
 				(font
@@ -6052,7 +6052,7 @@
 		(instances
 			(project "controller"
 				(path "/5caba13a-97ae-46d4-856f-900b12012fd8/36295df0-8e81-41b3-8cd3-2cdd8b56207c"
-					(reference "R206")
+					(reference "R5005")
 					(unit 1)
 				)
 			)
@@ -6068,7 +6068,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c7d1a8f4-29bf-4fc5-9842-b5ab26e24332")
-		(property "Reference" "#PWR0207"
+		(property "Reference" "#PWR05008"
 			(at 201.93 118.11 0)
 			(effects
 				(font
@@ -6119,7 +6119,7 @@
 		(instances
 			(project "controller"
 				(path "/5caba13a-97ae-46d4-856f-900b12012fd8/36295df0-8e81-41b3-8cd3-2cdd8b56207c"
-					(reference "#PWR0207")
+					(reference "#PWR05008")
 					(unit 1)
 				)
 			)
@@ -6136,7 +6136,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "daa7df0f-1384-4ab8-b3ea-69acc16a6bb9")
-		(property "Reference" "C202"
+		(property "Reference" "C5003"
 			(at 182.88 109.2262 0)
 			(effects
 				(font
@@ -6190,7 +6190,7 @@
 		(instances
 			(project "controller"
 				(path "/5caba13a-97ae-46d4-856f-900b12012fd8/36295df0-8e81-41b3-8cd3-2cdd8b56207c"
-					(reference "C202")
+					(reference "C5003")
 					(unit 1)
 				)
 			)
@@ -6205,7 +6205,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ed5f9de5-c275-4738-b776-f681a51c7f68")
-		(property "Reference" "#PWR0206"
+		(property "Reference" "#PWR05007"
 			(at 176.53 121.92 0)
 			(effects
 				(font
@@ -6256,7 +6256,7 @@
 		(instances
 			(project "controller"
 				(path "/5caba13a-97ae-46d4-856f-900b12012fd8/36295df0-8e81-41b3-8cd3-2cdd8b56207c"
-					(reference "#PWR0206")
+					(reference "#PWR05007")
 					(unit 1)
 				)
 			)
@@ -6272,7 +6272,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fa967387-8265-424e-85f6-3f04b8e57f9a")
-		(property "Reference" "R202"
+		(property "Reference" "R5003"
 			(at 151.13 100.3299 0)
 			(effects
 				(font
@@ -6326,7 +6326,7 @@
 		(instances
 			(project "controller"
 				(path "/5caba13a-97ae-46d4-856f-900b12012fd8/36295df0-8e81-41b3-8cd3-2cdd8b56207c"
-					(reference "R202")
+					(reference "R5003")
 					(unit 1)
 				)
 			)
@@ -6341,7 +6341,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fbff4922-1d8d-452b-8257-62a346c27b4d")
-		(property "Reference" "LED203"
+		(property "Reference" "LED5002"
 			(at 254.762 85.09 90)
 			(effects
 				(font
@@ -6398,7 +6398,7 @@
 		(instances
 			(project "controller"
 				(path "/5caba13a-97ae-46d4-856f-900b12012fd8/36295df0-8e81-41b3-8cd3-2cdd8b56207c"
-					(reference "LED203")
+					(reference "LED5002")
 					(unit 1)
 				)
 			)
