@@ -814,13 +814,17 @@
 			(embedded_fonts no)
 		)
 		(symbol "PJSD03TS-AU_R1_000A1:PJSD03TS-AU_R1_000A1"
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0.254)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "CR"
+			(property "Reference" "D"
 				(at 5.08 4.445 0)
 				(effects
 					(font
@@ -828,8 +832,8 @@
 					)
 				)
 			)
-			(property "Value" "PJSD03TS-AU_R1_000A1"
-				(at 5.08 -3.81 0)
+			(property "Value" "3.3V"
+				(at 4.064 -3.81 0)
 				(effects
 					(font
 						(size 1.524 1.524)
@@ -837,7 +841,7 @@
 				)
 			)
 			(property "Footprint" "CR_SOD-523_PNJ"
-				(at 0 0 0)
+				(at -0.254 7.366 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -847,7 +851,7 @@
 				)
 			)
 			(property "Datasheet" "PJSD03TS-AU_R1_000A1"
-				(at 0 0 0)
+				(at 0.762 9.144 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -863,14 +867,6 @@
 						(size 1.27 1.27)
 					)
 					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
 				)
 			)
 			(property "ki_keywords" "PJSD03TS-AU_R1_000A1"
@@ -894,7 +890,7 @@
 			(symbol "PJSD03TS-AU_R1_000A1_1_1"
 				(polyline
 					(pts
-						(xy 2.54 0) (xy 3.4798 0)
+						(xy 1.27 0) (xy 2.2098 0)
 					)
 					(stroke
 						(width 0.2032)
@@ -906,7 +902,7 @@
 				)
 				(polyline
 					(pts
-						(xy 3.175 0) (xy 3.81 0)
+						(xy 1.905 0) (xy 2.54 0)
 					)
 					(stroke
 						(width 0.2032)
@@ -918,7 +914,7 @@
 				)
 				(polyline
 					(pts
-						(xy 3.81 1.905) (xy 3.81 -1.905)
+						(xy 2.54 1.905) (xy 2.54 -1.905)
 					)
 					(stroke
 						(width 0.2032)
@@ -930,7 +926,7 @@
 				)
 				(polyline
 					(pts
-						(xy 3.81 -1.905) (xy 6.35 0)
+						(xy 2.54 -1.905) (xy 5.08 0)
 					)
 					(stroke
 						(width 0.2032)
@@ -942,7 +938,7 @@
 				)
 				(polyline
 					(pts
-						(xy 6.35 0) (xy 3.81 1.905)
+						(xy 5.08 0) (xy 2.54 1.905)
 					)
 					(stroke
 						(width 0.2032)
@@ -954,7 +950,7 @@
 				)
 				(polyline
 					(pts
-						(xy 6.35 0) (xy 7.62 0)
+						(xy 5.08 0) (xy 6.35 0)
 					)
 					(stroke
 						(width 0.2032)
@@ -966,7 +962,7 @@
 				)
 				(polyline
 					(pts
-						(xy 6.35 -1.905) (xy 6.35 1.905)
+						(xy 5.08 -1.905) (xy 5.08 1.905)
 					)
 					(stroke
 						(width 0.2032)
@@ -978,7 +974,7 @@
 				)
 				(pin unspecified line
 					(at 0 0 0)
-					(length 2.54)
+					(length 1.27)
 					(name ""
 						(effects
 							(font
@@ -995,8 +991,8 @@
 					)
 				)
 				(pin unspecified line
-					(at 10.16 0 180)
-					(length 2.54)
+					(at 7.62 0 180)
+					(length 1.27)
 					(name ""
 						(effects
 							(font
@@ -1311,7 +1307,7 @@
 		(uuid "9b14e10c-9d4d-4149-8917-708828c4ddff")
 	)
 	(junction
-		(at 142.24 124.46)
+		(at 142.24 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b2125020-ac6f-485f-aa68-38e0eaf0d37e")
@@ -1402,7 +1398,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 124.46) (xy 142.24 124.46)
+			(xy 130.81 121.92) (xy 142.24 121.92)
 		)
 		(stroke
 			(width 0.508)
@@ -1412,7 +1408,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 123.19) (xy 142.24 124.46)
+			(xy 142.24 120.65) (xy 142.24 121.92)
 		)
 		(stroke
 			(width 0.508)
@@ -1492,7 +1488,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 123.19) (xy 130.81 124.46)
+			(xy 130.81 120.65) (xy 130.81 121.92)
 		)
 		(stroke
 			(width 0.508)
@@ -1582,7 +1578,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 124.46) (xy 142.24 125.73)
+			(xy 142.24 121.92) (xy 142.24 123.19)
 		)
 		(stroke
 			(width 0.508)
@@ -1782,7 +1778,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 125.73) (xy 173.99 123.19)
+			(xy 173.99 123.19) (xy 173.99 120.65)
 		)
 		(stroke
 			(width 0.508)
@@ -2189,6 +2185,85 @@
 				(path "/5caba13a-97ae-46d4-856f-900b12012fd8/9d397a0b-5739-46e8-8181-685ec294765e"
 					(reference "RN8001")
 					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PJSD03TS-AU_R1_000A1:PJSD03TS-AU_R1_000A1")
+		(at 142.24 120.65 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2c9de5ca-441d-4689-b363-f74881f379ee")
+		(property "Reference" "D6"
+			(at 145.288 115.57 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "3.3V"
+			(at 145.288 118.11 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "CR_SOD-523_PNJ"
+			(at 134.874 120.904 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "PJSD03TS-AU_R1_000A1"
+			(at 133.096 119.888 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 142.24 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8bd3c97b-11a0-43a9-806f-df10d8706483")
+		)
+		(pin "2"
+			(uuid "7ebbdf99-2c5c-4690-9e04-260dc98126cd")
+		)
+		(instances
+			(project "controller"
+				(path "/5caba13a-97ae-46d4-856f-900b12012fd8/0c0e5ed6-32ab-4125-a53e-2b201c260076"
+					(reference "D8")
+					(unit 1)
+				)
+				(path "/5caba13a-97ae-46d4-856f-900b12012fd8/9d0a88ee-2aef-4cfe-9674-1a031a786ca9"
+					(reference "D6")
+					(unit 1)
+				)
+				(path "/5caba13a-97ae-46d4-856f-900b12012fd8/9d397a0b-5739-46e8-8181-685ec294765e"
+					(reference "D7")
+					(unit 1)
 				)
 			)
 		)
@@ -2745,16 +2820,15 @@
 	)
 	(symbol
 		(lib_id "PJSD03TS-AU_R1_000A1:PJSD03TS-AU_R1_000A1")
-		(at 130.81 123.19 270)
-		(mirror x)
+		(at 130.81 120.65 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "90cddd7f-e8bd-472f-a43b-ddb2ea989510")
-		(property "Reference" "CR1"
-			(at 128.016 116.84 90)
+		(uuid "9165254d-52a6-4f50-9e23-a0d92007de42")
+		(property "Reference" "D3"
+			(at 133.858 115.57 90)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2762,18 +2836,17 @@
 				(justify right)
 			)
 		)
-		(property "Value" "PJSD03TS-AU_R1_000A1"
-			(at 127 119.3799 90)
+		(property "Value" "3.3V"
+			(at 133.858 118.11 90)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "CR_SOD-523_PNJ"
-			(at 130.81 123.19 0)
+			(at 123.444 120.904 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2783,7 +2856,7 @@
 			)
 		)
 		(property "Datasheet" "PJSD03TS-AU_R1_000A1"
-			(at 130.81 123.19 0)
+			(at 121.666 119.888 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2793,7 +2866,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 130.81 123.19 0)
+			(at 130.81 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2801,65 +2874,24 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
-			(at 130.81 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "TCC" ""
-			(at 130.81 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" ""
-			(at 130.81 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" "3.3V"
-			(at 123.444 119.3801 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Package" ""
-			(at 130.81 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
-			(uuid "fef519cb-8ea4-4f5c-91a8-9c59aa721aee")
+			(uuid "f3a5fef2-2823-4fde-96f9-f7e45b82de97")
 		)
 		(pin "2"
-			(uuid "cc1769b6-354e-4b89-af53-76fb6f142397")
+			(uuid "46893fe9-9730-476b-b29d-588077ebb6f2")
 		)
 		(instances
 			(project ""
 				(path "/5caba13a-97ae-46d4-856f-900b12012fd8/0c0e5ed6-32ab-4125-a53e-2b201c260076"
-					(reference "CR3")
+					(reference "D5")
 					(unit 1)
 				)
 				(path "/5caba13a-97ae-46d4-856f-900b12012fd8/9d0a88ee-2aef-4cfe-9674-1a031a786ca9"
-					(reference "CR1")
+					(reference "D3")
 					(unit 1)
 				)
 				(path "/5caba13a-97ae-46d4-856f-900b12012fd8/9d397a0b-5739-46e8-8181-685ec294765e"
-					(reference "CR2")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -3103,128 +3135,6 @@
 		)
 	)
 	(symbol
-		(lib_id "PJSD03TS-AU_R1_000A1:PJSD03TS-AU_R1_000A1")
-		(at 142.24 123.19 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "aad88e38-bfa7-43d4-88fe-c91b7f6134bd")
-		(property "Reference" "CR4"
-			(at 139.7 116.8399 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "PJSD03TS-AU_R1_000A1"
-			(at 138.43 119.3799 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "CR_SOD-523_PNJ"
-			(at 142.24 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "PJSD03TS-AU_R1_000A1"
-			(at 142.24 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 142.24 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 142.24 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "TCC" ""
-			(at 142.24 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" ""
-			(at 142.24 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" "3.3V"
-			(at 135.128 119.38 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Package" ""
-			(at 142.24 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "71a09b3a-263a-4464-bf56-2e809478cc71")
-		)
-		(pin "2"
-			(uuid "9bb3d13a-01bd-402a-8a9f-cd9595a98fbf")
-		)
-		(instances
-			(project "controller"
-				(path "/5caba13a-97ae-46d4-856f-900b12012fd8/0c0e5ed6-32ab-4125-a53e-2b201c260076"
-					(reference "CR6")
-					(unit 1)
-				)
-				(path "/5caba13a-97ae-46d4-856f-900b12012fd8/9d0a88ee-2aef-4cfe-9674-1a031a786ca9"
-					(reference "CR4")
-					(unit 1)
-				)
-				(path "/5caba13a-97ae-46d4-856f-900b12012fd8/9d397a0b-5739-46e8-8181-685ec294765e"
-					(reference "CR5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 154.94 113.03 0)
 		(unit 1)
@@ -3301,7 +3211,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 142.24 125.73 0)
+		(at 142.24 123.19 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3310,7 +3220,7 @@
 		(fields_autoplaced yes)
 		(uuid "c4d58ab4-053b-4bfc-8e57-c60d3b2506a1")
 		(property "Reference" "#PWR07004"
-			(at 142.24 132.08 0)
+			(at 142.24 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3319,7 +3229,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 142.24 130.81 0)
+			(at 142.24 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3328,7 +3238,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 142.24 125.73 0)
+			(at 142.24 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3337,7 +3247,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 142.24 125.73 0)
+			(at 142.24 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3346,7 +3256,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 142.24 125.73 0)
+			(at 142.24 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3369,128 +3279,6 @@
 				)
 				(path "/5caba13a-97ae-46d4-856f-900b12012fd8/9d397a0b-5739-46e8-8181-685ec294765e"
 					(reference "#PWR07005")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PJSD03TS-AU_R1_000A1:PJSD03TS-AU_R1_000A1")
-		(at 173.99 123.19 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d13d68f9-3158-4428-9d48-f0e6c02e74af")
-		(property "Reference" "CR7"
-			(at 171.196 116.84 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "PJSD03TS-AU_R1_000A1"
-			(at 170.18 119.3799 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "CR_SOD-523_PNJ"
-			(at 173.99 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "PJSD03TS-AU_R1_000A1"
-			(at 173.99 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 173.99 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 173.99 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "TCC" ""
-			(at 173.99 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" ""
-			(at 173.99 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" "3.3V"
-			(at 166.624 119.3801 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Package" ""
-			(at 173.99 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "91d451b5-828b-4da0-b855-fcff108333b3")
-		)
-		(pin "2"
-			(uuid "cfe80812-fac2-4f2c-8e94-2d809d105514")
-		)
-		(instances
-			(project "controller"
-				(path "/5caba13a-97ae-46d4-856f-900b12012fd8/0c0e5ed6-32ab-4125-a53e-2b201c260076"
-					(reference "CR9")
-					(unit 1)
-				)
-				(path "/5caba13a-97ae-46d4-856f-900b12012fd8/9d0a88ee-2aef-4cfe-9674-1a031a786ca9"
-					(reference "CR7")
-					(unit 1)
-				)
-				(path "/5caba13a-97ae-46d4-856f-900b12012fd8/9d397a0b-5739-46e8-8181-685ec294765e"
-					(reference "CR8")
 					(unit 1)
 				)
 			)
@@ -3693,7 +3481,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 173.99 125.73 0)
+		(at 173.99 123.19 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3702,7 +3490,7 @@
 		(fields_autoplaced yes)
 		(uuid "f6b5b611-8e8c-467e-a0bf-9aac2e72c8ce")
 		(property "Reference" "#PWR07007"
-			(at 173.99 132.08 0)
+			(at 173.99 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3711,7 +3499,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 173.99 130.81 0)
+			(at 173.99 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3720,7 +3508,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 173.99 125.73 0)
+			(at 173.99 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3729,7 +3517,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 173.99 125.73 0)
+			(at 173.99 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3738,7 +3526,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 173.99 125.73 0)
+			(at 173.99 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3761,6 +3549,85 @@
 				)
 				(path "/5caba13a-97ae-46d4-856f-900b12012fd8/9d397a0b-5739-46e8-8181-685ec294765e"
 					(reference "#PWR07008")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PJSD03TS-AU_R1_000A1:PJSD03TS-AU_R1_000A1")
+		(at 173.99 120.65 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fa426eda-c622-43d4-80eb-2b309937109c")
+		(property "Reference" "D9"
+			(at 177.038 115.57 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "3.3V"
+			(at 177.038 118.11 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "CR_SOD-523_PNJ"
+			(at 166.624 120.904 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "PJSD03TS-AU_R1_000A1"
+			(at 164.846 119.888 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 173.99 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "67617c56-b488-43fe-88c8-dd5d43bc2f54")
+		)
+		(pin "2"
+			(uuid "94d51088-97e2-4424-b6ee-e18abc656821")
+		)
+		(instances
+			(project "controller"
+				(path "/5caba13a-97ae-46d4-856f-900b12012fd8/0c0e5ed6-32ab-4125-a53e-2b201c260076"
+					(reference "D11")
+					(unit 1)
+				)
+				(path "/5caba13a-97ae-46d4-856f-900b12012fd8/9d0a88ee-2aef-4cfe-9674-1a031a786ca9"
+					(reference "D9")
+					(unit 1)
+				)
+				(path "/5caba13a-97ae-46d4-856f-900b12012fd8/9d397a0b-5739-46e8-8181-685ec294765e"
+					(reference "D10")
 					(unit 1)
 				)
 			)
