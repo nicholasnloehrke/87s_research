@@ -813,6 +813,330 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "PJSD03TS-AU_R1_000A1:PJSD03TS-AU_R1_000A1"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "CR"
+				(at 5.08 4.445 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "PJSD03TS-AU_R1_000A1"
+				(at 5.08 -3.81 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "CR_SOD-523_PNJ"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "PJSD03TS-AU_R1_000A1"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "PJSD03TS-AU_R1_000A1"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "CR_SOD-523_PNJ CR_SOD-523_PNJ-M CR_SOD-523_PNJ-L"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PJSD03TS-AU_R1_000A1_1_1"
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 3.4798 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.175 0) (xy 3.81 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 1.905) (xy 3.81 -1.905)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -1.905) (xy 6.35 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 0) (xy 3.81 1.905)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 0) (xy 7.62 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 -1.905) (xy 6.35 1.905)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 0 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PJSD03TS-AU_R1_000A1_1_2"
+				(polyline
+					(pts
+						(xy -1.905 3.81) (xy 1.905 3.81)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 6.35) (xy -1.905 3.81)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 6.35) (xy 0 7.62)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 3.175) (xy 0 3.81)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 3.4798)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 6.35) (xy -1.905 6.35)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 3.81) (xy 0 6.35)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 0 10.16 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 0 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -927,7 +1251,7 @@
 		)
 		(uuid 33e2e80f-b540-41f9-bff4-bfedbc24be47)
 	)
-	(text "Since we reuse the 8 resistor\nnetwork, this are not needed"
+	(text "Since we reuse the 8 resistor\nnetwork, these are not needed"
 		(exclude_from_sim no)
 		(at 87.376 70.104 0)
 		(effects
@@ -975,10 +1299,22 @@
 		(uuid "831952d7-0024-479d-bfac-68df36322507")
 	)
 	(junction
+		(at 142.24 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "92b205e4-d0e5-4e1b-9c14-94a2b7e34e08")
+	)
+	(junction
 		(at 90.17 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9b14e10c-9d4d-4149-8917-708828c4ddff")
+	)
+	(junction
+		(at 142.24 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b2125020-ac6f-485f-aa68-38e0eaf0d37e")
 	)
 	(junction
 		(at 90.17 111.76)
@@ -1013,6 +1349,16 @@
 	(no_connect
 		(at 90.17 81.28)
 		(uuid "f169ebd7-ea84-4c95-89d2-efb33e537d2e")
+	)
+	(wire
+		(pts
+			(xy 173.99 113.03) (xy 173.99 97.79)
+		)
+		(stroke
+			(width 0.508)
+			(type default)
+		)
+		(uuid "09922555-4207-4211-9c45-4028040d42fc")
 	)
 	(wire
 		(pts
@@ -1056,6 +1402,26 @@
 	)
 	(wire
 		(pts
+			(xy 130.81 124.46) (xy 142.24 124.46)
+		)
+		(stroke
+			(width 0.508)
+			(type default)
+		)
+		(uuid "223d63c9-b2f8-430f-bc87-1677afa85a16")
+	)
+	(wire
+		(pts
+			(xy 142.24 123.19) (xy 142.24 124.46)
+		)
+		(stroke
+			(width 0.508)
+			(type default)
+		)
+		(uuid "251e75bf-3e9b-4d6b-8ba0-1c4794fb8909")
+	)
+	(wire
+		(pts
 			(xy 203.2 97.79) (xy 203.2 99.06)
 		)
 		(stroke
@@ -1073,6 +1439,16 @@
 			(type default)
 		)
 		(uuid "34ea6b01-4810-413d-845c-4c374e34ba22")
+	)
+	(wire
+		(pts
+			(xy 142.24 113.03) (xy 142.24 97.79)
+		)
+		(stroke
+			(width 0.508)
+			(type default)
+		)
+		(uuid "4196d9b9-f723-4557-8588-c39f90990a3c")
 	)
 	(wire
 		(pts
@@ -1106,13 +1482,23 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 97.79) (xy 147.32 97.79)
+			(xy 134.62 97.79) (xy 142.24 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "4b75f1ac-c612-40b0-84bb-7be843701113")
+	)
+	(wire
+		(pts
+			(xy 130.81 123.19) (xy 130.81 124.46)
+		)
+		(stroke
+			(width 0.508)
+			(type default)
+		)
+		(uuid "4bcc5237-e68b-4281-a48d-7f56c991cd7d")
 	)
 	(wire
 		(pts
@@ -1156,6 +1542,16 @@
 	)
 	(wire
 		(pts
+			(xy 142.24 97.79) (xy 147.32 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62d2871b-7c3c-4a2a-9db9-614c4c1a2490")
+	)
+	(wire
+		(pts
 			(xy 93.98 111.76) (xy 93.98 110.49)
 		)
 		(stroke
@@ -1183,6 +1579,16 @@
 			(type default)
 		)
 		(uuid "75dc87a9-32b1-4c9f-a876-b0aed67a1116")
+	)
+	(wire
+		(pts
+			(xy 142.24 124.46) (xy 142.24 125.73)
+		)
+		(stroke
+			(width 0.508)
+			(type default)
+		)
+		(uuid "79a2e80c-cd08-4a76-981b-0883867d4e05")
 	)
 	(wire
 		(pts
@@ -1346,6 +1752,16 @@
 	)
 	(wire
 		(pts
+			(xy 130.81 102.87) (xy 130.81 113.03)
+		)
+		(stroke
+			(width 0.508)
+			(type default)
+		)
+		(uuid "e060de96-6b17-4314-b9b9-40f89abbedcc")
+	)
+	(wire
+		(pts
 			(xy 90.17 97.79) (xy 90.17 102.87)
 		)
 		(stroke
@@ -1363,6 +1779,16 @@
 			(type default)
 		)
 		(uuid "e728c666-4724-4ada-8684-6dfa09b7bc90")
+	)
+	(wire
+		(pts
+			(xy 173.99 125.73) (xy 173.99 123.19)
+		)
+		(stroke
+			(width 0.508)
+			(type default)
+		)
+		(uuid "ee711189-6d45-4ac9-ada9-2dabd8e10825")
 	)
 	(wire
 		(pts
@@ -2318,6 +2744,128 @@
 		)
 	)
 	(symbol
+		(lib_id "PJSD03TS-AU_R1_000A1:PJSD03TS-AU_R1_000A1")
+		(at 130.81 123.19 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "90cddd7f-e8bd-472f-a43b-ddb2ea989510")
+		(property "Reference" "CR1"
+			(at 128.016 116.84 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "PJSD03TS-AU_R1_000A1"
+			(at 127 119.3799 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "CR_SOD-523_PNJ"
+			(at 130.81 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "PJSD03TS-AU_R1_000A1"
+			(at 130.81 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 130.81 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 130.81 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TCC" ""
+			(at 130.81 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" ""
+			(at 130.81 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "3.3V"
+			(at 123.444 119.3801 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Package" ""
+			(at 130.81 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fef519cb-8ea4-4f5c-91a8-9c59aa721aee")
+		)
+		(pin "2"
+			(uuid "cc1769b6-354e-4b89-af53-76fb6f142397")
+		)
+		(instances
+			(project ""
+				(path "/5caba13a-97ae-46d4-856f-900b12012fd8/0c0e5ed6-32ab-4125-a53e-2b201c260076"
+					(reference "CR3")
+					(unit 1)
+				)
+				(path "/5caba13a-97ae-46d4-856f-900b12012fd8/9d0a88ee-2aef-4cfe-9674-1a031a786ca9"
+					(reference "CR1")
+					(unit 1)
+				)
+				(path "/5caba13a-97ae-46d4-856f-900b12012fd8/9d397a0b-5739-46e8-8181-685ec294765e"
+					(reference "CR2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 203.2 105.41 0)
 		(unit 1)
@@ -2555,6 +3103,128 @@
 		)
 	)
 	(symbol
+		(lib_id "PJSD03TS-AU_R1_000A1:PJSD03TS-AU_R1_000A1")
+		(at 142.24 123.19 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "aad88e38-bfa7-43d4-88fe-c91b7f6134bd")
+		(property "Reference" "CR4"
+			(at 139.7 116.8399 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "PJSD03TS-AU_R1_000A1"
+			(at 138.43 119.3799 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "CR_SOD-523_PNJ"
+			(at 142.24 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "PJSD03TS-AU_R1_000A1"
+			(at 142.24 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 142.24 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 142.24 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TCC" ""
+			(at 142.24 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" ""
+			(at 142.24 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "3.3V"
+			(at 135.128 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Package" ""
+			(at 142.24 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "71a09b3a-263a-4464-bf56-2e809478cc71")
+		)
+		(pin "2"
+			(uuid "9bb3d13a-01bd-402a-8a9f-cd9595a98fbf")
+		)
+		(instances
+			(project "controller"
+				(path "/5caba13a-97ae-46d4-856f-900b12012fd8/0c0e5ed6-32ab-4125-a53e-2b201c260076"
+					(reference "CR6")
+					(unit 1)
+				)
+				(path "/5caba13a-97ae-46d4-856f-900b12012fd8/9d0a88ee-2aef-4cfe-9674-1a031a786ca9"
+					(reference "CR4")
+					(unit 1)
+				)
+				(path "/5caba13a-97ae-46d4-856f-900b12012fd8/9d397a0b-5739-46e8-8181-685ec294765e"
+					(reference "CR5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 154.94 113.03 0)
 		(unit 1)
@@ -2624,6 +3294,203 @@
 				)
 				(path "/5caba13a-97ae-46d4-856f-900b12012fd8/9d397a0b-5739-46e8-8181-685ec294765e"
 					(reference "#PWR08002")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 142.24 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c4d58ab4-053b-4bfc-8e57-c60d3b2506a1")
+		(property "Reference" "#PWR07004"
+			(at 142.24 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 142.24 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 142.24 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.24 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 142.24 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6613f28f-7497-4b00-993b-71abf44cb6bc")
+		)
+		(instances
+			(project "controller"
+				(path "/5caba13a-97ae-46d4-856f-900b12012fd8/0c0e5ed6-32ab-4125-a53e-2b201c260076"
+					(reference "#PWR07006")
+					(unit 1)
+				)
+				(path "/5caba13a-97ae-46d4-856f-900b12012fd8/9d0a88ee-2aef-4cfe-9674-1a031a786ca9"
+					(reference "#PWR07004")
+					(unit 1)
+				)
+				(path "/5caba13a-97ae-46d4-856f-900b12012fd8/9d397a0b-5739-46e8-8181-685ec294765e"
+					(reference "#PWR07005")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PJSD03TS-AU_R1_000A1:PJSD03TS-AU_R1_000A1")
+		(at 173.99 123.19 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d13d68f9-3158-4428-9d48-f0e6c02e74af")
+		(property "Reference" "CR7"
+			(at 171.196 116.84 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "PJSD03TS-AU_R1_000A1"
+			(at 170.18 119.3799 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "CR_SOD-523_PNJ"
+			(at 173.99 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "PJSD03TS-AU_R1_000A1"
+			(at 173.99 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 173.99 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 173.99 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TCC" ""
+			(at 173.99 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" ""
+			(at 173.99 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "3.3V"
+			(at 166.624 119.3801 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Package" ""
+			(at 173.99 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "91d451b5-828b-4da0-b855-fcff108333b3")
+		)
+		(pin "2"
+			(uuid "cfe80812-fac2-4f2c-8e94-2d809d105514")
+		)
+		(instances
+			(project "controller"
+				(path "/5caba13a-97ae-46d4-856f-900b12012fd8/0c0e5ed6-32ab-4125-a53e-2b201c260076"
+					(reference "CR9")
+					(unit 1)
+				)
+				(path "/5caba13a-97ae-46d4-856f-900b12012fd8/9d0a88ee-2aef-4cfe-9674-1a031a786ca9"
+					(reference "CR7")
+					(unit 1)
+				)
+				(path "/5caba13a-97ae-46d4-856f-900b12012fd8/9d397a0b-5739-46e8-8181-685ec294765e"
+					(reference "CR8")
 					(unit 1)
 				)
 			)
@@ -2820,6 +3687,81 @@
 				(path "/5caba13a-97ae-46d4-856f-900b12012fd8/9d397a0b-5739-46e8-8181-685ec294765e"
 					(reference "RN8001")
 					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 173.99 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f6b5b611-8e8c-467e-a0bf-9aac2e72c8ce")
+		(property "Reference" "#PWR07007"
+			(at 173.99 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 173.99 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 173.99 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 173.99 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 173.99 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b36848d6-30ad-45dd-a583-432d960d1b88")
+		)
+		(instances
+			(project "controller"
+				(path "/5caba13a-97ae-46d4-856f-900b12012fd8/0c0e5ed6-32ab-4125-a53e-2b201c260076"
+					(reference "#PWR07009")
+					(unit 1)
+				)
+				(path "/5caba13a-97ae-46d4-856f-900b12012fd8/9d0a88ee-2aef-4cfe-9674-1a031a786ca9"
+					(reference "#PWR07007")
+					(unit 1)
+				)
+				(path "/5caba13a-97ae-46d4-856f-900b12012fd8/9d397a0b-5739-46e8-8181-685ec294765e"
+					(reference "#PWR07008")
+					(unit 1)
 				)
 			)
 		)

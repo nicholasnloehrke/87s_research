@@ -2124,6 +2124,232 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "PJSD24TS-AU_R1_000A1:PJSD24TS-AU_R1_000A1"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "CR"
+				(at 5.08 4.445 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "PJSD24TS-AU_R1_000A1"
+				(at 5.08 -3.81 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "CR_SOD-523_PNJ"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "PJSD24TS-AU_R1_000A1"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "PJSD24TS-AU_R1_000A1"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "CR_SOD-523_PNJ CR_SOD-523_PNJ-M CR_SOD-523_PNJ-L"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PJSD24TS-AU_R1_000A1_0_1"
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 3.4798 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.175 0) (xy 3.81 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 1.905) (xy 3.81 -1.905)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -1.905) (xy 6.35 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 1.905) (xy 6.985 1.905)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 0) (xy 3.81 1.905)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 0) (xy 7.62 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 -1.905) (xy 5.715 -1.905)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 -1.905) (xy 6.35 1.905)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 0 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -2472,6 +2698,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d14de9e9-6e3a-4de9-92bb-4abdb7ffd7ec")
+	)
+	(junction
+		(at 224.79 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d204a043-f79d-40ee-b619-ffb215af3505")
 	)
 	(junction
 		(at 238.76 113.03)
@@ -2921,6 +3153,16 @@
 	)
 	(wire
 		(pts
+			(xy 224.79 74.93) (xy 224.79 76.2)
+		)
+		(stroke
+			(width 0.508)
+			(type default)
+		)
+		(uuid "577dcc77-8539-4568-ae42-eab12bdb4dde")
+	)
+	(wire
+		(pts
 			(xy 114.3 72.39) (xy 114.3 73.66)
 		)
 		(stroke
@@ -2958,6 +3200,16 @@
 			(type default)
 		)
 		(uuid "5cb0d45e-33be-4ef4-89c2-df8ef7174f1f")
+	)
+	(wire
+		(pts
+			(xy 212.09 74.93) (xy 224.79 74.93)
+		)
+		(stroke
+			(width 0.508)
+			(type default)
+		)
+		(uuid "601659f3-e05f-48f3-8c75-21bfc9f3eb87")
 	)
 	(wire
 		(pts
@@ -3411,16 +3663,6 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 74.93) (xy 227.33 74.93)
-		)
-		(stroke
-			(width 0.508)
-			(type default)
-		)
-		(uuid "af78c9ad-99ed-4814-a106-9b2b2e96de09")
-	)
-	(wire
-		(pts
 			(xy 238.76 113.03) (xy 250.19 113.03)
 		)
 		(stroke
@@ -3508,6 +3750,16 @@
 			(type default)
 		)
 		(uuid "bb0680e6-966c-4b4c-a7be-4ed41ac48fb4")
+	)
+	(wire
+		(pts
+			(xy 212.09 87.63) (xy 224.79 87.63)
+		)
+		(stroke
+			(width 0.508)
+			(type default)
+		)
+		(uuid "c1c5a370-1831-4e1a-a3fd-2b2b2db14e5c")
 	)
 	(wire
 		(pts
@@ -3631,7 +3883,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 77.47) (xy 227.33 77.47)
+			(xy 261.62 77.47) (xy 262.89 77.47)
 		)
 		(stroke
 			(width 0.508)
@@ -3701,7 +3953,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 78.74) (xy 226.06 77.47)
+			(xy 261.62 78.74) (xy 261.62 77.47)
 		)
 		(stroke
 			(width 0.508)
@@ -3781,6 +4033,16 @@
 	)
 	(wire
 		(pts
+			(xy 224.79 87.63) (xy 224.79 86.36)
+		)
+		(stroke
+			(width 0.508)
+			(type default)
+		)
+		(uuid "ea09bfbf-b3dd-4446-bb20-389307c4632c")
+	)
+	(wire
+		(pts
 			(xy 200.66 83.82) (xy 200.66 87.63)
 		)
 		(stroke
@@ -3788,6 +4050,16 @@
 			(type default)
 		)
 		(uuid "ea4cdb90-2504-4ca0-82b2-0cd900cb996f")
+	)
+	(wire
+		(pts
+			(xy 224.79 74.93) (xy 262.89 74.93)
+		)
+		(stroke
+			(width 0.508)
+			(type default)
+		)
+		(uuid "eaf6d572-834a-4dfd-9371-92b65adf4bee")
 	)
 	(wire
 		(pts
@@ -7151,7 +7423,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Socket")
-		(at 232.41 74.93 0)
+		(at 267.97 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7160,7 +7432,7 @@
 		(fields_autoplaced yes)
 		(uuid "cb3fe4c2-b12b-4269-8add-b4a07ad002cc")
 		(property "Reference" "J4001"
-			(at 233.68 74.9299 0)
+			(at 269.24 74.9299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7169,7 +7441,7 @@
 			)
 		)
 		(property "Value" "Battery"
-			(at 233.68 77.4699 0)
+			(at 269.24 77.4699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7178,7 +7450,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 232.41 74.93 0)
+			(at 267.97 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7187,7 +7459,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 232.41 74.93 0)
+			(at 267.97 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7196,7 +7468,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 232.41 74.93 0)
+			(at 267.97 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7292,7 +7564,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 226.06 78.74 0)
+		(at 261.62 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7301,7 +7573,7 @@
 		(fields_autoplaced yes)
 		(uuid "d9eccadd-1bae-41b1-9170-418f36e2f51d")
 		(property "Reference" "#PWR04011"
-			(at 226.06 85.09 0)
+			(at 261.62 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7310,7 +7582,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 226.06 83.82 0)
+			(at 261.62 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7319,7 +7591,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 226.06 78.74 0)
+			(at 261.62 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7328,7 +7600,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 226.06 78.74 0)
+			(at 261.62 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7337,7 +7609,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 226.06 78.74 0)
+			(at 261.62 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7960,6 +8232,118 @@
 			(project "controller"
 				(path "/5caba13a-97ae-46d4-856f-900b12012fd8/abd51820-7208-42b0-b9f8-9a931d762a6f"
 					(reference "R4009")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PJSD24TS-AU_R1_000A1:PJSD24TS-AU_R1_000A1")
+		(at 224.79 86.36 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f827555c-6a63-41bd-97a7-f8a990bcb515")
+		(property "Reference" "CR11"
+			(at 228.6 80.0099 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "PJSD24TS-AU_R1_000A1"
+			(at 228.6 82.5499 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "CR_SOD-523_PNJ"
+			(at 224.79 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "PJSD24TS-AU_R1_000A1"
+			(at 224.79 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 224.79 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 224.79 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TCC" ""
+			(at 224.79 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" ""
+			(at 224.79 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "24V"
+			(at 228.854 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Package" ""
+			(at 224.79 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "64b69355-fc7c-4524-8e1e-c1a21ae44f5c")
+		)
+		(pin "1"
+			(uuid "91617618-bfa8-409d-8592-e66173c39f71")
+		)
+		(instances
+			(project "controller"
+				(path "/5caba13a-97ae-46d4-856f-900b12012fd8/abd51820-7208-42b0-b9f8-9a931d762a6f"
+					(reference "CR11")
 					(unit 1)
 				)
 			)

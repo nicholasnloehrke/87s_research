@@ -11,4 +11,6 @@
   (lib (name "NJM2884U1-33-TE1")(type "KiCad")(uri "${KIPRJMOD}/symbols/NJM2884U1-33-TE1/NJM2884U1-33-TE1.kicad_sym")(options "")(descr "LDO 3.3V"))
   (lib (name "SSM3J372R_LF")(type "KiCad")(uri "${KIPRJMOD}/symbols/SSM3J372R_LF/SSM3J372R_LF.kicad_sym")(options "")(descr "Mosfet p-channel"))
   (lib (name "RH100-16.000-18-2030-EXT-TR")(type "KiCad")(uri "${KIPRJMOD}/symbols/RH100-16.000-18-2030-EXT-TR/RH100-16.000-18-2030-EXT-TR.kicad_sym")(options "")(descr "Crystal 16MHz"))
+  (lib (name "PJSD03TS-AU_R1_000A1")(type "KiCad")(uri "${KIPRJMOD}/symbols/PJSD03TS-AU_R1_000A1/PJSD03TS-AU_R1_000A1.kicad_sym")(options "")(descr "TVS diode 3.3V"))
+  (lib (name "PJSD24TS-AU_R1_000A1")(type "KiCad")(uri "${KIPRJMOD}/symbols/PJSD24TS-AU_R1_000A1/PJSD24TS-AU_R1_000A1.kicad_sym")(options "")(descr "TVS diode 24V"))
 )
