@@ -14,4 +14,5 @@
   (lib (name "PJSD03TS-AU_R1_000A1")(type "KiCad")(uri "${KIPRJMOD}/symbols/PJSD03TS-AU_R1_000A1/PJSD03TS-AU_R1_000A1.kicad_sym")(options "")(descr "TVS diode 3.3V"))
   (lib (name "PJSD24TS-AU_R1_000A1")(type "KiCad")(uri "${KIPRJMOD}/symbols/PJSD24TS-AU_R1_000A1/PJSD24TS-AU_R1_000A1.kicad_sym")(options "")(descr "TVS diode 24V"))
   (lib (name "BZT52C18K_RKG")(type "KiCad")(uri "${KIPRJMOD}/symbols/BZT52C18K_RKG/BZT52C18K_RKG.kicad_sym")(options "")(descr "Zener diode 18V"))
+  (lib (name "CMDD4448")(type "KiCad")(uri "${KIPRJMOD}/symbols/CMDD4448/CMDD4448.kicad_sym")(options "")(descr "Diode 75V"))
 )
