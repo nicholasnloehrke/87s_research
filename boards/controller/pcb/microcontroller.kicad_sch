@@ -3752,15 +3752,25 @@
 		)
 		(uuid ec707353-4caf-44cb-82c8-6c3c80160839)
 	)
-	(text "maybe use the 4 diode package for nrst and boot0"
+	(text "- maybe use the 4 diode package for nrst and boot0"
 		(exclude_from_sim no)
-		(at 63.5 113.538 0)
+		(at 228.6 122.936 0)
 		(effects
 			(font
 				(size 2.54 2.54)
 			)
 		)
 		(uuid "2e9b6463-8de4-4cff-9ccf-28f17d607666")
+	)
+	(text "- remove any PU/PD resistors that can be internal"
+		(exclude_from_sim no)
+		(at 226.822 128.524 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "3664bf45-2c50-4747-9428-59178329aa6d")
 	)
 	(text "- 1 100n per VDD* pin (7x)\n- 1 1u for VBAT and VDDA (2x)\n- 1 10u for package (1x)"
 		(exclude_from_sim no)
@@ -3773,9 +3783,9 @@
 		)
 		(uuid "615a1a7d-4501-4172-84d7-3a70832c4e53")
 	)
-	(text "dont forget battery voltage sensing"
+	(text "- dont forget battery voltage sensing"
 		(exclude_from_sim no)
-		(at 51.816 107.188 0)
+		(at 212.598 117.348 0)
 		(effects
 			(font
 				(size 2.54 2.54)
