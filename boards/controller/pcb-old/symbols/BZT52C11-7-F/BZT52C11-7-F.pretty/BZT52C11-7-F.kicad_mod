@@ -1,0 +1,131 @@
+(footprint "BZT52C11-7-F"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.675 -1.85 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "46d67396-438c-4fee-9d9f-43813305d017")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "BZT52C11-7-F"
+		(at 0.625 -5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "7881af72-5c0c-4168-ae2b-983a13ff3449")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at -0.185 -1.95 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d3c98623-9c0a-419e-b69f-c794a55656b8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at -0.185 -1.95 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cd414e3a-dbef-474b-95d7-8d718957ba2c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at -0.185 -1.95 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1e905738-7f6d-4d68-b8ab-796df9c4f90b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_circle
+		(center -2.275 -0.6)
+		(end -2.175 -0.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "21007adb-aafc-49bd-8e67-4b9f3e16894f")
+	)
+	(fp_rect
+		(start -2.285 -1)
+		(end 2.335 1.04)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "bab609cd-235c-451f-b9cc-af06d777b1b4")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.625 -3.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "70585502-136d-411c-825f-de558298c565")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -1.575 0)
+		(size 0.9 0.95)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "0d32d12d-4ad2-4c5e-8228-b0579016ccf8")
+	)
+	(pad "2" smd roundrect
+		(at 1.575 0)
+		(size 0.9 0.95)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "db88a14e-be23-4cde-a2d9-6d0af8fef21c")
+	)
+	(model "${KIPRJMOD}/symbols/BZT52C11-7-F/BZT52C11-7-F.step"
+		(offset
+			(xyz 0 0 0.7)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

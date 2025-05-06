@@ -5446,7 +5446,6 @@
 	)
 	(label "ADDR1"
 		(at 59.69 168.91 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5457,7 +5456,6 @@
 	)
 	(label "pre_esd_D_N"
 		(at 60.96 33.02 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5468,7 +5466,6 @@
 	)
 	(label "ADDR0"
 		(at 163.83 104.14 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5479,7 +5476,6 @@
 	)
 	(label "pre_esd_D_P"
 		(at 149.86 92.71 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5490,7 +5486,6 @@
 	)
 	(label "VSNK"
 		(at 251.46 43.18 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5501,7 +5496,6 @@
 	)
 	(label "ADDR1"
 		(at 163.83 106.68 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5512,7 +5506,6 @@
 	)
 	(label "SCL"
 		(at 163.83 96.52 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5523,7 +5516,6 @@
 	)
 	(label "CC1"
 		(at 31.75 30.48 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5534,7 +5526,6 @@
 	)
 	(label "D_P"
 		(at 90.17 35.56 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5545,7 +5536,6 @@
 	)
 	(label "RESET"
 		(at 44.45 68.58 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5556,7 +5546,6 @@
 	)
 	(label "VBUS"
 		(at 137.16 43.18 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5567,7 +5556,6 @@
 	)
 	(label "pre_esd_D_P"
 		(at 60.96 35.56 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5578,7 +5566,6 @@
 	)
 	(label "CC2"
 		(at 40.64 30.48 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5589,7 +5576,6 @@
 	)
 	(label "VSYS"
 		(at 69.85 156.21 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5600,7 +5586,6 @@
 	)
 	(label "D_P"
 		(at 146.05 179.07 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5611,7 +5596,6 @@
 	)
 	(label "SDA"
 		(at 163.83 99.06 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5622,7 +5606,6 @@
 	)
 	(label "CC2"
 		(at 138.43 82.55 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5633,7 +5616,6 @@
 	)
 	(label "pre_esd_D_N"
 		(at 149.86 87.63 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5644,7 +5626,6 @@
 	)
 	(label "VSYS"
 		(at 193.04 49.53 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5655,7 +5636,6 @@
 	)
 	(label "SDA"
 		(at 68.58 121.92 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5666,7 +5646,6 @@
 	)
 	(label "VBUS"
 		(at 22.86 30.48 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5677,7 +5656,6 @@
 	)
 	(label "CC1"
 		(at 138.43 80.01 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5688,7 +5666,6 @@
 	)
 	(label "VSYS"
 		(at 53.34 55.88 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5699,7 +5676,6 @@
 	)
 	(label "D_N"
 		(at 90.17 33.02 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5710,7 +5686,6 @@
 	)
 	(label "SCL"
 		(at 68.58 119.38 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5721,7 +5696,6 @@
 	)
 	(label "D_N"
 		(at 146.05 176.53 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5732,7 +5706,6 @@
 	)
 	(label "VSYS"
 		(at 54.61 124.46 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5743,7 +5716,6 @@
 	)
 	(label "ADDR0"
 		(at 80.01 168.91 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5754,7 +5726,6 @@
 	)
 	(label "VSNK"
 		(at 49.53 30.48 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5765,7 +5736,6 @@
 	)
 	(label "VSYS"
 		(at 58.42 99.06 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5776,7 +5746,6 @@
 	)
 	(label "RESET"
 		(at 163.83 71.12 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5788,7 +5757,6 @@
 	(hierarchical_label "VSNK"
 		(shape output)
 		(at 267.97 43.18 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
