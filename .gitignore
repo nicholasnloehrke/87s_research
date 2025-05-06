@@ -10,6 +10,8 @@ build/
 *.swp
 *backups/
 compile_commands.json
+ncur/travel_grant/
+financials/
 
 #######################################
 #               PYTHON                #
