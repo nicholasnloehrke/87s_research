@@ -1260,6 +1260,12 @@
 		)
 	)
 	(junction
+		(at 168.91 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1c9516de-d465-4cd3-84aa-5198bd9abe99")
+	)
+	(junction
 		(at 128.27 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1361,6 +1367,16 @@
 	)
 	(wire
 		(pts
+			(xy 168.91 92.71) (xy 181.61 92.71)
+		)
+		(stroke
+			(width 0.508)
+			(type default)
+		)
+		(uuid "69fc8142-37b9-4a7c-a561-c8591b664101")
+	)
+	(wire
+		(pts
 			(xy 139.7 104.14) (xy 154.94 104.14)
 		)
 		(stroke
@@ -1381,7 +1397,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 90.17) (xy 167.64 92.71)
+			(xy 168.91 90.17) (xy 168.91 92.71)
 		)
 		(stroke
 			(width 0)
@@ -1431,7 +1447,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 92.71) (xy 181.61 92.71)
+			(xy 167.64 92.71) (xy 168.91 92.71)
 		)
 		(stroke
 			(width 0.508)
@@ -1478,6 +1494,16 @@
 			(type default)
 		)
 		(uuid "f6320b72-6578-47bc-845a-4ff8c4b104f5")
+	)
+	(wire
+		(pts
+			(xy 168.91 92.71) (xy 167.64 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9f054fe-b35f-45fc-a091-08cda4663c9b")
 	)
 	(wire
 		(pts
@@ -1561,7 +1587,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_B1911PG--20D000514U1930_HVK"
+		(property "Footprint" "B1911PG--20D000514U1930:B1911PG--20D000514U1930"
 			(at 178.054 104.394 0)
 			(effects
 				(font
@@ -1615,7 +1641,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "13c0fd00-4256-4721-a88a-00d67c82725d")
-		(property "Reference" "C4048"
+		(property "Reference" "C13001"
 			(at 120.65 94.488 0)
 			(effects
 				(font
@@ -1633,7 +1659,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
 			(at 123.19 97.79 0)
 			(effects
 				(font
@@ -1711,7 +1737,7 @@
 		(instances
 			(project "controller"
 				(path "/5caba13a-97ae-46d4-856f-900b12012fd8/1a4793e5-92d0-4710-847d-f210f4a65056"
-					(reference "C4048")
+					(reference "C13001")
 					(unit 1)
 				)
 			)
@@ -1852,7 +1878,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 167.64 90.17 0)
+		(at 168.91 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1861,7 +1887,7 @@
 		(fields_autoplaced yes)
 		(uuid "53ea79ce-58e7-4256-aa14-f6fe6cb5ee36")
 		(property "Reference" "TP13001"
-			(at 170.18 85.5979 0)
+			(at 171.45 85.5979 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1870,7 +1896,7 @@
 			)
 		)
 		(property "Value" "3V3"
-			(at 170.18 88.1379 0)
+			(at 171.45 88.1379 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1878,8 +1904,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 172.72 90.17 0)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 173.99 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1888,7 +1914,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 172.72 90.17 0)
+			(at 173.99 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1897,7 +1923,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 167.64 90.17 0)
+			(at 168.91 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1943,7 +1969,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOT89-5-1/2_NWJ"
+		(property "Footprint" "NJM2884U1-33-TE1:NJM2884U1-33-TE1"
 			(at 129.794 78.486 0)
 			(effects
 				(font
@@ -2005,7 +2031,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7bcb154c-fb69-406a-8042-d423d16c752f")
-		(property "Reference" "C4049"
+		(property "Reference" "C13002"
 			(at 157.48 94.488 0)
 			(effects
 				(font
@@ -2023,7 +2049,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
 			(at 154.94 97.79 0)
 			(effects
 				(font
@@ -2101,7 +2127,7 @@
 		(instances
 			(project "controller"
 				(path "/5caba13a-97ae-46d4-856f-900b12012fd8/1a4793e5-92d0-4710-847d-f210f4a65056"
-					(reference "C4049")
+					(reference "C13002")
 					(unit 1)
 				)
 			)
@@ -2135,7 +2161,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 167.64 97.79 0)
 			(effects
 				(font

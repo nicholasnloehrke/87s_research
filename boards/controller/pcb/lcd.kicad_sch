@@ -716,113 +716,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:TestPoint"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.762)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "TP"
-				(at 0 6.858 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TestPoint"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "test point"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "test point tp"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Pin* Test*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TestPoint_0_1"
-				(circle
-					(center 0 3.302)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "TestPoint_1_1"
-				(pin passive line
-					(at 0 0 90)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:R_Network08_Split"
 			(pin_names
 				(offset 0)
@@ -1723,12 +1616,6 @@
 		(uuid "45a71430-c669-499b-add5-73431a0e0893")
 	)
 	(junction
-		(at 209.55 85.09)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "496ad4af-1b03-441f-a9d1-d0aba5cdc0f2")
-	)
-	(junction
 		(at 87.63 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1942,16 +1829,6 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 83.82) (xy 213.36 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "32956674-740f-43be-b1ce-ffbeeaf7318f")
-	)
-	(wire
-		(pts
 			(xy 87.63 88.9) (xy 87.63 92.71)
 		)
 		(stroke
@@ -2162,7 +2039,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 91.44) (xy 209.55 85.09)
+			(xy 209.55 77.47) (xy 209.55 91.44)
 		)
 		(stroke
 			(width 0.508)
@@ -2199,16 +2076,6 @@
 			(type default)
 		)
 		(uuid "a1a29a30-df62-44a2-9257-53a845cfcdf4")
-	)
-	(wire
-		(pts
-			(xy 209.55 85.09) (xy 213.36 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a2190287-34ff-4893-94ce-1a168b666ff7")
 	)
 	(wire
 		(pts
@@ -2289,16 +2156,6 @@
 			(type default)
 		)
 		(uuid "ccb91da5-24c5-48fb-ad3c-a301d714406f")
-	)
-	(wire
-		(pts
-			(xy 209.55 85.09) (xy 209.55 77.47)
-		)
-		(stroke
-			(width 0.508)
-			(type default)
-		)
-		(uuid "d6f6bcc2-ae1d-4779-a366-c4da7db5d0c5")
 	)
 	(wire
 		(pts
@@ -2603,7 +2460,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Array_SIP9"
+		(property "Footprint" "YC248-JR-0710KL:YC248-JR-0710KL"
 			(at 151.638 96.52 90)
 			(effects
 				(font
@@ -2694,7 +2551,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Array_SIP9"
+		(property "Footprint" "YC248-JR-0710KL:YC248-JR-0710KL"
 			(at 113.538 96.52 90)
 			(effects
 				(font
@@ -2758,73 +2615,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 213.36 83.82 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4b6c00e2-8917-4162-b50a-fc28792d3813")
-		(property "Reference" "TP13004"
-			(at 215.9 79.2479 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "LCD_3V3"
-			(at 215.9 81.7879 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 218.44 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 218.44 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 213.36 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ece662e9-30a7-42a8-bd75-8c069ecccadd")
-		)
-		(instances
-			(project "controller"
-				(path "/5caba13a-97ae-46d4-856f-900b12012fd8/397b981f-9e39-4a0b-88ba-1021bd78e3f7"
-					(reference "TP13004")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Network08_Split")
 		(at 139.7 96.52 0)
 		(unit 5)
@@ -2852,7 +2642,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Array_SIP9"
+		(property "Footprint" "YC248-JR-0710KL:YC248-JR-0710KL"
 			(at 137.668 96.52 90)
 			(effects
 				(font
@@ -2943,7 +2733,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Array_SIP9"
+		(property "Footprint" "YC248-JR-0710KL:YC248-JR-0710KL"
 			(at 182.118 96.52 90)
 			(effects
 				(font
@@ -3034,7 +2824,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Array_SIP9"
+		(property "Footprint" "YC248-JR-0710KL:YC248-JR-0710KL"
 			(at 99.568 96.52 90)
 			(effects
 				(font
@@ -3192,7 +2982,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Array_SIP9"
+		(property "Footprint" "YC248-JR-0710KL:YC248-JR-0710KL"
 			(at 168.148 96.52 90)
 			(effects
 				(font
@@ -3283,7 +3073,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Array_SIP9"
+		(property "Footprint" "YC248-JR-0710KL:YC248-JR-0710KL"
 			(at 71.628 96.52 90)
 			(effects
 				(font
@@ -3374,7 +3164,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Array_SIP9"
+		(property "Footprint" "YC248-JR-0710KL:YC248-JR-0710KL"
 			(at 85.598 96.52 90)
 			(effects
 				(font
@@ -3571,7 +3361,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 201.93 66.04 0)
 			(effects
 				(font
@@ -3642,7 +3432,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SOT-23F_TOS"
+		(property "Footprint" "SSM3J372R_LF:SSM3J372R_LF"
 			(at 199.898 81.534 0)
 			(effects
 				(font
