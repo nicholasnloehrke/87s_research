@@ -716,6 +716,113 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R_Network08_Split"
 			(pin_names
 				(offset 0)
@@ -1580,7 +1687,7 @@
 		(uuid "18e2b2a6-6b56-44c5-8979-dfda8c069a3b")
 	)
 	(junction
-		(at 196.85 80.01)
+		(at 196.85 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "23f07426-9023-4e79-88a7-2f4b0bea91f2")
@@ -1616,6 +1723,12 @@
 		(uuid "45a71430-c669-499b-add5-73431a0e0893")
 	)
 	(junction
+		(at 209.55 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "496ad4af-1b03-441f-a9d1-d0aba5cdc0f2")
+	)
+	(junction
 		(at 87.63 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1634,7 +1747,7 @@
 		(uuid "8ca09c4a-c23a-4d46-97ad-ad14269cb69a")
 	)
 	(junction
-		(at 209.55 73.66)
+		(at 209.55 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9fc38cc3-e4e4-45d2-bfa2-94cd7c68208b")
@@ -1749,7 +1862,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 73.66) (xy 209.55 73.66)
+			(xy 204.47 66.04) (xy 209.55 66.04)
 		)
 		(stroke
 			(width 0)
@@ -1826,6 +1939,16 @@
 			(type default)
 		)
 		(uuid "30d14d1c-2547-45f9-a535-a2a6bd2399db")
+	)
+	(wire
+		(pts
+			(xy 213.36 83.82) (xy 213.36 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32956674-740f-43be-b1ce-ffbeeaf7318f")
 	)
 	(wire
 		(pts
@@ -1939,7 +2062,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 80.01) (xy 201.93 80.01)
+			(xy 196.85 72.39) (xy 201.93 72.39)
 		)
 		(stroke
 			(width 0)
@@ -1949,7 +2072,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 73.66) (xy 209.55 74.93)
+			(xy 209.55 66.04) (xy 209.55 67.31)
 		)
 		(stroke
 			(width 0.508)
@@ -1979,7 +2102,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 73.66) (xy 199.39 73.66)
+			(xy 196.85 66.04) (xy 199.39 66.04)
 		)
 		(stroke
 			(width 0)
@@ -2079,6 +2202,16 @@
 	)
 	(wire
 		(pts
+			(xy 209.55 85.09) (xy 213.36 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2190287-34ff-4893-94ce-1a168b666ff7")
+	)
+	(wire
+		(pts
 			(xy 101.6 88.9) (xy 115.57 88.9)
 		)
 		(stroke
@@ -2099,7 +2232,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 66.04) (xy 209.55 73.66)
+			(xy 209.55 58.42) (xy 209.55 66.04)
 		)
 		(stroke
 			(width 0.508)
@@ -2129,7 +2262,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 73.66) (xy 196.85 80.01)
+			(xy 196.85 66.04) (xy 196.85 72.39)
 		)
 		(stroke
 			(width 0)
@@ -2139,7 +2272,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 80.01) (xy 196.85 80.01)
+			(xy 190.5 72.39) (xy 196.85 72.39)
 		)
 		(stroke
 			(width 0)
@@ -2156,6 +2289,16 @@
 			(type default)
 		)
 		(uuid "ccb91da5-24c5-48fb-ad3c-a301d714406f")
+	)
+	(wire
+		(pts
+			(xy 209.55 85.09) (xy 209.55 77.47)
+		)
+		(stroke
+			(width 0.508)
+			(type default)
+		)
+		(uuid "d6f6bcc2-ae1d-4779-a366-c4da7db5d0c5")
 	)
 	(wire
 		(pts
@@ -2239,7 +2382,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 66.04) (xy 209.55 66.04)
+			(xy 208.28 58.42) (xy 209.55 58.42)
 		)
 		(stroke
 			(width 0.508)
@@ -2269,7 +2412,7 @@
 	)
 	(global_label "3V3"
 		(shape input)
-		(at 208.28 66.04 180)
+		(at 208.28 58.42 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2279,7 +2422,7 @@
 		)
 		(uuid "bb20b3ff-608c-434d-b8ba-6b110aa29e94")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 201.7872 66.04 0)
+			(at 201.7872 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2344,7 +2487,7 @@
 		)
 		(uuid "617d298e-9c80-45be-8c0e-60e59acbeb97")
 	)
-	(hierarchical_label "TP_INT"
+	(hierarchical_label "TP_INTn"
 		(shape output)
 		(at 60.96 121.92 180)
 		(effects
@@ -2423,7 +2566,7 @@
 	)
 	(hierarchical_label "ENn"
 		(shape input)
-		(at 190.5 80.01 180)
+		(at 190.5 72.39 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2610,6 +2753,73 @@
 				(path "/5caba13a-97ae-46d4-856f-900b12012fd8/397b981f-9e39-4a0b-88ba-1021bd78e3f7"
 					(reference "RN10001")
 					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 213.36 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4b6c00e2-8917-4162-b50a-fc28792d3813")
+		(property "Reference" "TP13004"
+			(at 215.9 79.2479 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LCD_3V3"
+			(at 215.9 81.7879 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 218.44 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 218.44 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 213.36 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ece662e9-30a7-42a8-bd75-8c069ecccadd")
+		)
+		(instances
+			(project "controller"
+				(path "/5caba13a-97ae-46d4-856f-900b12012fd8/397b981f-9e39-4a0b-88ba-1021bd78e3f7"
+					(reference "TP13004")
+					(unit 1)
 				)
 			)
 		)
@@ -3338,7 +3548,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 201.93 73.66 90)
+		(at 201.93 66.04 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3346,7 +3556,7 @@
 		(dnp no)
 		(uuid "a9c8f9b6-be0b-4c18-95ee-f550a7cb4527")
 		(property "Reference" "R10001"
-			(at 197.866 71.12 90)
+			(at 197.866 63.5 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3354,7 +3564,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 204.978 71.12 90)
+			(at 204.978 63.5 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3362,7 +3572,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 201.93 73.66 0)
+			(at 201.93 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3371,7 +3581,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 201.93 73.66 0)
+			(at 201.93 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3380,7 +3590,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 201.93 73.66 0)
+			(at 201.93 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3406,7 +3616,7 @@
 	(symbol
 		(lib_name "SSM3J372R_LF_1")
 		(lib_id "SSM3J372R_LF:SSM3J372R_LF")
-		(at 201.93 80.01 0)
+		(at 201.93 72.39 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3415,7 +3625,7 @@
 		(dnp no)
 		(uuid "c9dda96a-2c09-418f-8a6e-163fabb48ca7")
 		(property "Reference" "MOSFET10001"
-			(at 213.36 81.2801 0)
+			(at 213.36 73.6601 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -3424,7 +3634,7 @@
 			)
 		)
 		(property "Value" "SSM3J372R_LF"
-			(at 213.36 78.7401 0)
+			(at 213.36 71.1201 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -3433,7 +3643,7 @@
 			)
 		)
 		(property "Footprint" "SOT-23F_TOS"
-			(at 199.898 89.154 0)
+			(at 199.898 81.534 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3443,7 +3653,7 @@
 			)
 		)
 		(property "Datasheet" "SSM3J372R_LF"
-			(at 199.898 89.154 0)
+			(at 199.898 81.534 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3453,7 +3663,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 201.93 80.01 0)
+			(at 201.93 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
