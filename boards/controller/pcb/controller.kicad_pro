@@ -101,7 +101,6 @@
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
         "text_height": "warning",
-        "text_on_edge_cuts": "error",
         "text_thickness": "warning",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
@@ -218,145 +217,7 @@
       "mpn": ""
     },
     "layer_pairs": [],
-    "layer_presets": [
-      {
-        "activeLayer": -2,
-        "flipBoard": false,
-        "layers": [
-          0,
-          2,
-          4,
-          6,
-          8,
-          10,
-          12,
-          14,
-          16,
-          17,
-          18,
-          20,
-          22,
-          24,
-          25,
-          26,
-          28,
-          30,
-          31,
-          32,
-          34,
-          36,
-          37,
-          38,
-          40,
-          42,
-          44,
-          46,
-          47,
-          48,
-          49,
-          50,
-          51,
-          52,
-          53,
-          54,
-          55,
-          56,
-          57,
-          58,
-          59,
-          60,
-          61,
-          62,
-          63,
-          64,
-          65,
-          66,
-          67,
-          68,
-          69,
-          70,
-          71,
-          72,
-          73,
-          74,
-          75,
-          76,
-          77,
-          78,
-          79,
-          80,
-          81,
-          82,
-          83,
-          84,
-          85,
-          86,
-          87,
-          88,
-          89,
-          90,
-          91,
-          92,
-          93,
-          94,
-          95,
-          96,
-          97,
-          98,
-          99,
-          100,
-          101,
-          102,
-          103,
-          104,
-          105,
-          106,
-          107,
-          108,
-          109,
-          110,
-          111,
-          112,
-          113,
-          114,
-          115,
-          116,
-          117,
-          118,
-          119,
-          120,
-          121,
-          122,
-          123,
-          124,
-          125,
-          126,
-          127
-        ],
-        "name": "Minimal",
-        "renderLayers": [
-          "vias",
-          "footprint_text",
-          "footprint_anchors",
-          "ratsnest",
-          "grid",
-          "footprints_front",
-          "footprints_back",
-          "footprint_values",
-          "footprint_references",
-          "tracks",
-          "drc_errors",
-          "drawing_sheet",
-          "bitmaps",
-          "pads",
-          "zones",
-          "drc_warnings",
-          "locked_item_shadows",
-          "conflict_shadows",
-          "shapes"
-        ]
-      }
-    ],
+    "layer_presets": [],
     "viewports": []
   },
   "boards": [],
@@ -657,10 +518,34 @@
           "show": true
         },
         {
+          "group_by": false,
+          "label": "Qty",
+          "name": "${QUANTITY}",
+          "show": true
+        },
+        {
           "group_by": true,
           "label": "Value",
           "name": "Value",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "DNP",
+          "name": "${DNP}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Exclude from BOM",
+          "name": "${EXCLUDE_FROM_BOM}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Exclude from Board",
+          "name": "${EXCLUDE_FROM_BOARD}",
+          "show": false
         },
         {
           "group_by": true,
@@ -672,30 +557,6 @@
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
-          "show": true
-        },
-        {
-          "group_by": false,
-          "label": "Description",
-          "name": "Description",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Qty",
-          "name": "${QUANTITY}",
-          "show": true
-        },
-        {
-          "group_by": false,
-          "label": "#",
-          "name": "${ITEM_NUMBER}",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "MANUFACTURER",
-          "name": "MANUFACTURER",
           "show": false
         },
         {
@@ -708,7 +569,7 @@
           "group_by": false,
           "label": "MPN",
           "name": "MPN",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -726,7 +587,7 @@
           "group_by": false,
           "label": "Power",
           "name": "Power",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -735,40 +596,40 @@
           "show": false
         },
         {
-          "group_by": false,
+          "group_by": true,
           "label": "TCC",
           "name": "TCC",
-          "show": false
+          "show": true
         },
         {
-          "group_by": false,
+          "group_by": true,
           "label": "Tolerance",
           "name": "Tolerance",
+          "show": true
+        },
+        {
+          "group_by": true,
+          "label": "Voltage",
+          "name": "Voltage",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "MANUFACTURER",
+          "name": "MANUFACTURER",
           "show": false
         },
         {
           "group_by": false,
-          "label": "Voltage",
-          "name": "Voltage",
+          "label": "Description",
+          "name": "Description",
           "show": false
         },
         {
-          "group_by": true,
-          "label": "DNP",
-          "name": "${DNP}",
-          "show": true
-        },
-        {
-          "group_by": true,
-          "label": "Exclude from BOM",
-          "name": "${EXCLUDE_FROM_BOM}",
-          "show": true
-        },
-        {
-          "group_by": true,
-          "label": "Exclude from Board",
-          "name": "${EXCLUDE_FROM_BOARD}",
-          "show": true
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
         }
       ],
       "filter_string": "",

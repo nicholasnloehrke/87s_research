@@ -13,7 +13,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "MOSFET"
+		(property "Reference" "Q"
 			(at 18.796 2.032 0)
 			(effects
 				(font
